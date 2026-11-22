@@ -25,12 +25,23 @@ Channel: "In this town" story reels for Idle Merchant RNG (@idlemerchantrng) on 
 An ordinary R6 kid, about eleven, small for his age, plain patched clothes. He is never named. He carries a lantern and a bread knife, and at the start he is buried under other people's bags. Build him from the Lunchbox cast parts. Do not use Fold in this video.
 
 ## The Dungeon King (the Horned Warden)
-Jake is having this character built in Blender in his Codex chat called **"Research Fantasy Superpowers"**. Use that model. Look in that chat for its current state and file location; the brief there asks for it to be saved at `...\In This Town Studio\library\cast\dungeon-king\v001\` with preview images.
-- If the model is finished there, use it as it is.
-- If it is not finished, finish it there first, following that chat's brief, and then build this video.
-- Do not swap in a different monster design. If you are blocked, write why in `ready/STATUS-FOR-CLAUDE.md`.
+Use the v001 model that was built in Jake's Codex chat "Research Fantasy Superpowers":
+`C:\Users\jake2\OneDrive\Documents\ChatGPT\Social Media\In This Town Studio\library\cast\dungeon-king\v001\` (Dungeon King.blend, README.md, previews).
 
-What this story needs from him: as tall as a church beside the kid; black iron armour, huge curved horns, a crown forged into the helmet, a cape of chains; ember-orange eyes that can narrow, widen and curve into a clear smile (he has no mouth, so the eyes and a head tilt do his acting); hands that can hold out a tiny bottle on an open palm and pinch a small bag between two fingers. Poses: sitting on a throne leaning forward, standing, walking, leaning down low to whisper.
+**Wait for Jake.** Jake has the preview images and has not approved the look yet. Do not start this video until he says so in chat. If he asks for changes, make them to the model first.
+
+Append these collections from the blend file: `CAST | Dungeon King`, `PROP | split-arch throne`, `Goblin`, `Troll`. Keep the authored scale: the Warden is 18.85 m against a 1.385 m kid.
+
+Which action goes with which beat:
+- Throne reveal ("On the bottom floor sat the Dungeon King"): **Throne smile**. Start his eyes narrow as the camera rises, then let them curve into the smile on "and he was smiling".
+- His speech ("A thousand years..."): stay on the throne, small head tilts, eyes smiling.
+- "He handed me the cure": **Offer cure**.
+- "Is your party full?": head tilt, eyes wide (surprise shape) for a beat, hopeful.
+- "He carried my bag": **Walk with bag**. Both walk actions advance 4.32 m per cycle.
+- The captain's question and "You're too small": **Stand**, eyes smiling, behind the kid.
+- The last line: **Whisper**.
+
+Lighting: he is black iron in a dark dungeon. Give him a warm rim light and let the ember eyes and gold trim glow, so he always separates from the background on a phone screen.
 
 ## Script (final, word for word)
 In this town, nobody enters the dungeon without a party. And every party in town told me no.
@@ -52,8 +63,8 @@ Then the Dungeon King leaned down and whispered, "There are six more dungeons. A
 
 ## Other characters
 Jake asked for the smaller monsters to be ordinary R6 characters, recoloured, with a few added parts. No custom sculpted creatures.
-- **Goblins:** short green R6 bodies with big ears. About forty in one corridor.
-- **The troll:** a large grey R6 body with tusks. He holds a door open like a doorman.
+- **Goblins:** use the `Goblin` collection from the Dungeon King file (1.04 m, green, big ears). About forty in one corridor.
+- **The troll:** use the `Troll` collection from the same file (3.50 m, grey, tusks). He holds a door open like a doorman.
 - **The parties:** groups of four or five. Knights in silver armour, mages in robes and pointed hats, thieves in hoods. They look down on the kid at the start and up at him at the end.
 - **The knight captain:** the tallest knight, plumed helmet. He takes the helmet off when he asks his question.
 - **The little sister:** about six, in bed, pale at first. She appears once.
@@ -102,7 +113,7 @@ Animate these yourself. Do NOT use Kling, Flashloop or any other AI image-to-vid
 7. The whisper, and the six dungeons on the horizon.
 
 ## Assets on Jake's PC (absolute paths)
-- The Dungeon King: see the section above (Codex chat "Research Fantasy Superpowers").
+- The Dungeon King, throne, goblin and troll: `C:\Users\jake2\OneDrive\Documents\ChatGPT\Social Media\In This Town Studio\library\cast\dungeon-king\v001\Dungeon King.blend`
 - Cast and props (faces, hair, outfits, armour, robes, accessories): `C:\Users\jake2\Downloads\roblox\Lunchbox\material\story-video\` (catalog: `C:\Users\jake2\Downloads\roblox\Lunchbox\CATALOG.md`)
 - Town buildings: `C:\Users\jake2\Downloads\roblox\buildDefend\assets\last-caravan-environment\area1-20261030-r003-textured\`
 - Watermark: Jake's approved typeset @idlemerchantrng corner handle, the same one as in your earlier deliveries.
