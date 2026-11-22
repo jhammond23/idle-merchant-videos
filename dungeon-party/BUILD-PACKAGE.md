@@ -28,7 +28,7 @@ An ordinary R6 kid, about eleven, small for his age, plain patched clothes. He i
 Use the v001 model that was built in Jake's Codex chat "Research Fantasy Superpowers":
 `C:\Users\jake2\OneDrive\Documents\ChatGPT\Social Media\In This Town Studio\library\cast\dungeon-king\v001\` (Dungeon King.blend, README.md, previews).
 
-**Wait for Jake.** Jake has the preview images and has not approved the look yet. Do not start this video until he says so in chat. If he asks for changes, make them to the model first.
+**Approved.** Jake approved this model's look on Sun 11-22 at about 9:15 AM. Use it as it is and start the video now.
 
 Append these collections from the blend file: `CAST | Dungeon King`, `PROP | split-arch throne`, `Goblin`, `Troll`. Keep the authored scale: the Warden is 18.85 m against a 1.385 m kid.
 
