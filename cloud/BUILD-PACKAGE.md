@@ -110,7 +110,7 @@ Animate these yourself. Do NOT use Kling, Flashloop or any other AI image-to-vid
 - Fold: `C:\Users\jake2\OneDrive\Documents\ChatGPT\Social Media\In This Town Studio\library\cast\fold\v001\`
 - Other cast and props (faces, hair, outfits, accessories, crowns, swords): `C:\Users\jake2\Downloads\roblox\Lunchbox\material\story-video\` (catalog: `C:\Users\jake2\Downloads\roblox\Lunchbox\CATALOG.md`)
 - Town buildings: `C:\Users\jake2\Downloads\roblox\buildDefend\assets\last-caravan-environment\area1-20261030-r003-textured\`
-- Watermark: `C:\Users\jake2\Downloads\roblox\LastCaravan-Handoff\growth\watermark\wm_handle_1080x1920.png`
+- Watermark: use Jake's approved typeset @idlemerchantrng corner handle, the same one as in your earlier deliveries. (The old wm_handle PNG no longer exists on the PC. Don't look for it.)
 
 If a path doesn't open, write it in `ready/STATUS-FOR-CLAUDE.md` instead of guessing.
 
