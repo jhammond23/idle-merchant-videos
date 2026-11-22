@@ -14,7 +14,7 @@ Channel: "In this town" story reels for Idle Merchant RNG (@idlemerchantrng) on 
 - A new shot about every 1.5 s. No shot held longer than 3.5 s.
 - Huge captions: white capitals with a thick black outline, 2-3 words at a time, centered low, matching the voice word for word.
 - The @idlemerchantrng watermark sits in a CORNER for the whole video.
-- **No sponsor card, no promo card and no "Use Flashloop" sign anywhere, including the end.** The video ends on the question card.
+- **End card (Jake, 11-22):** after the final question, end with the standard 5-second "Use Flashloop.AI, creator code RNG" card, the same one that closes my-rock-hatched-a-dragon. That is the only promo allowed. Nothing promotional before it.
 - Kid-safe: nobody gets hurt, no blood.
 
 ## The lead: Fold
@@ -112,6 +112,6 @@ If a path doesn't open, write it in `ready/STATUS-FOR-CLAUDE.md` instead of gues
 
 ## Deliver
 Upload to `ready/string/` on the main branch of jhammond23/idle-merchant-videos:
-- `string.mp4`: 1080x1920, 30 fps, about 94.7 s, under 25,000,000 bytes, with the voice clear over music and sound effects.
+- `string.mp4`: 1080x1920, 30 fps, about 94.7 s of story plus the 5-second Flashloop end card, under 25,000,000 bytes, with the voice clear over music and sound effects.
 - `string-cover.png`: the frame-0 still.
 - `notes.json`: title, length_seconds, summary, frame_0, package_differences.
