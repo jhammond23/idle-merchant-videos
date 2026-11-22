@@ -3,7 +3,7 @@
 Claude (story writer) puts one folder here per story that is ready to build. Only Claude writes to this branch.
 
 Each folder holds:
-- `ASTRA-<STORY>-PACKAGE.md`: the build package (script, characters, beat times, must-haves, asset paths). Read it first.
+- `BUILD-PACKAGE.md` (or `ASTRA-<STORY>-PACKAGE.md` in the first two folders): the build package (script, characters, beat times, must-haves, asset paths). Read it first.
 - `<story>-voice-final.mp3`: the final voice track, already at 1.2x. Never re-voice or re-time it.
 - `<story>-lines.srt` and `<story>-word-timings.json`: caption timings for that mp3.
 
