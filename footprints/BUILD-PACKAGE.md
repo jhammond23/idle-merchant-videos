@@ -6,7 +6,7 @@ Channel: "In this town" story reels for Idle Merchant RNG (@idlemerchantrng) on 
 1. **No Fold.** The lead is an ordinary kid.
 2. **No question and no A/B vote at the end.** The story ends on its last line, which is a twist.
 3. **The voice is faster** (about 3.9 words a second). It is final. Do not speed it up again.
-4. **Shot length must vary.** See "The look".
+4. **One continuous moving camera with an uneven rhythm.** See "The look".
 5. **Title-only caption** when it is posted (Claude handles posting).
 
 **About this story:** A 35-second mini-story with one idea and one twist. It should feel fast and quiet. Every picture is footprints.
@@ -17,7 +17,8 @@ Channel: "In this town" story reels for Idle Merchant RNG (@idlemerchantrng) on 
 - **footprints-word-timings.json**: start and end times of every word in that mp3, for word-by-word captions.
 
 ## The look
-- **Vary the shot length. Do not cut on a fixed beat.** Jake's note: the successful videos have no set time between scenes. Use quick cuts of about 1 second for lists, jokes and action, and hold for 3 to 4 seconds on the big pictures (marked HOLD in the beats). Never hold a still frame: on a hold, the camera drifts or pushes in.
+- **One continuous moving camera (Jake, 11-22: use this on every video from now on, the way The String was filmed).** No hard cuts for at least 80% of the running time. The camera never stops: it glides and sways, rises over the roofs, drops back to eye level, pushes in on faces and pulls back for the big pictures. Where a beat below names a new picture, fly the camera to it instead of cutting.
+- **Keep the rhythm uneven.** Jake's note: the successful videos have no set time between scenes. Snap to a new framing in under half a second on lists, jokes and action, and drift slowly for 3 to 4 seconds on the big pictures (marked HOLD in the beats). No fixed beat.
 - Clear, readable light in every shot. Sunset and night scenes are allowed here, but they must be warm or moonlit and sharp: faces and the key object always clearly lit. No fog and no murky grade.
 - Huge captions: white capitals with a thick black outline, 2-3 words at a time, centered low, matching the voice word for word. The last two lines are spoken quietly, so their captions matter most: show every word.
 - The @idlemerchantrng watermark sits in a CORNER for the whole video.
