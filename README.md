@@ -9,15 +9,19 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
-## Build order (updated Mon 11-23, 11:40 AM)
-1. **black-knight-onetake**: in progress. Finish it first. Read its package: the hard cuts it allows are listed there and nowhere else.
-2. **The Crown Stag creature**: a new giant war beast Jake wants (a black stag with ninety-nine gold crowns in its antlers). The build sheet is `crown-stag-part1/CREATURE-CROWN-STAG.md`. Jake may hand you the same text himself. Pack goes to `Lunchbox\material\story-video\crown-stag-v001\`.
-3. **crown-stag-part1**: "The Enemy's Beast Knelt to Me." A new story on the pattern of the Reflection video. One-take camera with seven named hard cuts. Upload a frame-0 still and a five-second clip of the kneel to `proofs/crown-stag/` on main before the full render.
-4. **crown-stag-part2**: "The Mountain Knelt to Me." Same valley, cast and creature. Part 1 cannot be posted until Part 2 is finished.
+## Build order (updated Mon 11-23, 1:50 PM)
+**First Video builder:**
+1. **phoenix**: "The Phoenix Bowed to Me." A new story on the pattern of the Black Knight, with a new main character. Read `phoenix/BUILD-PACKAGE.md`. The Phoenix itself comes from the Model Builder (`Lunchbox\material\story-video\phoenix-v001\`); block with a stand-in until it lands. Upload a frame-0 still and a five-second clip of the bow to `proofs/phoenix/` on main before the full render.
 
-For the two crown-stag videos, deliver **two exports each**: the sponsor version and a clean version with no Flashloop logo and no phone ending (`<story>-clean.mp4`). Details are in the packages.
+**Video builder (2):**
+1. **crown-stag-part1**: "The Enemy's Beast Knelt to Me." In progress. Creature packs are ready: `crown-stag-v001` and `mountain-stag-v001`.
+2. **crown-stag-part2**: "The Mountain Knelt to Me." Same valley, cast and creatures. Part 1 cannot be posted until Part 2 is finished.
 
-Everything else in this inbox is delivered.
+For crown-stag and phoenix, deliver **two exports each**: the sponsor version and a clean version with no Flashloop logo and no phone ending (`<story>-clean.mp4`). Details are in the packages.
+
+**Jake's camera rule (11-23):** no fast camera swings, whips or snap moves, especially in the first seconds: he says they look like the camera is jerking around and make people leave. Open with steady shots joined by clean hard cuts, then one smooth gliding move. Where a package says "whip", use a hard cut instead.
+
+Everything else in this inbox is delivered (black-knight-onetake and catch-the-crown included).
 
 Already delivered, nothing more to do: dungeon-party, cloud (the original 74-shot cut is Jake's final choice), swordrain, string, river, whole-stone, monster-punch, dungeon-master, homework, final-boss, zombie-cure, count, footprints.
 
