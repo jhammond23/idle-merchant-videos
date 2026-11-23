@@ -9,10 +9,16 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
-## Build order (updated Sun 11-22, 9:15 AM)
-1. **dungeon-party**: build this FIRST. Jake wants it posted Monday 11-23. Its Dungeon King model (v001) is finished and Jake APPROVED it on 11-22. Start the video now.
-2. Anything from batch B that is not delivered yet (cloud, swordrain, string). The String is wanted TODAY: upload it to ready/string/ as soon as it is done.
-3. count, then footprints (style test: no Fold, no end question, faster voice).
+## Build order (updated Sun 11-22, 7:00 PM)
+Jake approved three new scripts by voice tonight and wants two of them to jump the queue.
+1. **dungeon-master**: build this FIRST. Jake wants it posted Tuesday 11-24.
+2. **final-boss**: second. Jake wants it posted Wednesday 11-25.
+3. **zombie-cure**: third (modern city; target Thursday 11-26).
+4. count, then footprints (older style test, lower priority now).
 
-From now on every video uses one continuous moving camera, the way The String was filmed (Jake, 11-22). The packages say so.
+Already delivered, nothing more to do: dungeon-party, cloud, swordrain, string, river, whole-stone.
+
+**New in every package from now on: a section called "The vibe".** Jake asked for it. It says how the video should feel (the kid's attitude, joke timing, pace, light, sound). Read it before the beats.
+
+Every video still uses one continuous moving camera (Jake, 11-22), the corner watermark, the Flashloop end card, and a posting thumbnail taken from the actual scene.
 The memory folder was removed on 11-22: Jake shelved that story. Do not build it.
