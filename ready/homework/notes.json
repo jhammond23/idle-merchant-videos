@@ -1,0 +1,14 @@
+{
+  "title": "I Skipped My Homework on Purpose (Part 1)",
+  "summary": "Dave skips an assignment and becomes a dragon, but the classmate who never misses one turns into the homework itself.",
+  "frame_0": "A sleepy-eyed dragon with a school backpack sits on the sunny school roof. A bespectacled goose, a ribboned llama and a pink-bowed T-rex stand beneath the title.",
+  "package_differences": [
+    "The closing story frame returns to the exact opening camera position. The walking homework stays in view for the last beat, so the opening and closing pictures differ by that character."
+  ],
+  "posting_thumbnail": "homework-thumbnail.jpg",
+  "style": "brainrot-test",
+  "format": "mini",
+  "camera": "one-take",
+  "voice": "adam-high-nasal",
+  "length_seconds": 59.433333
+}
