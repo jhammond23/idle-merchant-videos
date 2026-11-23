@@ -1,0 +1,26 @@
+{
+  "title": "The Black Knight Knelt to Me",
+  "summary": "A legendary knight walks past the prince and kneels to a quiet stable boy. When the king orders their arrest, the boy lifts the knight’s sword and the entire guard bows.",
+  "frame_0": "Over Raven Crown’s shoulder, the stable boy holds his straw broom in front of the throne. The title reads THE BLACK KNIGHT / KNELT TO ME.",
+  "package_differences": [
+    "Jake’s November 23 addendum adds the on-screen line PART 2 IS ON MY PROFILE. at 126.70 seconds. It stays above the narration captions through the two-second final-picture hold and clears on the cut to the Flashloop phone at 130.70 seconds. The voice is the supplied recording."
+  ],
+  "hard_cuts": 6,
+  "story_cut_seconds": [
+    3.3,
+    67.4,
+    68,
+    68.8,
+    81.1,
+    90.3
+  ],
+  "sponsor_cut_seconds": 130.7,
+  "style": "remake",
+  "format": "long",
+  "camera": "one-take-plus-impact-cuts",
+  "remake_of": "https://www.instagram.com/reel/Df8OBiGiK1F/",
+  "posting": "instagram-trial-reel",
+  "sponsor_approval": "Hold as a draft for Flashloop approval.",
+  "length_seconds": 135.7,
+  "posting_thumbnail": "black-knight-onetake-thumbnail.jpg"
+}
