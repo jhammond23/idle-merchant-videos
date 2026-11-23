@@ -9,8 +9,13 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
-## Build order (updated Mon 11-23, 8:45 AM)
-1. **black-knight-onetake**: Jake asked for it this morning. A one-take remake of "The Black Knight Knelt to Me" with the original voices and a new opening. It is the only open build. Read its package: the hard cuts it allows are listed there and nowhere else.
+## Build order (updated Mon 11-23, 11:40 AM)
+1. **black-knight-onetake**: in progress. Finish it first. Read its package: the hard cuts it allows are listed there and nowhere else.
+2. **The Crown Stag creature**: a new giant war beast Jake wants (a black stag with ninety-nine gold crowns in its antlers). The build sheet is `crown-stag-part1/CREATURE-CROWN-STAG.md`. Jake may hand you the same text himself. Pack goes to `Lunchbox\material\story-video\crown-stag-v001\`.
+3. **crown-stag-part1**: "The Enemy's Beast Knelt to Me." A new story on the pattern of the Reflection video. One-take camera with seven named hard cuts. Upload a frame-0 still and a five-second clip of the kneel to `proofs/crown-stag/` on main before the full render.
+4. **crown-stag-part2**: "The Mountain Knelt to Me." Same valley, cast and creature. Part 1 cannot be posted until Part 2 is finished.
+
+For the two crown-stag videos, deliver **two exports each**: the sponsor version and a clean version with no Flashloop logo and no phone ending (`<story>-clean.mp4`). Details are in the packages.
 
 Everything else in this inbox is delivered.
 
