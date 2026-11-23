@@ -1,0 +1,15 @@
+{
+  "title": "I Punched a Monster Over the Mountains (Part 1)",
+  "summary": "A quiet baker’s kid stops a castle-sized monster with three punches, then discovers an iron-filled training sack and a letter from his father.",
+  "frame_0": "A flour-dusted boy braces his fist against the Gatewarden’s raised stone foot. Its gold eyes look down over the bakery yard. The title and HUS tag appear above the action.",
+  "package_differences": [
+    "Jake requested a continuous moving camera and rapid three-hit training chants. The four training phrases each last 0.482 seconds, with the original narrator, Dad, King and story clock retained.",
+    "The four original training phrases came from the clean stereo mix. The separate monster punches, Dad’s voices from the ridge and the final single response retain their original timing.",
+    "The harvest training takes place in an earlier memory. The opening count runs from 10,941 to 10,944, and the third monster punch and Dad’s letter both reach 10,950.",
+    "The story ends at 147.0 seconds. The sponsor revision adds a top-right 360-pixel Flashloop card, the top-left channel handle and a five-second phone demonstration using two original ridge scenes from this story."
+  ],
+  "length_seconds": 152.0,
+  "camera": "one-take",
+  "posting_thumbnail": "monster-punch-thumbnail.jpg",
+  "sponsor_approval": "Pending. Claude sends for-sponsor-review.mp4 to Flashloop before posting."
+}
