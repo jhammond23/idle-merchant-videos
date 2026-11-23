@@ -1,0 +1,93 @@
+{
+  "title": "Catch the Crown",
+  "length_seconds": 5,
+  "summary": "Pause the flying crown in a red box and screenshot the gold result.",
+  "frame_0": "A blurred blue-jewelled gold crown flies to the left of the empty red target over the dusk Marketford square. The title and instructions are visible.",
+  "package_differences": [],
+  "frame_indexing": "One-based, 1 to 150 inclusive. Frame 1 starts at 0.000 s.",
+  "frame_rate": 30,
+  "cover_frame": 1,
+  "posting": "hold-for-claude",
+  "word_frames": [
+    {
+      "text": "TOO SLOW",
+      "frames": [
+        14,
+        15,
+        16
+      ],
+      "center_frame": 15,
+      "still": "frames-private/frame-015-too-slow.png"
+    },
+    {
+      "text": "SO CLOSE",
+      "frames": [
+        44,
+        45,
+        46
+      ],
+      "center_frame": 45,
+      "still": "frames-private/frame-045-so-close.png"
+    },
+    {
+      "text": "ALMOST",
+      "frames": [
+        74,
+        75,
+        76
+      ],
+      "center_frame": 75,
+      "still": "frames-private/frame-075-almost.png"
+    },
+    {
+      "text": "YOU CAUGHT IT / CROWN 99",
+      "frames": [
+        104,
+        105,
+        106
+      ],
+      "center_frame": 105,
+      "still": "frames-private/frame-105-crown-99.png"
+    },
+    {
+      "text": "NOPE",
+      "frames": [
+        134,
+        135,
+        136
+      ],
+      "center_frame": 135,
+      "still": "frames-private/frame-135-nope.png"
+    }
+  ],
+  "winner_frame_text": [
+    "YOU CAUGHT IT",
+    "CROWN 99",
+    "@idlemerchantrng"
+  ],
+  "sound": {
+    "whoosh_count": 5,
+    "tick_frames": [
+      15,
+      45,
+      75,
+      105,
+      135
+    ],
+    "winner_bell_frame": 105,
+    "integrated_lufs": -14.03,
+    "true_peak_dbtp": -3.64
+  },
+  "review": {
+    "master_frames_checked": 150,
+    "compressed_frames_checked": 150,
+    "compression_test_video_bps": 1975712,
+    "winning_outline_frames": [
+      104,
+      105,
+      106
+    ],
+    "loop_join_checked": true,
+    "sha256": "05976e03587eae9d2601435ee63f4017039c1977dce309837f16fd09d11cfa65"
+  }
+}
