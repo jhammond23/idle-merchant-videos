@@ -3,7 +3,8 @@
   "summary": "A legendary knight walks past the prince and kneels to a quiet stable boy. When the king orders their arrest, the boy lifts the knight’s sword and the entire guard bows.",
   "frame_0": "Over Raven Crown’s shoulder, the stable boy holds his straw broom in front of the throne. The title reads THE BLACK KNIGHT / KNELT TO ME.",
   "package_differences": [
-    "Jake’s November 23 addendum adds the on-screen line PART 2 IS ON MY PROFILE. at 126.70 seconds. It stays above the narration captions through the two-second final-picture hold and clears on the cut to the Flashloop phone at 130.70 seconds. The voice is the supplied recording."
+    "Jake’s November 23 addendum adds the on-screen line PART 2 IS ON MY PROFILE. at 126.70 seconds. It stays above the narration captions through the two-second final-picture hold and clears on the cut to the Flashloop phone at 130.70 seconds. The voice is the supplied recording.",
+    "Jake requested an effects-only story mix. Straw sweeps, armored footsteps, the knee on stone, rain in the memory and the guards’ bow are timed to the original narration. The pictures and five-second Flashloop ending match the earlier handoff."
   ],
   "hard_cuts": 6,
   "story_cut_seconds": [
@@ -22,5 +23,6 @@
   "posting": "instagram-trial-reel",
   "sponsor_approval": "Hold as a draft for Flashloop approval.",
   "length_seconds": 135.7,
-  "posting_thumbnail": "black-knight-onetake-thumbnail.jpg"
+  "posting_thumbnail": "black-knight-onetake-thumbnail.jpg",
+  "audio_revision": "effects-only"
 }
