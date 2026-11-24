@@ -8,12 +8,13 @@
     "Jake approved the blue-sky valley and requested steady opening coverage followed by a continuous camera from 25 seconds.",
     "The sponsor edition uses the revised 9.3-second Flashloop ending with the approved narrator recording.",
     "The score and effects drop out before the kneel. The locked narration continues through that interval.",
-    "The bear and boar wrestle in the opening. The Kingtaker’s first kneel is held in a single composition with the boy and the red army. The goat memory appears in a polished crown in the court.",
+    "The bear and boar wrestle in the opening. The Kingtaker\u2019s first kneel is held in a single composition with the boy and the red army. The goat memory appears in a polished crown in the court.",
     "The valley, goat, hooves, crowns, crowds and impacts use licensed CC0 recordings from Freesound and Kenney's Foley libraries.",
     "On 'owns your town' the camera shows the farmers and their crown. The helmeted goat rears once, bolts across the shot and leaves its helmet behind.",
-    "PART 2 shares the supplied 'part' interval, 96.710–97.201 s. Script and SRT include 2. The recording is used verbatim.",
+    "PART 2 shares the supplied 'part' interval, 96.710\u201397.201 s. Script and SRT include 2. The recording is used verbatim.",
     "Two instrumental orchestral themes follow the approach and the gift of the crowns. The score leaves the kneel impact, the goat joke and key replies exposed.",
-    "November 24 camera revision changes frames 1–631 inclusive. The decoded title picture, every picture from frame 632 forward, and the complete audio track match the approved edition."
+    "November 24 camera revision changes frames 1\u2013631 inclusive. The decoded title picture, every picture from frame 632 forward, and the complete audio track match the approved edition.",
+    "The black stag steps into the ford, then carries the crowned boy across in one long foreleg stride. The hoof rises from the near bank and plants with a splash on the far bank as the body follows. The two encoded frame ranges are listed under walk_revision. Both complete audio tracks match their previous editions."
   ],
   "style": "reflection-map",
   "format": "long",
@@ -105,5 +106,39 @@
     632
   ],
   "story_hard_cuts": 17,
-  "sponsor_hard_cut_frame": 3009
+  "sponsor_hard_cut_frame": 3009,
+  "walk_revision": {
+    "native_frames_inclusive": [
+      [
+        452,
+        505
+      ],
+      [
+        1224,
+        1343
+      ]
+    ],
+    "sponsor_changed_frames_inclusive": [
+      [
+        452,
+        505
+      ],
+      [
+        1224,
+        1343
+      ]
+    ],
+    "clean_changed_frames_inclusive": [
+      [
+        452,
+        505
+      ],
+      [
+        1214,
+        1393
+      ]
+    ],
+    "frame_numbering": "zero-based",
+    "action": "The black stag steps into the ford, then carries the crowned boy across in one long foreleg stride. The hoof rises from the near bank and plants with a splash on the far bank as the body follows."
+  }
 }
