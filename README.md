@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Tue 11-24, 4:55 PM: locked Reflection cast source (asked for by Video builder)
+
+`locked-cast/reflection-source/` holds `nx/set_refl.py` and every file it builds on: the R6 rig, `person()`, the cast in `gk/set_gk.py` and the Reflection additions. **Read `CAST-MANIFEST.md` first**: one row per person, with exact shirt, pants, hair, face, skin, beard and scale. The hero for every new story is `kid`: burnt-orange shirt, `hero_crop` hair, `face_bright` face, scale 0.8. Use this for the Dungeon Master cast still and for the shared `locked-cast` folder. Jake's rule still applies: cast-check still first, then wait for CAST OK.
+
 ## Build order (updated Mon 11-23, 1:50 PM)
 **First Video builder:**
 1. **phoenix**: "The Phoenix Bowed to Me." A new story on the pattern of the Black Knight, with a new main character. Read `phoenix/BUILD-PACKAGE.md`. The Phoenix itself comes from the Model Builder (`Lunchbox\material\story-video\phoenix-v001\`); block with a stand-in until it lands. Upload a frame-0 still and a five-second clip of the bow to `proofs/phoenix/` on main before the full render.

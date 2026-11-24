@@ -1,0 +1,144 @@
+Giant Knelt build: run order notes (written 11-13 by the NEW STORY thread for the Part 3 thread)
+
+How it ran: two persistent Blender (bpy) servers, each polling a command folder.
+  gsrv.py  -> loads set_gk.py (town square set, based on sky/set_sky.py + sky/look3.py + oc/base.py), reads gk/cmd/
+  lsrv.py  -> loads set_land_gk.py (the land / mountain / castle set), reads gk/lcmd/
+send.py / lsend.py write a command file into cmd/ or lcmd/ from a file in cmd_src/ (or inline text); tr.sh / ltr.sh / ptr.sh are the
+test-render wrappers (ptr.sh = Part 2 shots, scenes_p2.py); dry.sh / ldry.sh / pdry.sh = camera-only dry runs.
+The cmd_src files are PATCHES applied to a running server after the set loaded (knight_v2.py, rebuild_knight.py, titan*.py,
+mountain2.py, p2props.py, gk_props.py, court_floor.py, poster_fix.py, steel_rough.py, trim_rough.py, palm_mat.py ...).
+run.py / run_l.py / run_p2.py are the shot runners (exec scenes_gk.py / scenes_land.py / scenes_p2.py and render WANT).
+The lists below are the real command files as they ran, oldest first (repeats of the same name collapsed). The copies of every
+command file as sent are in gk/cmd/ and gk/lcmd/ in this tar, so the exact text of each step is there.
+I have not re-verified a clean rebuild from zero; if a patch fails, read the matching file in cmd/ or lcmd/ (it is the truth).
+Part 2 end state (titan kneeling, queen without crown, rabbit, castle on the mountain) is posed per shot inside scenes_p2.py;
+the props it needs come from p2props.py (sent before the first Part 2 render) on top of the Part 1 patches.
+
+== SQUARE SERVER (gsrv.py, loads set_gk.py) command files in the order they ran ==
+5_0417_props.py
+5_0877_dq.py
+5_1020_trq.py
+5_2588_posterfix.py
+5_2599_tr3.py
+5_3173_s00.py
+5_3205_d10.py
+5_3228_s00.py  (x3)
+5_3424_d10b.py
+5_3470_dry1.py
+5_3569_tr10.py
+5_4001_d10c.py
+5_4046_dry2.py
+5_4076_tr10b.py
+5_4509_knight_v2.py
+5_4519_s00.py  (x2)
+5_5137_prl.py
+5_5147_trq2.py
+5_5407_tr4.py
+5_5536_rebuild.py
+5_5546_s00.py  (x2)
+5_6044_dry3.py
+5_6268_s00.py  (x2)
+5_6572_dry4.py
+5_6708_s00.py  (x2)
+5_6800_dry5.py
+5_6862_tr1.py
+5_6991_trq3.py
+5_7020_s00.py  (x2)
+5_7098_tr5.py
+5_7275_s00.py  (x2)
+5_7602_finsq2.py
+5_7615_finsq.py
+5_7746_rough.py
+5_7757_s00.py  (x2)
+5_8236_trim.py
+5_8246_s00.py
+5_8289_prl.py
+5_8811_s00.py
+5_9689_palmmat.py
+5_9734_tr2.py
+
+== LAND SERVER (lsrv.py, loads set_land_gk.py) command files in the order they ran ==
+5_0045_ld2.py
+5_0262_finp2b.py
+5_0531_ld3.py
+5_0589_pt7.py
+5_0840_dropw.py
+5_0910_d5.py
+5_1055_d8.py
+5_1101_pt15.py
+5_1107_landcast.py
+5_1212_finl2.py
+5_1221_thead.py
+5_1242_ld4.py
+5_1416_pt16.py
+5_1466_ltr5.py
+5_1489_ltr2.py
+5_1731_pt17A.py
+5_1883_pt17B.py
+5_1923_p2props.py
+5_1953_pt8.py
+5_2034_pt17C.py
+5_2253_pt18.py
+5_2632_d6.py
+5_2704_finp2.py
+5_2750_d9.py
+5_2863_ltr3.py
+5_3041_ltr6.py
+5_3348_peek.py
+5_3461_pt9.py
+5_3675_p2props.py
+5_3721_pd1.py
+5_3742_pt4.py
+5_3905_ltr7.py
+5_4526_pt1.py
+5_4542_ld1.py
+5_4695_t11A.py
+5_4728_ltr8.py  (x2)
+5_5045_t11B.py
+5_5300_ltr8.py
+5_5376_t11C.py
+5_5672_ltr1.py
+5_5854_t11d.py
+5_5855_pt10.py
+5_5867_d1.py
+5_5970_ltr9.py
+5_5975_droph.py
+5_6005_d7.py
+5_6189_d2.py
+5_6216_t16b.py
+5_6220_t1.py
+5_6284_pt2.py
+5_6464_plat.py
+5_6474_ltr10.py
+5_6474_pt5.py
+5_6612_t16a.py
+5_6703_t16c.py
+5_6721_titan.py
+5_6849_d3.py
+5_6880_pt11.py
+5_6920_t2.py
+5_7196_t16d.py
+5_7590_titan2.py
+5_7616_finl.py
+5_7664_t16e.py
+5_7790_pt12.py
+5_7828_pt3.py
+5_8061_titan2b.py
+5_8321_t16f.py
+5_8674_t9A.py
+5_8743_tt1.py
+5_8744_mountain2.py
+5_8772_pt13.py
+5_8804_t16g.py
+5_8980_pt6.py
+5_9014_t9B.py
+5_9122_ring2.py
+5_9246_ltr4.py
+5_9247_pt14.py
+5_9311_t16h.py
+5_9364_t9C.py
+5_9441_t3.py
+5_9641_cfloor.py
+5_9792_t16i.py
+5_9797_finp2c.py
+5_9899_shrine.py
