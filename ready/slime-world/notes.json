@@ -1,0 +1,43 @@
+{
+  "title": "I Hatched a Level 1 Slime. It Almost Ended the World.",
+  "length_seconds": 133.4,
+  "clean_length_seconds": 124.1,
+  "story_voice_seconds": 122.1,
+  "summary": "A boy hatches a friendly slime that doubles every time someone hits it. The whole kingdom has to apologize to bring it home.",
+  "frame_0": "Tiny smiles over a blue-sky kingdom with its castle, king and dragon floating inside him. The boy in red holds the broken shell under the two-line title.",
+  "package_differences": [
+    "Jake approved the enlarged two-sentence cover and the wolf-height first doubling. Tiny\u2019s planted upper-body wobble slows as he grows, with the eyes and smile following a beat late."
+  ],
+  "posting_thumbnail": "slime-world-thumbnail.jpg",
+  "hard_cuts": 25,
+  "story_cut_times_seconds": [
+    2.5,
+    7.6,
+    11.3,
+    15.6,
+    20.8,
+    22.3,
+    23.47,
+    25.18,
+    28.05,
+    30.2,
+    32.0,
+    62.3,
+    64.6,
+    66.4,
+    70.1,
+    73.7,
+    93.9,
+    102.18,
+    102.86,
+    103.94,
+    109.97,
+    111.23,
+    112.13,
+    113.04,
+    116.03
+  ],
+  "sponsor_ending_seconds": 9.3,
+  "camera": "steady opening cuts, gliding interior, locked scale comparisons",
+  "posting": "hold-for-claude"
+}
