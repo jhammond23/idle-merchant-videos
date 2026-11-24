@@ -35,3 +35,10 @@ The memory folder was removed on 11-22: Jake shelved that story. Do not build it
 ## Added Mon 11-23, 7:30 PM: slime-world (for the first Video builder)
 
 `slime-world/` = "I Hatched a Level 1 Slime. It Almost Ended the World." Jake's own idea, script approved by him, voice final. **Build it next, after the Phoenix, once the PC has disk space free.** Read `slime-world/BUILD-PACKAGE.md` first: Jake asked for scene-by-scene creative guidance and for the size idea to be a fun watch. It uses the new sponsor ending in `sponsor-ending/`. Push a frame-0 still and a five-second proof of the first doubling to `proofs/slime-world/` before the full render.
+
+## Added Mon 11-23, 11:15 PM: look fix for five finished films (both builders, tonight)
+
+Jake does not like the pale, flat look of five finished films. `look-fix/LOOK-FIX-BRIEF.md` has the new house look and a section for each film.
+- **Video builder (2):** `dungeon-master`, then `final-boss`, after the Crown Stag pair.
+- **Video builder:** `zombie-cure`, then `footprints`, then `i-walked-out-to-meet-it`, after the Phoenix changes and Slime World.
+- Homework stays as it is. Scripts and voices do not change. Each film gets the new sponsor ending. Claude approves or rejects each delivery.
