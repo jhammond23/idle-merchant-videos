@@ -3,12 +3,18 @@
   "length_seconds": 130.4,
   "clean_length_seconds": 121.1,
   "summary": "A firebird flies past the Prince and bows to the boy who cleans the hearths. Its burning feather reveals what the King hid in the ashes.",
-  "frame_0": "The Phoenix raises its crested head and opens its bill beside the ash boy in green. Live embers trail the call in the moonlit throne room.",
+  "frame_0": "In the blue moonlit court, the Phoenix opens its hooked bill in a screech. Gold sparks rise beside its wing, and the ash boy in green holds his bucket beneath it.",
   "package_differences": [
     "Jake approved the moonlit court look at 67abf60. The boy wears bright green against blue stone and purple court banners.",
     "The five opening cuts are followed by one continuous glide. The crown theft and the baby in the hearth play inside a carved cabinet as the camera travels past the throne.",
     "Flashloop ending V2 extends the same shot into a phone demonstration with the approved two-line narration, applied code RNG and actual filmed bow.",
-    "Jake requested a stronger three-second hook and faster flight. The bird calls and bows in the opening, banks on four quick downstrokes through the same hall and sheds gold sparks and orange fire from its wings. The original landing and story bow follow."
+    "Jake requested a stronger three-second hook and faster flight. The bird calls and bows in the opening, banks on four quick downstrokes through the same hall and sheds gold sparks and orange fire from its wings. The original landing and story bow follow.",
+    "Jake requested a cast-wide hair refit and recorded sound effects. The existing cuts were reshaped to fit the temples and clear the eyes, including the court and the flashback.",
+    "The Phoenix banks over the offered glove with its talons tucked, fans its tail and extends its feet to land at the ash boy. Wing shadows, streaming embers, the banners and lifted hearth ash follow its motion. Jake approved the new effects mix before the visual pickup.",
+    "The opening holds the open bill and wing fan through the actual camera exposure, then lets them relax into one bow. The flyby has a small lens glow and rippling heat around the hottest edges.",
+    "The first wingbeat lifts a spiral of ash out of the cold hearth. On the final fireplace line, the moving camera rises above the near wing so the carved bird and the same hearth, now roaring over charred logs, are visible together.",
+    "Jake requested occasional natural blinks and a small head cock toward the ash boy during the bow. Both eyes have articulated lids. The opening and story bows have a slower blink, and the original flight, landing and sound keep their timing.",
+    "The Phoenix sights the ash boy with its pupils as it approaches, then looks back up into his face after the bow blink. It glances away to take the feather before returning its attention to him."
   ],
   "posting_thumbnail": "phoenix-thumbnail.jpg",
   "posting_thumbnail_source": "Frame 37 of the opening bow. The firebird meets the boy at eye level below the headline.",
@@ -31,5 +37,14 @@
   "sponsor_voice_offset_seconds": 0.25,
   "proof_commit": "67abf60c9a9102c0f4f16bc62537845a1187fcb8",
   "source_commit": "e221f175d1625a3fe62e54bab0c35ec17f09efcc",
-  "sound": "Original locked narrator, court Foley, a raptor call, four passing wing gusts and falling cinders. The sponsored edition ends with the approved spoken demonstration."
+  "sound": "The original dialogue, 66 timed cues from 19 CC0 recordings, and the approved sponsor sound. Real wings, hearth, hawk, cloth, bucket and water on coals. No music bed.",
+  "effects_sources": [
+    "https://freesound.org/people/Kinoton/sounds/689998/",
+    "https://freesound.org/people/Vrymaa/sounds/770032/",
+    "https://freesound.org/people/bassimat/sounds/870180/",
+    "https://freesound.org/people/felix.blume/sounds/779877/",
+    "https://freesound.org/people/jentlemen/sounds/432331/",
+    "https://kenney.nl/assets/impact-sounds",
+    "https://kenney.nl/assets/rpg-audio"
+  ]
 }
