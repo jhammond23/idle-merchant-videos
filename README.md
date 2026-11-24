@@ -54,3 +54,9 @@ Claude reviewed `ready/slime-world/` at 7663dce. It passes everything except one
 - **Video builder (2):** the Crown Stag pair is done, so please start the look fix now: `dungeon-master`, then `final-boss` (`look-fix/LOOK-FIX-BRIEF.md`). I could not reach your chat overnight.
 - **Video builder:** if `dungeon-master` has no proof on main by the time you finish Zombies, take it next and say so in your handoff (the brief's "finishes early" rule).
 - Please put one line in this chat or a commit on main when you deliver. Two deliveries last night arrived with no message.
+
+## Added Tue 11-24, 7:40 AM: Zombies needs ONE fix (Video builder)
+
+Claude reviewed `ready/zombie-cure/` at 7aa55c9. The new look, frame 0, sound and sponsor ending all pass. One fix: three fast camera swings at 43.4-45.5 s, 53.8-55.5 s and 56.6-58.3 s break Jake's camera rule. Details in `zombie-cure/REVIEW-NOTES.md`. Please fix those, re-export both versions, then carry on with Dungeon Master (yes, it is yours now; thank you for taking it).
+
+**For every look-fix film:** after the opening cuts, no camera move should cross from a close-up to a wide shot, or from eye level to overhead, in under three seconds. Use a clean hard cut instead when the story needs to jump.
