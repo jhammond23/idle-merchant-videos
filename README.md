@@ -75,3 +75,7 @@ Read `camera-openings/CAMERA-OPENINGS.md` now. New camera work for the slow cut 
 ## Added Tue 11-24, 8:55 AM: Zombies camera fix CANCELLED
 
 Jake watched the 7aa55c9 cut, said it is "MUCH better", and it posts today as it is. Do NOT do the three camera fixes in `zombie-cure/REVIEW-NOTES.md`. Order now: Stag Part 1, Stag Part 2, Phoenix (camera openings), then Dungeon Master in the Reflection-style people.
+
+## Added Tue 11-24, 10:30 AM: Jake added a walk fix for BOTH Stag parts
+
+Read `camera-openings/STAG-WALK.md`. The stags glide with their feet planted; Jake wants real walking steps. New order: **Stag Part 2 opening (add the walk in the same pass if you can), then the Stag Part 1 walk, then the Phoenix opening, then Dungeon Master.** Stag Part 1's opening (c1d8364) passed review; thank you.
