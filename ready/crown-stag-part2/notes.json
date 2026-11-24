@@ -10,7 +10,8 @@
     "The score and effects drop out before the kneel. The locked narration continues through that interval.",
     "The valley, goat, hooves, crowns, crowds and impacts use licensed CC0 recordings from Freesound and Kenney's Foley libraries.",
     "The final homecoming keeps a continuous camera move to the boy and goat at the fence. The sunset colours the horizon while the higher sky stays blue.",
-    "Two instrumental orchestral themes follow the approach and the gift of the crowns. The score leaves the kneel impact, the goat joke and key replies exposed."
+    "Two instrumental orchestral themes follow the approach and the gift of the crowns. The score leaves the kneel impact, the goat joke and key replies exposed.",
+    "The November 24 opening changes zero-based frames 1–647. The cover picture, every picture from frame 648 forward, and the complete audio track match the earlier release in each edition."
   ],
   "style": "reflection-map",
   "format": "long",
@@ -88,19 +89,25 @@
     }
   ],
   "creature_performance": "The war stag tracks the boy as he dismounts, tips its head, and blinks as they meet at the fence.",
-  "camera_description": "Steady opening coverage, then a continuous glide after 25 seconds.",
+  "camera_description": "Moving cut coverage through frame 647. The released camera resumes at frame 648.",
   "story_hard_cut_frames": [
-    60,
+    31,
+    96,
+    130,
     153,
-    237,
-    276,
-    316,
-    426,
-    477,
-    510,
-    579,
-    627
+    236,
+    272,
+    295,
+    351,
+    373,
+    428,
+    479,
+    511,
+    543,
+    578,
+    626,
+    648
   ],
-  "story_hard_cuts": 10,
+  "story_hard_cuts": 16,
   "sponsor_hard_cut_frame": 2889
 }
