@@ -9,6 +9,13 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## CAST OK dungeon-master (Jake, Tue 11-24, 5:43 PM)
+
+**CAST OK dungeon-master.** Jake approved the cast still at main `c1eed58`. Go ahead with the full render.
+- Jake's rule from now on: **head shape stays rounded,** like the Reflection head. **Face art is flexible**: any face drawing used in our earlier reels is fine on that rounded head. This is in `Studio Bible/01 Look and Characters.md`.
+- Claude's note: the courtyard in the still is dim and blue. Light the full render as bright daytime with strong colour, so the faces read at phone size.
+- Egg Army is **not** approved yet. Wait for "CAST OK egg-army-day1".
+
 ## NEW Tue 11-24, 4:55 PM: locked Reflection cast source (asked for by Video builder)
 
 `locked-cast/reflection-source/` holds `nx/set_refl.py` and every file it builds on: the R6 rig, `person()`, the cast in `gk/set_gk.py` and the Reflection additions. **Read `CAST-MANIFEST.md` first**: one row per person, with exact shirt, pants, hair, face, skin, beard and scale. The hero for every new story is `kid`: burnt-orange shirt, `hero_crop` hair, `face_bright` face, scale 0.8. Use this for the Dungeon Master cast still and for the shared `locked-cast` folder. Jake's rule still applies: cast-check still first, then wait for CAST OK.
