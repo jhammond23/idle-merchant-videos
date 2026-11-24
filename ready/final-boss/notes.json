@@ -1,13 +1,28 @@
 {
   "title": "I'm the Final Boss of This Town",
   "summary": "Four hundred heroes try to fight a baker’s kid, and he puts them to work. Then the priest reads his little sister’s class.",
-  "frame_0": "The boy sits on Mom’s bakery step with his chin in his hand. His red bar crosses the street, heroes line up with their weapons, and Mom holds a tray in the doorway.",
+  "frame_0": "The blue-shirted baker sleeps on the step under a red FINAL BOSS bar. Steel-armoured heroes with individual health bars crowd the bakery street in the red-purple evening light.",
   "package_differences": [
-    "Uses Jake’s November 22 sponsor update with the Flashloop code at top right, handle at top left and a five-second spoken phone ending showing this bakery’s next morning."
+    "Jake’s look revision replaces daylight with bakery-gold and purple dusk, and the people wear flat colours with classic block heads and simple ink faces.",
+    "The first 25 seconds use steady camera setups. One smooth camera travels from the second bakery to the pay booth, dragon, street fracture, working kitchen and the sister’s bar.",
+    "The soundtrack uses the supplied story performance and timed street, oven, armour and dish Foley.",
+    "The sponsor version has the approved spoken 9.3-second Flashloop phone ending. The clean version ends on the sister’s bar."
   ],
   "style": "wish-unpredictable",
   "format": "mini",
   "camera": "one-take",
-  "length_seconds": 69.433333,
-  "posting_thumbnail": "final-boss-thumbnail.jpg"
+  "length_seconds": 73.733333,
+  "posting_thumbnail": "final-boss-thumbnail.jpg",
+  "clean_length_seconds": 64.433333,
+  "frame_rate": 30,
+  "cast_proof": "cdd531491c270aca5167f21ddfc1bdc337c28501",
+  "voice_source_blob": "1cf3763178588ad86128ffaeed2a05d893d9bbc9",
+  "audio_credits": [
+    "https://freesound.org/people/Kinoton/sounds/689998/ (CC0 1.0)",
+    "https://freesound.org/people/bassimat/sounds/870180/ (CC0 1.0)",
+    "https://freesound.org/people/felix.blume/sounds/779877/ (CC0 1.0)",
+    "https://freesound.org/people/jentlemen/sounds/432331/ (CC0 1.0)",
+    "https://kenney.nl/assets/impact-sounds (CC0 1.0)",
+    "https://kenney.nl/assets/rpg-audio (CC0 1.0)"
+  ]
 }
