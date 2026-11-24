@@ -42,3 +42,7 @@ Jake does not like the pale, flat look of five finished films. `look-fix/LOOK-FI
 - **Video builder (2):** `dungeon-master`, then `final-boss`, after the Crown Stag pair.
 - **Video builder:** `zombie-cure`, then `footprints`, then `i-walked-out-to-meet-it`, after the Phoenix changes and Slime World.
 - Homework stays as it is. Scripts and voices do not change. Each film gets the new sponsor ending. Claude approves or rejects each delivery.
+
+## Added Tue 11-24, 3:15 AM: Slime World needs ONE fix before anything else (Video builder)
+
+Claude reviewed `ready/slime-world/` at 7663dce. It passes everything except one thing: the boy is standing outside the slime in the three far-away shots at hits 15, 19 and 23, although by then he is inside it. Details in `slime-world/REVIEW-NOTES.md`. Please fix those three shots first, re-export both versions, then go on to Zombies, Footprints and I Walked Out.
