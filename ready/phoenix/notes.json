@@ -1,0 +1,34 @@
+{
+  "title": "The Phoenix Bowed to Me",
+  "length_seconds": 130.4,
+  "clean_length_seconds": 121.1,
+  "summary": "A firebird flies past the Prince and bows to the boy who cleans the hearths. Its burning feather reveals what the King hid in the ashes.",
+  "frame_0": "The gold and vermilion Phoenix bows to the barefoot ash boy in green beside his dented pail. The royal court watches under blue windows. THE PHOENIX BOWED TO ME. appears in white above them.",
+  "package_differences": [
+    "Jake approved the moonlit court look at 67abf60. The boy wears bright green against blue stone and purple court banners.",
+    "The five opening cuts are followed by one continuous glide. The crown theft and the baby in the hearth play inside a carved cabinet as the camera travels past the throne.",
+    "Flashloop ending V2 extends the same shot into a phone demonstration with the approved two-line narration, applied code RNG and actual filmed bow."
+  ],
+  "posting_thumbnail": "phoenix-thumbnail.jpg",
+  "posting_thumbnail_source": "The native frame-zero bow with a closer crop and separate title.",
+  "hard_cuts": 5,
+  "story_cut_times_seconds": [
+    3,
+    6.1,
+    10.5,
+    17,
+    21.3
+  ],
+  "style": "black-knight-map",
+  "format": "long",
+  "camera": "cuts-then-smooth-one-take",
+  "posting": "hold-for-claude",
+  "story_voice_seconds": 119.094333,
+  "sponsor_ending_starts_seconds": 121.1,
+  "sponsor_ending_seconds": 9.3,
+  "sponsor_ending_spec": "a7fbb0e123f34d7c58e1d137a7a52a444fa5c2a3",
+  "sponsor_voice_offset_seconds": 0.25,
+  "proof_commit": "67abf60c9a9102c0f4f16bc62537845a1187fcb8",
+  "source_commit": "e221f175d1625a3fe62e54bab0c35ec17f09efcc",
+  "sound": "Original story narration and scene effects, followed in the sponsor edition by the supplied voice and phone Foley."
+}
