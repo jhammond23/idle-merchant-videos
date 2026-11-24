@@ -14,7 +14,8 @@
     "The first wingbeat lifts a spiral of ash out of the cold hearth. On the final fireplace line, the moving camera rises above the near wing so the carved bird and the same hearth, now roaring over charred logs, are visible together.",
     "Jake requested occasional natural blinks and a small head cock toward the ash boy during the bow. Both eyes have articulated lids. The opening and story bows have a slower blink, and the original flight, landing and sound keep their timing.",
     "The Phoenix sights the ash boy with its pupils as it approaches, then looks back up into his face after the bow blink. It glances away to take the feather before returning its attention to him.",
-    "Jake's three-second opening leads into new court photography: royal glove and hawk, the ash boy and pail, the Prince and Golden Eagle, court reactions and the laughing King. The original long glide resumes on the candle line."
+    "Jake's three-second opening leads into new court photography: royal glove and hawk, the ash boy and pail, the Prince and Golden Eagle, court reactions and the laughing King. The original long glide resumes on the candle line.",
+    "The Prince holds one over-the-shoulder position on “Keep sweeping, ash boy.” Both editions retain every audio packet and every displayed picture outside frames 511–559."
   ],
   "posting_thumbnail": "phoenix-thumbnail.jpg",
   "posting_thumbnail_source": "Frame 37 of the opening bow. The firebird meets the boy at eye level below the headline.",
@@ -69,5 +70,133 @@
       687
     ],
     "audio": "Both editions carry their original AAC packets and decode to identical PCM."
+  },
+  "camera_flicker_repair": {
+    "source_commit": "f755a1efc9ad8cb03599b99309e2c68b7d191580",
+    "shot_frames_inclusive": [
+      511,
+      559
+    ],
+    "frame_numbering": "zero-based, 30 fps",
+    "line": "Keep sweeping, ash boy.",
+    "verified": {
+      "sponsor": {
+        "file": "phoenix.mp4",
+        "frames": 3912,
+        "seconds": 130.4,
+        "bytes": 24847331,
+        "sha256": "5afb15d67e5e0aec27b93c0a13260b16169aa1af59236a4a5db80c2a176f82c5",
+        "source_sha256": "c70a251e7bd900452dfd16426138e65a767bd27f8c08f35ae6a7f809ec947d8a",
+        "shot_frames_inclusive": [
+          511,
+          559
+        ],
+        "changed_frames": [
+          511,
+          513,
+          515,
+          517,
+          519,
+          521,
+          523,
+          525,
+          527,
+          529,
+          531,
+          533,
+          535,
+          537,
+          539,
+          541,
+          543,
+          545,
+          547,
+          549,
+          551,
+          553,
+          555,
+          557,
+          559
+        ],
+        "changed_count": 25,
+        "identical_audio_packets": 6114,
+        "decoded_audio_sha256": "SHA256=d3642adc351cd30c30e7858cece6f0c571013e78619b92233db635feb6b61d30",
+        "native_windows_samples_verified": 3914,
+        "source_frame_0_identical": true,
+        "hardware_and_software_verified": true,
+        "seek_verified": true,
+        "windows_source_repeat_variance": [
+          722,
+          724,
+          725,
+          726,
+          727,
+          728
+        ],
+        "windows_variance_at_preexisting_edit": [
+          722,
+          724,
+          725,
+          726,
+          727,
+          728
+        ],
+        "maximum_phone_difference_from_photographed_replacement": 2.0771484375
+      },
+      "clean": {
+        "file": "phoenix-clean.mp4",
+        "frames": 3633,
+        "seconds": 121.1,
+        "bytes": 24849210,
+        "sha256": "7dd67955f144e9c6df3df191d377736d6107ac1f5937ad0641e3e5d4a06a9bad",
+        "source_sha256": "e6703cd6684b65084ebaa5e622519f1e3ce89f14b5d9618efd5e62074f55bc79",
+        "shot_frames_inclusive": [
+          511,
+          559
+        ],
+        "changed_frames": [
+          511,
+          513,
+          515,
+          517,
+          519,
+          521,
+          523,
+          525,
+          527,
+          529,
+          531,
+          533,
+          535,
+          537,
+          539,
+          541,
+          543,
+          545,
+          547,
+          549,
+          551,
+          553,
+          555,
+          557,
+          559
+        ],
+        "changed_count": 25,
+        "identical_audio_packets": 5678,
+        "decoded_audio_sha256": "SHA256=73725c050b6897f85434deada6b26148c1da310064f3a9b0148478303f640e00",
+        "native_windows_samples_verified": 3635,
+        "source_frame_0_identical": true,
+        "hardware_and_software_verified": true,
+        "seek_verified": true,
+        "windows_source_repeat_variance": [
+          722,
+          728
+        ],
+        "windows_variance_at_preexisting_edit": [
+          728
+        ],
+        "maximum_phone_difference_from_photographed_replacement": 2.0181528099279835
+      }
+    }
   }
 }
