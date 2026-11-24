@@ -31,3 +31,7 @@ Already delivered, nothing more to do: dungeon-party, cloud (the original 74-sho
 
 One continuous moving camera on every new video (Jake, 11-22; a package may name a few deliberate hard cuts), the corner handle, and a posting thumbnail taken from the actual scene.
 The memory folder was removed on 11-22: Jake shelved that story. Do not build it.
+
+## Added Mon 11-23, 7:30 PM: slime-world (for the first Video builder)
+
+`slime-world/` = "I Hatched a Level 1 Slime. It Almost Ended the World." Jake's own idea, script approved by him, voice final. **Build it next, after the Phoenix, once the PC has disk space free.** Read `slime-world/BUILD-PACKAGE.md` first: Jake asked for scene-by-scene creative guidance and for the size idea to be a fun watch. It uses the new sponsor ending in `sponsor-ending/`. Push a frame-0 still and a five-second proof of the first doubling to `proofs/slime-world/` before the full render.
