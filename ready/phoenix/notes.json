@@ -6,7 +6,6 @@
   "frame_0": "In the blue moonlit court, the Phoenix opens its hooked bill in a screech. Gold sparks rise beside its wing, and the ash boy in green holds his bucket beneath it.",
   "package_differences": [
     "Jake approved the moonlit court look at 67abf60. The boy wears bright green against blue stone and purple court banners.",
-    "The five opening cuts are followed by one continuous glide. The crown theft and the baby in the hearth play inside a carved cabinet as the camera travels past the throne.",
     "Flashloop ending V2 extends the same shot into a phone demonstration with the approved two-line narration, applied code RNG and actual filmed bow.",
     "Jake requested a stronger three-second hook and faster flight. The bird calls and bows in the opening, banks on four quick downstrokes through the same hall and sheds gold sparks and orange fire from its wings. The original landing and story bow follow.",
     "Jake requested a cast-wide hair refit and recorded sound effects. The existing cuts were reshaped to fit the temples and clear the eyes, including the court and the flashback.",
@@ -14,7 +13,8 @@
     "The opening holds the open bill and wing fan through the actual camera exposure, then lets them relax into one bow. The flyby has a small lens glow and rippling heat around the hottest edges.",
     "The first wingbeat lifts a spiral of ash out of the cold hearth. On the final fireplace line, the moving camera rises above the near wing so the carved bird and the same hearth, now roaring over charred logs, are visible together.",
     "Jake requested occasional natural blinks and a small head cock toward the ash boy during the bow. Both eyes have articulated lids. The opening and story bows have a slower blink, and the original flight, landing and sound keep their timing.",
-    "The Phoenix sights the ash boy with its pupils as it approaches, then looks back up into his face after the bow blink. It glances away to take the feather before returning its attention to him."
+    "The Phoenix sights the ash boy with its pupils as it approaches, then looks back up into his face after the bow blink. It glances away to take the feather before returning its attention to him.",
+    "Jake's three-second opening leads into new court photography: royal glove and hawk, the ash boy and pail, the Prince and Golden Eagle, court reactions and the laughing King. The original long glide resumes on the candle line."
   ],
   "posting_thumbnail": "phoenix-thumbnail.jpg",
   "posting_thumbnail_source": "Frame 37 of the opening bow. The firebird meets the boy at eye level below the headline.",
@@ -28,7 +28,7 @@
   ],
   "style": "black-knight-map",
   "format": "long",
-  "camera": "cuts-then-smooth-one-take",
+  "camera": "Steady cuts and eased pushes or slides in the revised court opening. Original glide and bow thereafter.",
   "posting": "hold-for-claude",
   "story_voice_seconds": 119.094333,
   "sponsor_ending_starts_seconds": 121.1,
@@ -46,5 +46,28 @@
     "https://freesound.org/people/jentlemen/sounds/432331/",
     "https://kenney.nl/assets/impact-sounds",
     "https://kenney.nl/assets/rpg-audio"
-  ]
+  ],
+  "camera_opening_revision": {
+    "source": "6af9f20b17a593f51fde27497a7a49c49b851f87",
+    "claim": "61240a9eb04f4de6448dd1c144b166a43abedd9b",
+    "first_changed_frame": 90,
+    "last_changed_frame": 721,
+    "frame_index": "zero-based at 30 fps",
+    "setup_first_frames": [
+      90,
+      152,
+      182,
+      223,
+      293,
+      314,
+      357,
+      395,
+      464,
+      509,
+      561,
+      639,
+      687
+    ],
+    "audio": "Both editions carry their original AAC packets and decode to identical PCM."
+  }
 }
