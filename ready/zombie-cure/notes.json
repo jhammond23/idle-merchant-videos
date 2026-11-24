@@ -1,14 +1,44 @@
 {
   "title": "The Zombies Run From Me",
   "summary": "An immune ten-year-old turns zombies human with a high five. He saves his mom with a hug and discovers why Gary still looks tired.",
-  "frame_0": "A small kid in an orange hoodie raises one hand while green neighbors run toward a barricade of cars. Its hand-painted sign reads BEWARE OF KID.",
+  "frame_0": "A smiling boy in a red hoodie offers a high five. Green commuters with backpacks sprint away down Clement Avenue. One looks back at him beside the BEWARE OF KID sign.",
   "package_differences": [
-    "Uses Jake’s November 22 sponsor update with the Flashloop code at top right, handle at top left and a five-second spoken phone ending photographed with this city’s cast."
+    "Claude requested golden-hour streets, deep teal shadows, a cheerful lead, and neon dusk for this look revision.",
+    "Steady cuts open the story. From 25 seconds the camera glides between the truck, school, barricade, river and Gary.",
+    "A short tune comes from the ice cream truck. Street and prop sounds accompany the original narration.",
+    "A postal cart hoists the boy’s box over the car wall. The box lands, walks on his feet and folds open.",
+    "Gary receives the tenth high five on the final hold. The sponsor edition extends the scene into the approved 9.3-second phone ending."
   ],
   "style": "wish-unpredictable",
   "format": "mini",
   "camera": "one-take",
   "world": "modern-city",
-  "length_seconds": 69.333333,
-  "posting_thumbnail": "zombie-cure-thumbnail.jpg"
+  "length_seconds": 73.633333,
+  "clean_length_seconds": 64.333333,
+  "camera_treatment": "Steady opening cuts, then one smooth moving shot from frame 750.",
+  "opening_cut_frames": [
+    37,
+    81,
+    140,
+    197,
+    254,
+    318,
+    366,
+    443,
+    483,
+    525,
+    558,
+    619,
+    658,
+    701,
+    735
+  ],
+  "steady_opening_seconds": 25,
+  "sponsor_ending_starts_seconds": 64.33333333333333,
+  "sponsor_ending_seconds": 9.3,
+  "sponsor_voice_offset_seconds": 0.25,
+  "posting_thumbnail": "zombie-cure-thumbnail.jpg",
+  "posting": "hold-for-claude",
+  "frame_0_proof_commit": "1d9c5c3f105eb3705c30df0b1a96e26ba80834bb",
+  "previous_delivery": "7117767c52f1da9b62af65d323dab67290758b6b"
 }
