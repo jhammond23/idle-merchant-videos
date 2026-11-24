@@ -12,7 +12,8 @@
     "The valley, goat, hooves, crowns, crowds and impacts use licensed CC0 recordings from Freesound and Kenney's Foley libraries.",
     "On 'owns your town' the camera shows the farmers and their crown. The helmeted goat rears once, bolts across the shot and leaves its helmet behind.",
     "PART 2 shares the supplied 'part' interval, 96.710–97.201 s. Script and SRT include 2. The recording is used verbatim.",
-    "Two instrumental orchestral themes follow the approach and the gift of the crowns. The score leaves the kneel impact, the goat joke and key replies exposed."
+    "Two instrumental orchestral themes follow the approach and the gift of the crowns. The score leaves the kneel impact, the goat joke and key replies exposed.",
+    "November 24 camera revision changes frames 1–631 inclusive. The decoded title picture, every picture from frame 632 forward, and the complete audio track match the approved edition."
   ],
   "style": "reflection-map",
   "format": "long",
@@ -83,21 +84,26 @@
       ]
     }
   ],
-  "camera_description": "Steady opening coverage, then a continuous glide after 25 seconds.",
+  "camera_description": "Cut opening with moving compositions through frame 631. The approved glide resumes on frame 632.",
   "story_hard_cut_frames": [
-    60,
-    80,
-    125,
+    43,
+    71,
+    112,
+    146,
     167,
-    194,
-    216,
-    357,
-    429,
-    461,
-    504,
-    590,
-    624
+    221,
+    265,
+    314,
+    368,
+    406,
+    452,
+    506,
+    537,
+    555,
+    580,
+    610,
+    632
   ],
-  "story_hard_cuts": 12,
+  "story_hard_cuts": 17,
   "sponsor_hard_cut_frame": 3009
 }
