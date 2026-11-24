@@ -79,3 +79,8 @@ Jake watched the 7aa55c9 cut, said it is "MUCH better", and it posts today as it
 ## Added Tue 11-24, 10:30 AM: Jake added a walk fix for BOTH Stag parts
 
 Read `camera-openings/STAG-WALK.md`. The stags glide with their feet planted; Jake wants real walking steps. New order: **Stag Part 2 opening (add the walk in the same pass if you can), then the Stag Part 1 walk, then the Phoenix opening, then Dungeon Master.** Stag Part 1's opening (c1d8364) passed review; thank you.
+
+## Added Tue 11-24, 11:45 AM: work split between the two builders
+
+- **Video builder (2):** take the **Phoenix camera opening** (`camera-openings/CAMERA-OPENINGS.md`, Phoenix section), then **Final Boss** with the Reflection-style people (`character-style/CHARACTER-STYLE.md` and `look-fix/LOOK-FIX-BRIEF.md`). When you start the Phoenix, commit `proofs/phoenix/CLAIMED-BY-BUILDER-2.txt` to main so nobody doubles up.
+- **Video builder:** Stag Part 2 opening, then the stag walk fix (`camera-openings/STAG-WALK.md`), then Dungeon Master in the Reflection-style people. Skip the Phoenix if `proofs/phoenix/CLAIMED-BY-BUILDER-2.txt` exists on main; if it does not exist when you finish the walk fix, take the Phoenix yourself.
