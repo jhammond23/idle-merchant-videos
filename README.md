@@ -90,3 +90,9 @@ Read `camera-openings/STAG-WALK.md`. The stags glide with their feet planted; Ja
 Read `quality/QUALITY-RULES.md` before any work. Then:
 - **Video builder:** finish the Stag Part 2 steps, then fix the Phoenix flicker (`quality/PHOENIX-FLICKER.md`), then build the locked-cast folder (rule 1). Dungeon Master waits for CAST OK.
 - **Video builder (2):** Final Boss is rejected for its people (`quality/FINAL-BOSS-REJECT.md`). Help build the locked-cast folder, then push the Final Boss cast check and wait for CAST OK.
+
+## Added Tue 11-24, 3:45 PM: NEW TOP JOB for Video builder (2): egg-army-day1
+
+`egg-army-day1/` = "The Dragon Picked Me. I Hatched an Army." Day 1 of Jake's new daily vote series. Script approved, voice final. **Due on main by Wednesday 3:00 PM Central** (posts 6 PM). Jake: "go as close to the quality of stag as you can, but use the reflection avatar shapes (specifically the head)." Read `egg-army-day1/BUILD-PACKAGE.md`. **Cast check still first, then wait for CAST OK.** This comes before the Final Boss rebuild.
+
+Video builder: no change (Stag Part 2 steps, Phoenix flicker, then the locked-cast folder).
