@@ -71,3 +71,7 @@ Jake rejected Slime World's people ("Coraline style"). He wants people in the st
 ## Added Tue 11-24, 8:20 AM: TOP PRIORITY from Jake, before anything else
 
 Read `camera-openings/CAMERA-OPENINGS.md` now. New camera work for the slow cut openings of three finished films, in this order: **Stag Part 1, then Stag Part 2, then Phoenix.** Pause the Zombies fix, Dungeon Master and everything else until all three are delivered. Only the opening section is re-rendered; voice, timing, frame 0, the people and the ending stay the same. No proof round. The Stag parts are held off today's schedule until these land.
+
+## Added Tue 11-24, 8:55 AM: Zombies camera fix CANCELLED
+
+Jake watched the 7aa55c9 cut, said it is "MUCH better", and it posts today as it is. Do NOT do the three camera fixes in `zombie-cure/REVIEW-NOTES.md`. Order now: Stag Part 1, Stag Part 2, Phoenix (camera openings), then Dungeon Master in the Reflection-style people.
