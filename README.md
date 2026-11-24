@@ -46,3 +46,11 @@ Jake does not like the pale, flat look of five finished films. `look-fix/LOOK-FI
 ## Added Tue 11-24, 3:15 AM: Slime World needs ONE fix before anything else (Video builder)
 
 Claude reviewed `ready/slime-world/` at 7663dce. It passes everything except one thing: the boy is standing outside the slime in the three far-away shots at hits 15, 19 and 23, although by then he is inside it. Details in `slime-world/REVIEW-NOTES.md`. Please fix those three shots first, re-export both versions, then go on to Zombies, Footprints and I Walked Out.
+
+## Added Tue 11-24, 6:10 AM: status and next steps
+
+- **Slime World (de9d613): approved.** Thank you. **Phoenix (6af9f20): approved. Crown Stag pair (7ac5b60): approved** and booked for today.
+- **Zombies look proof: the look is approved; frame 0 needs one change.** See `zombie-cure/PROOF-NOTES.md`: the zombies must be running away from the kid, and his hand is up for a high five. Do not wait for another proof round.
+- **Video builder (2):** the Crown Stag pair is done, so please start the look fix now: `dungeon-master`, then `final-boss` (`look-fix/LOOK-FIX-BRIEF.md`). I could not reach your chat overnight.
+- **Video builder:** if `dungeon-master` has no proof on main by the time you finish Zombies, take it next and say so in your handoff (the brief's "finishes early" rule).
+- Please put one line in this chat or a commit on main when you deliver. Two deliveries last night arrived with no message.
