@@ -1,188 +1,103 @@
 {
   "title": "The Enemy's Beast Knelt to Me",
-  "length_seconds": 105.3,
+  "summary": "A farm kid stands his ground before the Kingtaker. The war stag kneels and carries him to the castle of stolen thrones, where the mountain begins to stand.",
+  "frame_0": "A red-tunicked farm kid stands beneath the bowed, gold-eyed black stag and its crowned antlers. Green grass, the blue sky and the opposing hosts frame the encounter.",
+  "length_seconds": 109.6,
   "clean_length_seconds": 100.3,
-  "summary": "A farm kid stands his ground when the enemy's crown-bearing war stag charges. The stag kneels, carries him to the castle of stolen thrones and faces the king's first beast.",
-  "frame_0": "The black Kingtaker bows over the Farm Kid. Its gold crowns fill the antlers above him, with the boy and his loose goat rope in the foreground.",
   "package_differences": [
-    "The half-second hush removes all score, ambience and effects. The supplied narration overlaps that interval and continues at its original timing.",
+    "Jake approved the blue-sky valley and requested steady opening coverage followed by a continuous camera from 25 seconds.",
+    "The sponsor edition uses the revised 9.3-second Flashloop ending with the approved narrator recording.",
+    "The score and effects drop out before the kneel. The locked narration continues through that interval.",
+    "The bear and boar wrestle in the opening. The Kingtaker’s first kneel is held in a single composition with the boy and the red army. The goat memory appears in a polished crown in the court.",
+    "The valley, goat, hooves, crowns, crowds and impacts use licensed CC0 recordings from Freesound and Kenney's Foley libraries.",
+    "On 'owns your town' the camera shows the farmers and their crown. The helmeted goat rears once, bolts across the shot and leaves its helmet behind.",
     "PART 2 shares the supplied 'part' interval, 96.710–97.201 s. Script and SRT include 2. The recording is used verbatim.",
-    "At Jake's request on November 23, quick camera swings are clean cuts between steady compositions. Those edits are listed separately from the cuts counted against the original package limit."
+    "Two instrumental orchestral themes follow the approach and the gift of the crowns. The score leaves the kneel impact, the goat joke and key replies exposed."
   ],
-  "posting_thumbnail": "crown-stag-part1-thumbnail.jpg",
-  "hard_cut_count": 31,
-  "story_hard_cuts_seconds": [
-    2.0,
-    5.5,
-    7.2,
-    12.133,
-    15.333,
-    16.9,
-    18.5,
-    23.2,
-    23.5,
-    23.8,
-    25.033,
-    27.3,
-    30.4,
-    32.2,
-    32.767,
-    36.767,
-    40.2,
-    44.6,
-    49.233,
-    50.9,
-    53.9,
-    55.2,
-    63.7,
-    65.6,
-    68.167,
-    71.167,
-    72.7,
-    74.5,
-    82.9,
-    91.0,
-    92.033
-  ],
-  "original_package_cut_count": 6,
-  "additional_steady_camera_cuts": [
-    {
-      "seconds": 5.5,
-      "subject": "crowns on the two ordinary beasts"
-    },
-    {
-      "seconds": 7.2,
-      "subject": "the antlers beyond the river"
-    },
-    {
-      "seconds": 12.133,
-      "subject": "the town crown"
-    },
-    {
-      "seconds": 15.333,
-      "subject": "the threat facing the farmers"
-    },
-    {
-      "seconds": 16.9,
-      "subject": "the goat in its little helmet"
-    },
-    {
-      "seconds": 18.5,
-      "subject": "the farmers run past the boy"
-    },
-    {
-      "seconds": 25.033,
-      "subject": "the kneeling horses"
-    },
-    {
-      "seconds": 27.3,
-      "subject": "the small crown comes loose"
-    },
-    {
-      "seconds": 30.4,
-      "subject": "the neck becomes a ramp"
-    },
-    {
-      "seconds": 32.2,
-      "subject": "the glance over the shoulder"
-    },
-    {
-      "seconds": 32.767,
-      "subject": "the boy mounts the brow tine"
-    },
-    {
-      "seconds": 36.767,
-      "subject": "the church and army below the rider"
-    },
-    {
-      "seconds": 40.2,
-      "subject": "the rider answers the general"
-    },
-    {
-      "seconds": 44.6,
-      "subject": "the fortress across the river"
-    },
-    {
-      "seconds": 49.233,
-      "subject": "chairs and crowns"
-    },
-    {
-      "seconds": 50.9,
-      "subject": "the uncrowned king at the gate"
-    },
-    {
-      "seconds": 53.9,
-      "subject": "the hill above the wall"
-    },
-    {
-      "seconds": 55.2,
-      "subject": "the king inspects the stag"
-    },
-    {
-      "seconds": 63.7,
-      "subject": "the kid listens"
-    },
-    {
-      "seconds": 65.6,
-      "subject": "the king claims the crowns"
-    },
-    {
-      "seconds": 68.167,
-      "subject": "the second bow"
-    },
-    {
-      "seconds": 71.167,
-      "subject": "the crowns at his feet"
-    },
-    {
-      "seconds": 82.9,
-      "subject": "the throne wall trembles"
-    },
-    {
-      "seconds": 91.0,
-      "subject": "the army drops to its knees"
-    },
-    {
-      "seconds": 92.033,
-      "subject": "the Kingtaker alone stays up"
-    }
-  ],
-  "sponsor_cut_seconds": 100.3,
   "style": "reflection-map",
   "format": "long",
   "camera": "one-take-plus-impact-cuts",
   "pair": "crown-stag",
   "part": 1,
   "posting": "hold-for-claude-pair",
+  "posting_thumbnail": "crown-stag-part1-thumbnail.jpg",
+  "sponsor_cut_seconds": 100.3,
+  "sponsor_ending_seconds": 9.3,
   "source_package_commit": "76e6e976d4acc3f6c1a7f165ac18d91a7d109db3",
   "voice_sha256": "31d1b7f55b0817e066686fd7b69f6425b4e351766b671772171c8063bb17b26c",
+  "sponsor_voice_blob": "03b00f4f79c2004c6550a01375f5c642c611f496",
+  "sponsor_ending_commit": "a7fbb0e123f34d7c58e1d137a7a52a444fa5c2a3",
   "voice_speed_vs_final_recording": 1.0,
-  "creature_packs": [
-    "crown-stag-v001",
-    "mountain-stag-v001"
-  ],
-  "sound_hush_seconds": [
-    22.715,
-    23.215
-  ],
-  "thumbnail_source_seconds": 0.733,
-  "sponsor_ending_seconds": 5,
-  "media": {
-    "sponsor": {
-      "video_format": "1080x1920",
-      "frames_per_second": 30,
-      "bytes": 20469110,
-      "frames": 3159,
-      "integrated_lufs": -14.24,
-      "peak_dbtp": -2.94
+  "music": [
+    {
+      "title": "Orchestral Suspense Loop 1",
+      "composer": "awrmacd",
+      "source": "https://freesound.org/people/awrmacd/sounds/387223/",
+      "license": "CC0 1.0"
     },
-    "clean": {
-      "video_format": "1080x1920",
-      "frames_per_second": 30,
-      "bytes": 20057177,
-      "frames": 3009,
-      "integrated_lufs": -14.14,
-      "peak_dbtp": -2.94
+    {
+      "title": "65421.wav",
+      "composer": "BuytheField",
+      "source": "https://freesound.org/people/BuytheField/sounds/506168/",
+      "license": "CC0 1.0"
     }
-  }
+  ],
+  "score_adjustments": [
+    {
+      "reason": "Crown theme at the approved climb level",
+      "reference_seconds": [
+        30.38,
+        34.18
+      ],
+      "gain_db": -14.021,
+      "loudest_400ms_dbfs": -40.049
+    },
+    {
+      "reason": "Crown theme at the approved climb level",
+      "reference_seconds": [
+        30.38,
+        34.18
+      ],
+      "gain_db": -13.021,
+      "loudest_400ms_dbfs": -40.395
+    },
+    {
+      "reason": "The closing question",
+      "time_and_gain_db": [
+        [
+          94.4,
+          -12.0206
+        ],
+        [
+          96.53,
+          -14.0206
+        ],
+        [
+          98.24,
+          -28.0206
+        ],
+        [
+          99.92,
+          -56.0206
+        ]
+      ]
+    }
+  ],
+  "camera_description": "Steady opening coverage, then a continuous glide after 25 seconds.",
+  "story_hard_cut_frames": [
+    60,
+    80,
+    125,
+    167,
+    194,
+    216,
+    357,
+    429,
+    461,
+    504,
+    590,
+    624
+  ],
+  "story_hard_cuts": 12,
+  "sponsor_hard_cut_frame": 3009
 }
