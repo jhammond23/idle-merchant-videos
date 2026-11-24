@@ -67,3 +67,7 @@ Jake rejected Slime World's people ("Coraline style"). He wants people in the st
 - Zombies: finish the camera fix as it is.
 - Dungeon Master: build with the Reflection-style people.
 - Slime World: wait for `slime-world/REDO-PACKAGE.md` (new opening plus the new people). It is not going out as it is.
+
+## Added Tue 11-24, 8:20 AM: TOP PRIORITY from Jake, before anything else
+
+Read `camera-openings/CAMERA-OPENINGS.md` now. New camera work for the slow cut openings of three finished films, in this order: **Stag Part 1, then Stag Part 2, then Phoenix.** Pause the Zombies fix, Dungeon Master and everything else until all three are delivered. Only the opening section is re-rendered; voice, timing, frame 0, the people and the ending stay the same. No proof round. The Stag parts are held off today's schedule until these land.
