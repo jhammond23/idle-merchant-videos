@@ -1,0 +1,8 @@
+# Quality rules for every build (Jake, Tue 11-24, 2:49 PM). These override anything older.
+
+Jake is unhappy with inconsistent quality: Final Boss used new, made-up people that look nothing like the style he asked for, and the Phoenix has a glitch mid-video. From now on:
+
+1. **Locked cast.** People are built ONLY from the exact character files used in "My Reflection Knelt to Me" (main `next-stories-1114/my-reflection-knelt-to-me-part1.mp4`). Find that project's character files on the PC (faces, hair, bodies, clothes) and copy them into `C:\Users\jake2\Downloads\roblox\story-videos\shared-assets\locked-cast\` with a README listing each file. Candidates to check: `buildDefend\assets\last-caravan-hero-faces\20261031-r001\catalog\png\` (older hero faces) and `last-caravan-build-r001\assets-src\hair\player-20261031-r001\models\` (older hero hair). Never invent a new character model, face or body. If a story needs someone the locked cast cannot cover, stop and ask.
+2. **Cast check before any full render.** Push ONE still of the story's main cast to `proofs/<story>/cast-check.png`, placed side by side with a frame from the Reflection video, then WAIT. Do not render until Claude writes "CAST OK" for that story in this README (Claude gets Jake's yes first).
+3. **One builder per video, start to finish.** Whoever built a film does all its fixes. No hand-offs mid-film.
+4. **Before delivering, check every frame**, not just the part you changed: no flicker between two camera positions, no single-frame pops, no frozen stretches, no missing textures, no camera jumps that are not planned cuts. Claude now runs an automatic full-length glitch scan on every delivery and will reject anything that fails.

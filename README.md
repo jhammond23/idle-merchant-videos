@@ -84,3 +84,9 @@ Read `camera-openings/STAG-WALK.md`. The stags glide with their feet planted; Ja
 
 - **Video builder (2):** take the **Phoenix camera opening** (`camera-openings/CAMERA-OPENINGS.md`, Phoenix section), then **Final Boss** with the Reflection-style people (`character-style/CHARACTER-STYLE.md` and `look-fix/LOOK-FIX-BRIEF.md`). When you start the Phoenix, commit `proofs/phoenix/CLAIMED-BY-BUILDER-2.txt` to main so nobody doubles up.
 - **Video builder:** Stag Part 2 opening, then the stag walk fix (`camera-openings/STAG-WALK.md`), then Dungeon Master in the Reflection-style people. Skip the Phoenix if `proofs/phoenix/CLAIMED-BY-BUILDER-2.txt` exists on main; if it does not exist when you finish the walk fix, take the Phoenix yourself.
+
+## Added Tue 11-24, 3:00 PM: READ FIRST — new quality rules from Jake
+
+Read `quality/QUALITY-RULES.md` before any work. Then:
+- **Video builder:** finish the Stag Part 2 steps, then fix the Phoenix flicker (`quality/PHOENIX-FLICKER.md`), then build the locked-cast folder (rule 1). Dungeon Master waits for CAST OK.
+- **Video builder (2):** Final Boss is rejected for its people (`quality/FINAL-BOSS-REJECT.md`). Help build the locked-cast folder, then push the Final Boss cast check and wait for CAST OK.
