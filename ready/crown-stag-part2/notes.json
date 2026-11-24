@@ -11,7 +11,8 @@
     "The valley, goat, hooves, crowns, crowds and impacts use licensed CC0 recordings from Freesound and Kenney's Foley libraries.",
     "The final homecoming keeps a continuous camera move to the boy and goat at the fence. The sunset colours the horizon while the higher sky stays blue.",
     "Two instrumental orchestral themes follow the approach and the gift of the crowns. The score leaves the kneel impact, the goat joke and key replies exposed.",
-    "The November 24 opening changes zero-based frames 1–647. The cover picture, every picture from frame 648 forward, and the complete audio track match the earlier release in each edition."
+    "The November 24 opening changes zero-based frames 1\u2013647. The cover picture, every picture from frame 648 forward, and the complete audio track match the earlier release in each edition.",
+    "The black stag shifts across the boy\u2019s path on four separate hoofbeats. The Kingtaker and the Mountain lift, plant and bear weight at distinct walking speeds while returning the crowns. The black stag takes the rider home through the evening procession. A wide river view shows both stags carrying the crowns. The empty-field shot also clears a foreground crown that briefly covered the king. The low protective camera clears a lantern stake throughout the first step. Encoded changes for both editions are listed under walk_revision. Both complete audio tracks match their previous editions."
   ],
   "style": "reflection-map",
   "format": "long",
@@ -109,5 +110,70 @@
     648
   ],
   "story_hard_cuts": 16,
-  "sponsor_hard_cut_frame": 2889
+  "sponsor_hard_cut_frame": 2889,
+  "walk_revision": {
+    "native_frames_inclusive": [
+      [
+        428,
+        510
+      ],
+      [
+        1970,
+        2149
+      ],
+      [
+        2390,
+        2448
+      ]
+    ],
+    "sponsor_changed_frames_inclusive": [
+      [
+        428,
+        510
+      ],
+      [
+        1970,
+        2149
+      ],
+      [
+        2270,
+        2329
+      ],
+      [
+        2390,
+        2448
+      ]
+    ],
+    "clean_changed_frames_inclusive": [
+      [
+        428,
+        510
+      ],
+      [
+        1970,
+        2149
+      ],
+      [
+        2270,
+        2329
+      ],
+      [
+        2390,
+        2448
+      ]
+    ],
+    "frame_numbering": "zero-based",
+    "action": "The black stag shifts across the boy\u2019s path on four separate hoofbeats. The Kingtaker and the Mountain lift, plant and bear weight at distinct walking speeds while returning the crowns. The black stag takes the rider home through the evening procession. A wide river view shows both stags carrying the crowns. The empty-field shot also clears a foreground crown that briefly covered the king. The low protective camera clears a lantern stake throughout the first step.",
+    "additional_camera_clearance": {
+      "photographed": [
+        2278,
+        2283
+      ],
+      "closed_gop": [
+        2270,
+        2330
+      ],
+      "reason": "The all-frame review found a foreground crown covering the king on \u201cwas left.\u201d The six pickup frames clear that crown from the existing camera."
+    }
+  }
 }
