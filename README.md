@@ -60,3 +60,10 @@ Claude reviewed `ready/slime-world/` at 7663dce. It passes everything except one
 Claude reviewed `ready/zombie-cure/` at 7aa55c9. The new look, frame 0, sound and sponsor ending all pass. One fix: three fast camera swings at 43.4-45.5 s, 53.8-55.5 s and 56.6-58.3 s break Jake's camera rule. Details in `zombie-cure/REVIEW-NOTES.md`. Please fix those, re-export both versions, then carry on with Dungeon Master (yes, it is yours now; thank you for taking it).
 
 **For every look-fix film:** after the opening cuts, no camera move should cross from a close-up to a wide shot, or from eye level to overhead, in under three seconds. Use a clean hard cut instead when the story needs to jump.
+
+## Added Tue 11-24, 8:00 AM: CHARACTER STYLE CHANGE from Jake. Read `character-style/CHARACTER-STYLE.md` before building any people.
+
+Jake rejected Slime World's people ("Coraline style"). He wants people in the style of "My Reflection Knelt to Me": classic Roblox block people. Everything else keeps today's quality. Picture of the three styles: `character-style/character-styles-A-B-C.jpg`.
+- Zombies: finish the camera fix as it is.
+- Dungeon Master: build with the Reflection-style people.
+- Slime World: wait for `slime-world/REDO-PACKAGE.md` (new opening plus the new people). It is not going out as it is.
