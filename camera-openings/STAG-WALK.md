@@ -2,6 +2,8 @@
 
 Jake: in Stag Part 1 the stag "just glides across the ground with all 4 feet on the ground". He wants the steps synced to the movement. This applies to **both Stag parts**, to the black stag (the Kingtaker) and to the Mountain.
 
+**Jake, 10:25 AM: "The main time it matters is when it is walking across the river."** The river crossing in Part 1 (about 42.5 to 44.6 s) is the shot that must be fixed. Do it first and do it best. The other walking shots are nice to have: fix them only if it is quick.
+
 ## Order (after this, the README order continues)
 
 1. **Stag Part 2:** finish the new camera opening. If it is not rendering yet, add the walk in the same pass and deliver once. If it is already rendering, deliver it, then do the walk.
