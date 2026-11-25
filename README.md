@@ -9,6 +9,11 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Wed 11-25, 4:40 PM: sphinxs-riddle (Video builder (2), after the Egg Army creature swap) + the Sphinx (Model Builder)
+
+- **Video builder (2):** `sphinxs-riddle/` = "THE SPHINX'S RIDDLE." It is NON-SPONSORED, so build the CLEAN edition only. Jake approved the script and the voice (Adam narrates; the sphinx has its own deep voice). The visuals and the on-screen riddles carry the story. **Read `sphinxs-riddle/BUILD-PACKAGE.md`.**
+- **Model Builder:** `sphinxs-riddle/SPHINX-BRIEF.md`. Build the colossal stone sphinx with sun eyes and golden wings that burst out, plus a "turned to stone" material. Push one still to `proofs/sphinxs-riddle/sphinx.png`, then keep going.
+
 ## NEW Wed 11-25, 1:40 PM: power-level-zero (Video builder, right after King's Scale)
 
 `power-level-zero/` = "MY POWER LEVEL SAID ZERO." Jake approved the script and the voice. It is the Black Knight structure with a giant glowing number counting up on screen. The bar is Moth Wings / Stag quality with ~1 s cuts. **Read `power-level-zero/BUILD-PACKAGE.md`.** Push the cast-check still and keep building (Claude reviews it). Both editions to `ready/power-level-zero/`.
