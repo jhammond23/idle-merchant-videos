@@ -13,3 +13,7 @@ The [Dungeon Master cast comparison](../proofs/dungeon-master/cast-check.png) pl
 ## Cast approval requested for footprints
 
 The original Reflection child wears a mustard jumper on Mill Hill. The comparison includes the baker, pupil, miller and neighbor. The glowing trail reaches the black river. [Cast comparison](../proofs/footprints/cast-check.png). [Frame zero](../proofs/footprints-look/footprints-frame-0.png). Please record CAST OK footprints or the corrections in scripts-inbox.
+
+## Cast approval requested for i-walked-out-to-meet-it
+
+Tomas wears the fitted red scarf in the original winter field. The stills show his lantern, the blank winter mask, his family, the impostor, the king and a guard. [Cast comparison](../proofs/i-walked-out-to-meet-it/cast-check.png). [Frame zero](../proofs/i-walked-out-to-meet-it-look/i-walked-out-to-meet-it-frame-0.png). Please record CAST OK i-walked-out-to-meet-it or the corrections in scripts-inbox.
