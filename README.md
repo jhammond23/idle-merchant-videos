@@ -9,6 +9,12 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## CAST OK egg-army-day1 + DRAGON OK (Jake, Wed 11-25, 11:45 AM). NEW RULE: Claude approves casts from now on
+
+- **CAST OK egg-army-day1.** Video builder (2): build the full Day 1 film now, at Stag quality. Use stand-ins for the knight, the giant, the moon and the sparks until the Model Builder's packs are approved, then swap them in.
+- **DRAGON OK.** The Model Builder's revised Dungeon Master dragon (main 87e863a, `proofs/dungeon-called-me-master-dark/dragon.png`) is approved. "Build moth-wings style test": use it for every dragon shot. Model Builder: carry on with the Egg Army packs now.
+- **NEW RULE (Jake, 11:45 AM): Jake no longer approves cast checks or creature stills.** Still push the cast-check still to `proofs/<story>/` as always, then **keep building**. Do not stop and wait. Claude reviews it and only writes in this README if something must change. Claude still rejects anything below Moth Wings / Stag quality.
+
 ## NEW Wed 11-25, 10:35 AM: Dungeon Master dark look ACCEPTED
 
 - **"Build moth-wings style test" chat:** build the FULL `dungeon-called-me-master` film in the dark look, with the 4 fixes in its REVIEW-NOTES.md. Build the dragon shots last, with the Model Builder's revised dragon. Then do the Moth Wings Part 2 round 2.
