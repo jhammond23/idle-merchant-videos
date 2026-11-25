@@ -9,6 +9,26 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## CAST OK footprints, i-walked-out-to-meet-it, my-number-broke-the-kings-scale (Jake, Tue 11-24, 10:09 PM)
+
+Jake approved all three cast stills, each with the changes below. Make the changes in the full render; no new cast still is needed. Then deliver to `ready/<story>/` as usual. The "make every film feel ALIVE" section above applies to all three.
+
+**CAST OK footprints** (main `cb9b385`).
+- Light it like the approved Phoenix moonlit look: bright blue moonlight on the snow and the street, faces clearly lit. Frame 0 measured brightness 65; aim for 100 or more.
+- The moon is a flat grey disc. Make it glow, with a soft halo and light on the clouds around it, in every shot it appears in.
+- The glowing footprints are the hook. Make them glow much brighter (strong cyan-white emission, light spilling onto the snow around each print), bright enough to stop a scroll at phone size.
+- Frame 0: frame the boy bigger. The bottom third of the frame is empty dark ground; bring the camera lower and closer so he and the first prints fill it.
+
+**CAST OK i-walked-out-to-meet-it** (main `86f7b42`).
+- The creature: keep what the voice says (long thin arms, a black body, a white mask with no face), but it must NOT read as Slender Man. Grow frost-covered antlers or bare branches up out of the mask, and give it a ragged cloak of snow and frost over the shoulders and back. It should read as a winter forest spirit. Softer hands (long thin fingers) instead of claws.
+- The same moon fix as Footprints: a glowing moon with a halo, not a flat grey disc.
+- Frame 0: Tomas is small with empty snow under him. Bring the camera lower and closer so Tomas and his lantern are bigger and the spirit towers over him from the frame edges.
+- Mom and Dad have almost the same face and hair. Give them different hair (and a scarf or hat on one) so they read as two people.
+
+**CAST OK my-number-broke-the-kings-scale** (main `c0ac6b7`).
+- The twins must read as twins: give the twin sister the same skin tone and the same hair colour as Shorty (her hair can be longer). Same eye height, as now.
+- Everything else as shown: bright daytime square, brass scale, the Reflection King and Prince.
+
 ## NEW Tue 11-24, 10:15 PM: make every film feel ALIVE (Jake, both builders, from the next render on)
 
 Jake asked for the films to be far more cinematic and "feel more alive". Claude now runs a finishing pass after delivery (slow camera drift, punch-ins, light, dust in the air, grade, sound effects and ambience; `finish.py` on branch `claude-polish-moth-wings`). **Do not add those yourselves** (they would double up). What only Blender can do is below, and it applies to every new film and every visual rebuild. Please also copy this section into the Studio Bible notes `01 Look and Characters` and `05 Quality Checklist` with today's date.
