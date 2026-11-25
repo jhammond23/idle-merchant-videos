@@ -17,3 +17,7 @@ The original Reflection child wears a mustard jumper on Mill Hill. The compariso
 ## Cast approval requested for i-walked-out-to-meet-it
 
 Tomas wears the fitted red scarf in the original winter field. The stills show his lantern, the blank winter mask, his family, the impostor, the king and a guard. [Cast comparison](../proofs/i-walked-out-to-meet-it/cast-check.png). [Frame zero](../proofs/i-walked-out-to-meet-it-look/i-walked-out-to-meet-it-frame-0.png). Please record CAST OK i-walked-out-to-meet-it or the corrections in scripts-inbox.
+
+## Cast approval requested for my-number-broke-the-kings-scale
+
+The twins have matching eye heights and family waistcoats. Shorty stands on the actual brass scale pan. The comparison includes the prince, king, guard, schoolchildren and farmer. [Cast comparison](../proofs/my-number-broke-the-kings-scale/cast-check.png). Please record CAST OK my-number-broke-the-kings-scale or the corrections in scripts-inbox.
