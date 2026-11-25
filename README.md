@@ -9,6 +9,19 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Tue 11-24, 10:15 PM: make every film feel ALIVE (Jake, both builders, from the next render on)
+
+Jake asked for the films to be far more cinematic and "feel more alive". Claude now runs a finishing pass after delivery (slow camera drift, punch-ins, light, dust in the air, grade, sound effects and ambience; `finish.py` on branch `claude-polish-moth-wings`). **Do not add those yourselves** (they would double up). What only Blender can do is below, and it applies to every new film and every visual rebuild. Please also copy this section into the Studio Bible notes `01 Look and Characters` and `05 Quality Checklist` with today's date.
+
+- **Nothing on screen is frozen.** Wings, capes, hair, banners, bunting and kites move. Wings at rest breathe or twitch; flying wings really flap; a reveal is a real unfold over several frames, never a pop-in.
+- **Crowds are alive.** Every person breathes, shifts weight and looks around, with staggered timing. Reactions (laughing, gasping, kneeling, cheering) are full-body and staggered across the crowd, never in sync.
+- **Light that shapes people.** One strong warm key light plus a rim or back light on every character so they separate from the background; cool sky fill. Faces lit.
+- **No flat low-poly rock.** Cliffs, rocks and ground in close and medium shots are smooth-shaded and textured, with grass lips, moss and detail. (Moth Wings' cliff at 28 s, 40 s and the final shot is the example of what not to do.)
+- **Big moments happen in the scene's light.** If the story says the wings blocked out the sun, the scene goes into real shadow, with light rays around the edges.
+- **Render motion blur on.** Shallow depth of field on close-ups. Something in the foreground in most shots.
+- Everything else in the bible still applies: house look, locked cast, camera rules, no music bed, every-frame check.
+- Moth Wings itself is NOT being re-rendered (Jake's call: it's a style test; Claude finished it in post).
+
 ## CAST OK moth-wings, TEST ACCEPTED (Jake, Tue 11-24, 6:49 PM)
 
 **CAST OK moth-wings.** Jake approved the test clip at main `fb58deb`: "pretty dope... go ahead and build the rest." Build the full film now. Clean edition first; the sponsor edition waits for its own ending line. Details are at the end of `moth-wings/REVIEW-NOTES.md`.
