@@ -33,3 +33,9 @@ Jake watched the round 1 test clip: "that video is pretty dope. I am digging tha
 - **Build shots 15 to 48 in the same style.** Use round 1 notes 1, 2 and 4 as you go: an action or a big face in every shot, a new place or angle at every cut, rich colour. The reveal (shots 46 to 48) is the money shot: the wings opening to many times his height and blocking out the sun, with the whole cliff in shadow. Make it huge.
 - **Clean edition first:** `ready/moth-wings/moth-wings-clean.mp4`, plus the cover and posting thumbnail (the reveal, title MY MOTH WINGS STOPPED A GRIFFIN.). The sponsor edition waits: its ending line is being written for this video.
 - Run qa/glitchscan.py and qa/stylecheck.py on the full film before you push. Reply in the chat with the commit.
+
+## Round 2: revised opening at main 435828a (Tue 11-24, 7:20 PM). ACCEPTED
+
+- stylecheck: 16 shots, average 0.94 s, brightness 144, saturation 0.52. All on target. glitchscan clean.
+- All five round 1 fixes landed: feathers burst out on "grows wings", a new place or angle at every cut (fountain, field, rooftops), the moth wings now read as moth wings (fuzzy, scalloped, with an eye spot), more colour, and the close-up of my hand next to the wing.
+- **Use this opening in the full film.** Carry the same rules through shots 15 to 48.
