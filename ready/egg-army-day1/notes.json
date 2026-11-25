@@ -1,0 +1,90 @@
+{
+  "title": "I Hatched an Army to Stop the Moon.",
+  "length_seconds": 79.7,
+  "clean_length_seconds": 70.4,
+  "summary": "With four days until the moon hits, a kid hatches a Blue Fire Knight and a Storm Giant from the egg everyone mocked. The sword scratches the moon, and the town must choose how to reach it.",
+  "frame_0": "The orange-scarved kid faces a burning, cratered moon from a clay rooftop, flanked by the Blue Fire Knight and the Storm Giant. The title and a 4 DAYS countdown sit above him.",
+  "package_differences": [],
+  "series": "Egg Army",
+  "day": 1,
+  "story_package": "5f0d68f",
+  "cast_approval": "f58233a31ea13981c0d69421eb1fed27b5603fdc",
+  "cast_proof": "proofs/egg-army-day1/cast-check.png",
+  "camera": "Steady opening cuts followed by one continuous glide from the cracking egg through the vote.",
+  "story_cut_times_seconds": [
+    1.5,
+    3.0,
+    4.63,
+    7.39,
+    9.15,
+    10.8,
+    13.29,
+    15.25,
+    17.03,
+    19.95,
+    21.38,
+    23.0,
+    24.07
+  ],
+  "creatures": [
+    "Blue Fire Knight",
+    "Storm Giant",
+    "Burning Moon",
+    "Calm Moon",
+    "Sparks",
+    "Lightning Bolt"
+  ],
+  "model_versions": {
+    "Blue Fire Knight": "v001",
+    "Storm Giant": "v001",
+    "Burning Moon": "v001",
+    "Calm Moon": "v001",
+    "Sparks": "v001",
+    "Lightning Bolt": "v001"
+  },
+  "creature_handoff": "First complete delivery. Approved moon and sparks with the original knight and giant. Replacement creature photography is underway.",
+  "voice_source_sha256": "b603c43bac6351d1569160129f80cdbdabd9de65655949629e1db7aee3c19894",
+  "voice_seconds": 69.385,
+  "audio": "Locked voices. Original effects and CC0 location recordings. Effects fall silent in the square and when the moon stops.",
+  "captions": {
+    "words": 236,
+    "groups": 101
+  },
+  "sponsor": {
+    "file": "egg-army-day1.mp4",
+    "use": "Instagram only",
+    "story_end_seconds": 70.4,
+    "ending_seconds": 9.3,
+    "lufs": -14.09,
+    "true_peak_dbtp": -3.15
+  },
+  "clean": {
+    "file": "egg-army-day1-clean.mp4",
+    "use": "TikTok, Facebook and YouTube",
+    "lufs": -14.05,
+    "true_peak_dbtp": -3.15
+  },
+  "cover": "egg-army-day1-cover.png",
+  "thumbnail": "egg-army-day1-thumbnail.jpg",
+  "posting_thumbnail": "egg-army-day1-thumbnail.jpg",
+  "thumbnail_source": "Rooftop opening photographed with the actual cast and Model Builder assets.",
+  "photography": "Native Cycles photography with motion-compensated in-between frames at 30 fps. The two editions use the same story photography and locked narration.",
+  "files": {
+    "egg-army-day1.mp4": {
+      "bytes": 21900872,
+      "sha256": "8e46b5d18203cf1acb12a86ac4223ac069a8bee91e9fe6f345bdf1b2df42dc62"
+    },
+    "egg-army-day1-clean.mp4": {
+      "bytes": 19797856,
+      "sha256": "a8129c7022222f6719262d63c9cc48c06c4f9db48428297e74ebf9debd8c312d"
+    },
+    "egg-army-day1-cover.png": {
+      "bytes": 1432218,
+      "sha256": "e1ff01e305a12f29dced8f01fd97860c3cd8b5ef0a6d6104f5d4bc1313a58d34"
+    },
+    "egg-army-day1-thumbnail.jpg": {
+      "bytes": 619971,
+      "sha256": "d9402972af207c3c7c2de0814a9bd8f8c75df84af23131b9cea08e6636b76ef4"
+    }
+  }
+}
