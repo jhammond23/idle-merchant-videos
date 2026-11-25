@@ -11,7 +11,8 @@ Builder: build every story folder here that has no `ready/<story-name>/` folder 
 
 ## Wed 11-25, 9:45 AM: Jake cut the list (quality over quantity)
 
-- **DROPPED, do no more work on them:** footprints, i-walked-out-to-meet-it (delivered; it will not post), phoenix part 2, egg-army-day1.
+- **DROPPED, do no more work on them:** footprints, i-walked-out-to-meet-it (delivered; it will not post), phoenix part 2.
+- **egg-army-day1 is NOT dropped** (correction, 9:52 AM). It stays on hold until Jake answers on its cast.
 - **KEEP:** dungeon-called-me-master (dark look test), moth-wings-2 (round 2), and my-number-broke-the-kings-scale (Video builder: finish it).
 - **New bar:** Claude rejects any delivery that is not at Moth Wings quality and sends it back with notes. Only films that pass go to Jake. Fast cuts (about 1 s), big readable subjects, no empty, clipped or see-through shots, rich scenery.
 
