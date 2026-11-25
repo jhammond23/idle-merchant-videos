@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Wed 11-25, 12:15 AM: moth-wings-2 (for the "Build moth-wings style test" chat, right after the Dungeon Master test clip)
+
+`moth-wings-2/` = "MY MOTH WINGS LED THE GRIFFINS HOME." Moth Wings Part 2 (Part 1 posts Wed 6 AM). Jake approved the script and the voice: "exact same art style, and have a very similar attention grabbing intro." Frame 0 is a fly-past: the hero diving out of bright white fog at the lens with his eye spots blazing. Big cartoon faces, strong joke pictures, the first-year's "You're glowing" close-up. **Read `moth-wings-2/BUILD-PACKAGE.md`.** Test clip of lines 1 to 8 first, then stop for notes. Clean edition only. No shake or zooms (Claude adds them).
+
 ## CAST OK dungeon-called-me-master (Jake, Tue 11-24, 11:26 PM)
 
 **CAST OK dungeon-called-me-master.** Jake saw the cast still at main `bb34b26` (the obsidian dragon, the torch boy, prince, knight, goblins and the 10 faces) and said "Yes, let's see a small clip." Go to step 2: the **test clip of lines 1 to 9 (0 to 41.30 s)** with the real voice, captions and sound, to `proofs/dungeon-called-me-master/test-clip.mp4`. Use the faces exactly as on the sheet (they're great). Frame 0 is the dragon bursting out of the gate into the sunny square. Run glitchscan and stylecheck, push, reply with the commit, then STOP for notes.
