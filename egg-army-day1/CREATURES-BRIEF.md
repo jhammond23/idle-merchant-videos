@@ -17,3 +17,10 @@ Jake: "have the model builders build the models for the creatures." These models
 1. Save the models and rigs in the In This Town Studio library (for example `library\creatures\egg-army\v001\`, the same layout as `library\cast\dungeon-king\v001\`), with a README and preview stills.
 2. Push ONE review still to `proofs/egg-army-day1/creatures.png` on main. Show the knight, the giant and the burning moon over the Stag town square, with a Roblox kid for scale and the sparks beside them.
 3. Stop and wait. Claude shows the still to Jake, and Video builder (2) uses the models only after he says yes.
+
+## Claude's review, Wed 11-25 1:45 PM (proofs at main 55154907d). Two packs need another pass; keep building, no need to stop
+
+- **Burning moon: approved** (both the falling and the calm versions). **Sparks and the lightning bolt: approved.**
+- **Blue Fire Knight: redo the surface.** Right now it reads as blue ICE or crystal armour, with no fire anywhere. It must look like it is MADE of blue fire: flames licking up off every armour plate, a cape that is a sheet of blue flame trailing upward, a blue-white white-hot core glowing through the gaps, flame wisps off the helmet crest, and the sword a blade of blue flame with heat shimmer. It should glow and light the ground and the people around it. Keep the knight silhouette.
+- **Storm Giant: redo the body.** Right now it reads as a lumpy grey clay golem with lightning stickers. It must look like a STORM: dark, billowing storm clouds (volumetric, soft churning edges, wisps peeling off the shoulders and head), darker blue-grey to near black, lightning flashing INSIDE the clouds so the body lights up from within in pulses, and rain or mist trailing from the arms. Keep the two lightning-white eyes, which are great. Keep a readable head, shoulders and arms.
+- Push new stills over the same file names (`blue-fire-knight.png`, `storm-giant.png`, `creatures.png`). Then tell Video builder (2) where the final packs are.
