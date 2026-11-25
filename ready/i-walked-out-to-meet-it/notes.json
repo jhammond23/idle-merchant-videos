@@ -1,12 +1,20 @@
 {
   "title": "I Walked Out to Meet It",
   "summary": "Tomas takes his little sister’s place on a winter walk to meet a masked creature, then hears someone calling from behind him in a voice he knows.",
-  "frame_0": "The Well Guest’s blank white mask fills the winter sky. One long black hand reaches over blond Tomas’s shoulder. His startled face is visible beneath the hand, with “I WALKED OUT / TO MEET IT” above them.",
+  "length_seconds": 161.0,
+  "clean_length_seconds": 151.7,
+  "frame_0": "Tomas raises his oil lantern beside his red scarf. The frost-crowned winter spirit leans over his shoulder, its blank white mask silhouetted against the moonlit firs. The title reads I WALKED OUT / TO MEET IT.",
   "package_differences": [
-    "The camera carries the viewer through the timed framings in one take. Memories of Dad, the door bolt and the real sister appear inside that moving picture.",
-    "The original story mix runs to 151.7 seconds. The updated five-second Flashloop phone ending uses two new pictures of Tomas and the Well Guest, with the channel handle and sponsor card in the upper corners."
+    "Jake approved the original Reflection cast and the winter spirit's frost-branched mask. The opening uses steady shots, followed by a moving camera from 28.80 seconds. The covered lens conceals the return to the locked window.",
+    "The three shutters and the warm memories appear inside the continuing field shot. The sponsor edition continues into the 9.30-second Flashloop phone performance. The clean version ends in the field.",
+    "Both editions preserve all 7,112 original AAC story packets. The locked soundtrack measures -14.18 LUFS and -0.78 dBTP."
   ],
-  "length_seconds": 156.7,
-  "camera": "one-take",
-  "posting_thumbnail": "i-walked-out-to-meet-it-thumbnail.jpg"
+  "posting_thumbnail": "i-walked-out-to-meet-it-thumbnail.jpg",
+  "camera": "steady opening, then one smooth glide",
+  "continuous_camera_start_seconds": 28.8,
+  "sponsor_ending_seconds": 9.3,
+  "sponsor_voice_offset_seconds": 0.25,
+  "posting": "hold-for-claude",
+  "cast_proof": "86f7b42b89c4844d3237b5818560322064a58cf2",
+  "previous_delivery": "bf457002231d4ace77b1b1ca1aa4e85ad4d1e128"
 }
