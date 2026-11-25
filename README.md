@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Tue 11-24, 11:05 PM: dungeon-called-me-master (for the "Build moth-wings style test" chat, right after Moth Wings)
+
+`dungeon-called-me-master/` = "THE DUNGEON CALLED ME MASTER." Jake approved the script and wants it built "with as cool visuals as you can in the same art style as the wings". It **replaces** dungeon-master (Jake dropped that story; do not reuse its shots). Built exactly like Moth Wings: a new shot every 3 to 4 words, literal pictures, bright and saturated, still camera, captions with one red word. **New for this film: a set of big, exaggerated cartoon faces** on our rounded heads (Jake asked to copy that from the reference). **Read `dungeon-called-me-master/BUILD-PACKAGE.md` first.** Steps: cast still (with the dragon and the 10 faces), STOP for Jake's CAST OK; then a test clip of lines 1 to 9; then the full film, clean edition only. No shake or zooms: Claude adds them in the finishing pass.
+
 ## Moth Wings ROUND 3 (Jake, Tue 11-24, 10:21 PM): re-render shots 1, 5 and 24 only
 
 Jake changed his mind about "Moth Wings is not being re-rendered" (section below). He wants a far more epic opening shot and a decorated ranking board with a picture of each wing type. **Read the "Round 3" section at the end of `moth-wings/REVIEW-NOTES.md`.** Same voice and cut times; re-export `ready/moth-wings/moth-wings-clean.mp4`; no shakes or zooms (Claude adds those in the finishing pass). Do this before the other builds: the post is on hold until it lands.
