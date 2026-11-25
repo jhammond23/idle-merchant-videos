@@ -9,12 +9,18 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## Wed 11-25, 9:45 AM: Jake cut the list (quality over quantity)
+
+- **DROPPED, do no more work on them:** footprints, i-walked-out-to-meet-it (delivered; it will not post), phoenix part 2, egg-army-day1.
+- **KEEP:** dungeon-called-me-master (dark look test), moth-wings-2 (round 2), and my-number-broke-the-kings-scale (Video builder: finish it).
+- **New bar:** Claude rejects any delivery that is not at Moth Wings quality and sends it back with notes. Only films that pass go to Jake. Fast cuts (about 1 s), big readable subjects, no empty, clipped or see-through shots, rich scenery.
+
 ## NEW Wed 11-25, 9:20 AM: three re-dos from Jake (read the folder's REVIEW-NOTES.md; each one = test clip first, then STOP)
 
 - **"Build moth-wings style test" chat, in this order:**
   1. **`dungeon-called-me-master/`: NEW ART STYLE.** "Ultra dark, grimy, and poor." The bright gold look is out. Deliver a frame 0 and a 10 to 12 s look test only, then stop.
   2. **`moth-wings-2/`: Round 2.** Jake finds the test clip "a bit sloppy." Take more time and re-do the 0 to 36.3 s test clip cleaner and more epic (no empty, clipped or see-through shots; richer scenery; a bigger fly-past). Then stop.
-- **Video builder, next after the current job:** **`footprints/`: NEW OPENING.** Re-do 0 to 6.2 s only, as a strong, fast, moonlit first scene (glowing prints racing to the black river). Deliver a 0 to 8 s test clip, then stop.
+- ~~**Video builder, next after the current job:** **`footprints/`: NEW OPENING.** Re-do 0 to 6.2 s only, as a strong, fast, moonlit first scene (glowing prints racing to the black river). Deliver a 0 to 8 s test clip, then stop.~~ **CANCELLED by Jake 9:44 AM: Footprints is dropped. Do not work on it.**
 
 ## NEW Wed 11-25, 12:15 AM: moth-wings-2 (for the "Build moth-wings style test" chat, right after the Dungeon Master test clip)
 

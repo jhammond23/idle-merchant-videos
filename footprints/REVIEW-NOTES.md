@@ -1,3 +1,5 @@
+# footprints: CANCELLED (Jake, Wed 11-25 9:44 AM). Do not build. The notes below are kept for the record only.
+
 # footprints: review notes
 
 ## New opening: Jake, Wed 11-25 9:12 AM. RE-DO LINE 1 (0 to 6.2 s) ONLY
