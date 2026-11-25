@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Wed 11-25, 5:30 PM: handshake ("Build moth-wings style test", right after the Moth Wings Part 2 round 2 test clip)
+
+`handshake/` = "I COPY ANY SKILL WITH ONE HANDSHAKE." It is built line for line on the structure of a 15.4M-view reel. Jake approved the script and the voice (54.9 s, fast, last word cut for the loop). CLEAN edition only. Moth Wings pace and quality. **Read `handshake/BUILD-PACKAGE.md`.** Do it while Jake reviews the Moth P2 test clip, then go back to Moth P2 when his notes arrive. Delete temp frames after each delivery.
+
 ## NEW Wed 11-25, 4:40 PM: sphinxs-riddle (Video builder (2), after the Egg Army creature swap) + the Sphinx (Model Builder)
 
 - **Video builder (2):** `sphinxs-riddle/` = "THE SPHINX'S RIDDLE." It is NON-SPONSORED, so build the CLEAN edition only. Jake approved the script and the voice (Adam narrates; the sphinx has its own deep voice). The visuals and the on-screen riddles carry the story. **Read `sphinxs-riddle/BUILD-PACKAGE.md`.**
