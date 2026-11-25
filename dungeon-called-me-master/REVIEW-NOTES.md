@@ -32,3 +32,17 @@ Jake: "dungeon master still isn't good. we need more of an ultra dark feeling on
 - **Faces:** keep the rounded heads and the big cartoon faces, but make them grittier: tired eyes, soot smudges, dirty cheeks, a harder smirk on the boy, and a sneer on the prince.
 - **Frame 0:** pitch black, with one rag torch lighting the ragged boy at the rusted dungeon gate, and behind the bars **one enormous ember-glowing dragon eye opening** at his back. Title: THE DUNGEON CALLED ME MASTER. Make it big, readable and terrifying, with the boy calm.
 - **Camera:** the same fast cutting as Moth Wings (about 1 s shots, no shot still for more than 10 frames, no whips). Claude adds the shake-in and the effects in the finishing pass, so add no post effects yourself.
+
+## LOOK TEST ACCEPTED: Jake, Wed 11-25 10:27 AM. BUILD THE FULL FILM in this dark style, with these fixes
+
+Jake: "Yeah, I like that so much better. Let's go ahead and proceed with that." (look test at main bc20c6e: 11.5 s, 0.96 s a shot, brightness 67, saturation 0.35)
+
+**Keep:** frame 0 (the ember dragon eye behind rusted bars, the soot-faced boy with his rag torch); the patched sackcloth; the shiny prince and knights next to the ragged boy; the nine-floor shaft; the fast ~1 s cutting. No post effects; Claude adds the shake-in.
+
+**Fix:**
+1. **The town alley (about 1 to 3 s) and the clock shots (about 3 to 6 s) are flat grey mush.** Give them the frame-0 treatment: deep blacks, warm torch pools, wet cobbles reflecting fire, smoke in the light. Contrast, not grey.
+2. **One face for the boy.** Use the frame-0 face (the calm smirk) in every shot, with tired or soot-smudged variants of that same face. Drop the goofy wide-eyed open grin ("the torch boy", about 5.8 s).
+3. **The title font:** use our usual bold title lettering (white capitals, thick dark outline), the same as our other films, not the serif.
+4. **The dragon is hard to read** ("hard to understand visually what it is"). The **Model Builder chat is touching up the dragon model** so its head, horns, eyes, jaw, neck, folded wings and claws read clearly, with the lava cracks as accents only. **Build every dragon shot LAST, with their revised dragon**, after Jake approves its still. Frame it so the head is clear: the boy small in front for scale, the dragon's head and eye lit by his torch.
+
+**Order for this chat:** the Dungeon Master full film now (dragon shots last), then the Moth Wings Part 2 round 2 test clip.

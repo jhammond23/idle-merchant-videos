@@ -9,6 +9,11 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Wed 11-25, 10:35 AM: Dungeon Master dark look ACCEPTED
+
+- **"Build moth-wings style test" chat:** build the FULL `dungeon-called-me-master` film in the dark look, with the 4 fixes in its REVIEW-NOTES.md. Build the dragon shots last, with the Model Builder's revised dragon. Then do the Moth Wings Part 2 round 2.
+- **Model Builder chat: FIRST, before the Egg Army packs,** touch up the Dungeon Master obsidian/lava dragon (the one in the look test at main bc20c6e, about 10.7 to 11.5 s) so it reads clearly as a dragon: a clear head with horns, eyes, snout and jaw, a neck, folded wings and claws, with the lava cracks as accents only. Push one still to `proofs/dungeon-called-me-master-dark/dragon.png` (front three-quarter, plus lying at a boy's feet for scale, in torchlight), then STOP for Jake. After that, the Egg Army packs.
+
 ## NEW Wed 11-25, 10:40 AM: egg-army-day1 REWRITTEN (Video builder (2)) + creatures (Model Builder)
 
 - **Video builder (2): `egg-army-day1/` is a brand-new film.** "I HATCHED AN ARMY TO STOP THE MOON." This is Day 1 of 4, at Crown Stag quality. It has a new voice, script, beats and frame 0 (a flash-forward that opens every day). **Read the new `egg-army-day1/BUILD-PACKAGE.md`.** The old dragon/bear/fox package and its cast check are void. Cast check first, then stop.
