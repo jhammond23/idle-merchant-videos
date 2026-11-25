@@ -61,3 +61,15 @@ Jake watched the finished film (main `403161f`) and wants two things before it p
 - The tier words (GRIFFIN, EAGLE, SPARROW, MOTH) are big enough to read at phone size. No other small text.
 
 **Checks:** run qa/glitchscan.py and qa/stylecheck.py on the new export; the three shots must match the brightness and colour of their neighbours. Push to main and reply with the commit.
+
+## Round 4 (Jake, Tue 11-24, 11:04 PM): a fly-past right at frame 0. Re-render shot 1 ONLY
+
+Jake: "That's a much better first scene, but what if... in the very beginning... a user fly up really close to the camera... the user just passes the camera really fast."
+
+Keep the new golden-hour sky shot, but open it with a **fly-past of the lens**:
+- **Frame 0:** a winged kid (locked cast, big eagle or griffin-gold wings) is already rushing **straight up at the camera from below**, close, his body and wings filling most of the frame.
+- **In the first 0.25 to 0.35 s** he shoots **right past the lens** (up and over, slightly to one side): wings sweep across the whole frame, feathers flicking past the camera, heavy motion blur, the sun flaring through the gap behind him.
+- Then the shot **reveals the sky full of flying kids and the town far below**, exactly as now, for the rest of shot 1 (to 0.66 s), with the duke's son still visible in the sky.
+- Same voice and cut times. Everything after 0.66 s stays exactly as delivered at `037c880`. No camera shake or zooms; Claude adds the shake-in and a whoosh in post.
+
+Re-export `ready/moth-wings/moth-wings-clean.mp4`, run glitchscan, push to main and reply with the commit. **Do this before the Dungeon Master cast still** (the post is waiting on it).
