@@ -1,13 +1,27 @@
 {
   "title": "My Class Is Dungeon Master (Part 1)",
+  "length_seconds": 63.366667,
+  "clean_length_seconds": 54.066667,
   "summary": "The king hands a kid a broom for getting the Dungeon Master class. When the prince takes his little brother underground, the kid starts rearranging the dungeon.",
-  "frame_0": "A half-lidded kid in a patched green shirt holds a broom beside a split class stone. The prince and the farmers stand behind him. Nine glowing rooms and a gold dragon sit under the square.",
+  "frame_0": "The kid in an orange shirt and purple cloak reads a rune book at the broken edge of a royal courtyard. The split class stone and castle stand behind him, and nine torchlit galleries descend below.",
   "package_differences": [
-    "Jake’s updated sponsor ending uses a five-second phone screen with two new scenes from this story and the spoken Flashloop dot AI tag. The sponsor card is at top right and the channel handle is at top left."
+    "Jake approved the rounded Reflection cast and bright daytime courtyard. The boy wears the original burnt-orange shirt and a purple reading cloak.",
+    "Steady shots introduce the class ceremony. A continuous camera move follows the dungeon gags and the floating castle from 25 seconds.",
+    "The original narrator and word timings stay on their supplied clock. Recorded court, wood, stone, coin and water sounds accompany the dialogue.",
+    "The sponsor edition extends the last scene into the 9.30-second phone demonstration with the approved sponsor voice. The clean film ends on the reader and floating castle."
   ],
   "style": "wish-unpredictable",
   "format": "mini",
   "camera": "one-take",
-  "length_seconds": 59.066667,
-  "posting_thumbnail": "dungeon-master-thumbnail.jpg"
+  "steady_opening_seconds": 25,
+  "sponsor_ending_seconds": 9.3,
+  "sponsor_voice_offset_seconds": 0.25,
+  "posting_thumbnail": "dungeon-master-thumbnail.jpg",
+  "frame_0_proof_commit": "2600d53658c17604d0a4de48a04705cf1bc64174",
+  "last_story_cut_seconds": 24.5,
+  "continuous_camera_start_seconds": 25.0,
+  "story_duration_seconds": 54.066667,
+  "cast_approval": "Jake approved c1eed58 on November 24 at 5:43 p.m. Central.",
+  "posting": "hold-for-claude",
+  "previous_delivery": "e84c31b890416c14e04562035bc92e50473c3e58"
 }
