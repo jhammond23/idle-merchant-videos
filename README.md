@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## Moth Wings ROUND 3 (Jake, Tue 11-24, 10:21 PM): re-render shots 1, 5 and 24 only
+
+Jake changed his mind about "Moth Wings is not being re-rendered" (section below). He wants a far more epic opening shot and a decorated ranking board with a picture of each wing type. **Read the "Round 3" section at the end of `moth-wings/REVIEW-NOTES.md`.** Same voice and cut times; re-export `ready/moth-wings/moth-wings-clean.mp4`; no shakes or zooms (Claude adds those in the finishing pass). Do this before the other builds: the post is on hold until it lands.
+
 ## CAST OK footprints, i-walked-out-to-meet-it, my-number-broke-the-kings-scale (Jake, Tue 11-24, 10:09 PM)
 
 Jake approved all three cast stills, each with the changes below. Make the changes in the full render; no new cast still is needed. Then deliver to `ready/<story>/` as usual. The "make every film feel ALIVE" section above applies to all three.

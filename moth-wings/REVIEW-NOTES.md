@@ -39,3 +39,25 @@ Jake watched the round 1 test clip: "that video is pretty dope. I am digging tha
 - stylecheck: 16 shots, average 0.94 s, brightness 144, saturation 0.52. All on target. glitchscan clean.
 - All five round 1 fixes landed: feathers burst out on "grows wings", a new place or angle at every cut (fountain, field, rooftops), the moth wings now read as moth wings (fuzzy, scalloped, with an eye spot), more colour, and the close-up of my hand next to the wing.
 - **Use this opening in the full film.** Carry the same rules through shots 15 to 48.
+
+## Round 3: Jake's changes to the finished film (Tue 11-24, 10:21 PM). Re-render THREE shots only
+
+Jake watched the finished film (main `403161f`) and wants two things before it posts. Everything else stays exactly as delivered: same voice, same cut times, same 48 shots. Re-render only shots 1, 5 and 24, then re-export `ready/moth-wings/moth-wings-clean.mp4` (same name) and reply in the chat with the commit. Claude re-runs the finishing pass (zooms, shakes, grade, dust) afterwards, so add **no** camera shake, zooms or post effects yourself.
+
+**1. A far more epic opening shot (shot 1, 0.00 to 0.66 s, "In this town,").** Right now it is a crowd standing in the square. Jake: "is there a more visually epic scene we can start?" Replace it with:
+- **The sky above the town packed with flying kids**, dozens of them at different heights and distances, every kind of wings: small brown sparrow wings, big brown-and-white eagle wings, and a few huge griffin-gold ones.
+- **Golden-hour sun** low behind them, rays through the wings, feathers drifting. The town, the clock tower and the bunting are small far below.
+- **One griffin-gold kid (the duke's son, locked cast) swoops right past the camera**, close and fast, wings fully spread and filling a third of the frame, during these 0.66 s.
+- Low angle looking up, bright and saturated (brightness 140 or more, like the rest of the film). Wings flap for real; nothing frozen. Motion blur on.
+- Frame 0 must already be this image (no fade-in, no title card).
+
+**2. A decorated ranking board with a picture of each wing type (shot 5, 4.02 to 4.87 s, "the higher you rank", and shot 24, 23.85 to 24.59 s, "the bottom felt").** Right now the WING REGISTER board shows small wing icons and names, which is hard to read on a phone. Jake wants a picture of one of each character with their wings, so it reads at a glance:
+- Keep the same board in the same place, but make it **big and decorated**: gold trim, carved wood or stone frame, ribbons and bunting, laurel leaves, a small crown above the top row, lanterns or flowers at its feet.
+- **Three tiers, each a large painted portrait in its own frame** (from the locked cast, rounded heads):
+  - **I. GRIFFIN** (top, biggest, gold frame with a crown and stars): a kid with huge griffin-gold wings spread wide, proud pose.
+  - **II. EAGLE** (middle, silver frame): a kid with big brown-and-white eagle wings spread.
+  - **III. SPARROW** (bottom, bronze frame, smallest of the three): a kid with small brown sparrow wings.
+- Under the three, a **tiny fourth row: MOTH**, a small, plain, slightly crooked frame with my portrait and my grey moth wings (fuzzy, scalloped, eye spot), my name last. In shot 5 it can be small or soft at the bottom; in shot 24 the camera shows it clearly, as the package says ("me at the bottom of the ranking board, my name last").
+- The tier words (GRIFFIN, EAGLE, SPARROW, MOTH) are big enough to read at phone size. No other small text.
+
+**Checks:** run qa/glitchscan.py and qa/stylecheck.py on the new export; the three shots must match the brightness and colour of their neighbours. Push to main and reply with the commit.
