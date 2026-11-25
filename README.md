@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## CAST OK dungeon-called-me-master (Jake, Tue 11-24, 11:26 PM)
+
+**CAST OK dungeon-called-me-master.** Jake saw the cast still at main `bb34b26` (the obsidian dragon, the torch boy, prince, knight, goblins and the 10 faces) and said "Yes, let's see a small clip." Go to step 2: the **test clip of lines 1 to 9 (0 to 41.30 s)** with the real voice, captions and sound, to `proofs/dungeon-called-me-master/test-clip.mp4`. Use the faces exactly as on the sheet (they're great). Frame 0 is the dragon bursting out of the gate into the sunny square. Run glitchscan and stylecheck, push, reply with the commit, then STOP for notes.
+
 ## NEW Tue 11-24, 11:05 PM: dungeon-called-me-master (for the "Build moth-wings style test" chat, right after Moth Wings)
 
 `dungeon-called-me-master/` = "THE DUNGEON CALLED ME MASTER." Jake approved the script and wants it built "with as cool visuals as you can in the same art style as the wings". It **replaces** dungeon-master (Jake dropped that story; do not reuse its shots). Built exactly like Moth Wings: a new shot every 3 to 4 words, literal pictures, bright and saturated, still camera, captions with one red word. **New for this film: a set of big, exaggerated cartoon faces** on our rounded heads (Jake asked to copy that from the reference). **Read `dungeon-called-me-master/BUILD-PACKAGE.md` first.** Steps: cast still (with the dragon and the 10 faces), STOP for Jake's CAST OK; then a test clip of lines 1 to 9; then the full film, clean edition only. No shake or zooms: Claude adds them in the finishing pass.
