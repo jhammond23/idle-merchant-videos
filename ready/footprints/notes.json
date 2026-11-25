@@ -1,14 +1,24 @@
 {
   "title": "My Footprints Stop at the River",
   "summary": "An eleven-year-old finds tomorrow’s footprints leading to the river. That night, much larger bare prints return to the door and his own footprints change.",
-  "frame_0": "The child stands in his cottage doorway above the blue trail. His boot prints wind alone down the hill and stop at the river.",
-  "package_differences": [
-    "Uses Jake’s updated Flashloop logo, handle and five-second spoken phone ending. Both result tiles show the same child and cottage after the final line."
-  ],
   "style": "plan-D",
   "format": "mini",
   "caption": "title-only",
-  "camera": "one-take",
-  "length_seconds": 41.666667,
-  "posting_thumbnail": "footprints-thumbnail.jpg"
+  "length_seconds": 45.966667,
+  "clean_length_seconds": 36.666667,
+  "frame_0": "A worried boy in a mustard jumper stands at his cottage doorway. Cyan-white boot prints cross blue snow, reach the black river and stop beneath a cloud-ringed moon.",
+  "package_differences": [
+    "Jake approved the original Reflection cast and brighter moonlit picture. The boy wears a mustard jumper. The school memories show him carrying his primer.",
+    "The opening uses steady shots. The single moving camera follows the bare prints from the river to the door, then returns to the window along the drag marks.",
+    "The film uses the supplied narration, sparse contact effects and quiet under the final line. The sponsor version continues into the 9.30-second phone ending. The clean edition ends at the window."
+  ],
+  "posting_thumbnail": "footprints-thumbnail.jpg",
+  "camera": "steady opening, then one continuous glide",
+  "continuous_camera_start_seconds": 22.366666666666667,
+  "story_duration_seconds": 36.666666666666664,
+  "sponsor_ending_seconds": 9.3,
+  "sponsor_voice_offset_seconds": 0.25,
+  "posting": "hold-for-claude",
+  "cast_proof": "cb9b38573da19cdaea3872877000c4573c9fbc42",
+  "previous_delivery": "23525f0c9b65c946bb477aa0f0faab5da2de0e26"
 }
