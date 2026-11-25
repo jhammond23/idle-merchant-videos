@@ -14,3 +14,27 @@
 7. 3.0 to 3.37 s holds still for 12 frames: give it a small motion (the moth wing twitching).
 
 Everything else: keep exactly as it is, and carry the same style into lines 9 to 19.
+
+## Round 2: Jake, Wed 11-25 9:11 AM. RE-DO THE TEST CLIP, CLEANER AND MORE EPIC, BEFORE THE FULL FILM
+
+Jake: "can we get more impressive visuals for moth part 2? it feels a bit sloppy, we need to take more time to make it look better and more epic and clean."
+
+**Take the time this needs.** Re-render the 0 to 36.3 s test clip to a higher finish, check every frame yourself, then deliver it and STOP for review. Round 1's seven fixes above still apply. Keep the voice, the script, the cast and the jokes (ego mirror, jar with holes, "generous", eagle kids in the tree, sparrow kid on the cow, duke lost in the fog).
+
+**What reads as sloppy now (measured on a6248a7, one frame per second):**
+1. **Empty or unclear frames.** 0 to 1 s is a white fog wash with a faint ghost; 2 s is a huge red block filling the frame with a tiny wing; 3 to 4 s ("blocked out the sun") is two dark wing tips with no readable subject; 24 s ("your own hands") is a green blob. **Rule: every shot has one clear subject, fully readable on a phone in under half a second.**
+2. **Clipping and cropping.** Hands and arms push through props and through the lens (jar shot 13 to 15 s, red block 2 s); heads are cut by the frame edge in several close-ups. **No limb through any prop or the camera; whole head in frame unless it is a deliberate face close-up.**
+3. **Ghost doubles.** In the fog (19 to 22 s) kids appear as see-through transparent copies. **No transparent characters, ever.** Show the fog with real depth: solid silhouettes, some sharp in front, some soft behind.
+4. **Flat, cheap scenery.** Grey low-poly mountains and blocky single-colour trees (19 to 28 s) look unfinished next to Part 1's sky flyby. Use textured rock with grass lips, layered pine forests with snow-dusted or sunlit tips, distant blue mountain ranges, and real clouds.
+5. **Stiff crowds.** Flying kids hold the same arms-out pose. **Every flyer is mid-flap, with a different pose and timing.**
+6. **Fog grade is washed out.** The fog scenes are milky with no contrast. Keep the fog bright, but give it light shafts, a glowing sun disc behind it, and darker foreground shapes so it feels dramatic, not blank.
+7. **Repeated framing.** The duke's close-up uses the same angle 4 times in a row (11 to 18 s). Alternate: low angle, wide with the square, over-the-shoulder from the kid, and so on.
+8. **Captions over faces.** Keep the face clear of the caption band in every close-up.
+
+**Make it epic:**
+- **Frame 0 (Part 1's 2b791cc fly-past is the model, bigger):** the hero fills the frame, rushing at the lens, wings wide, both eye spots blazing gold through the fog, then whips past in about 0.3 s to reveal **the whole town under a golden fog sea with forty winged kids rising out of it**. Full colour, sharp, no white wash.
+- **Golden-hour light** in town: a warm key light, a rim light on every character, soft depth of field behind faces.
+- **Scale shots** between the jokes: a high wide of the square full of winged kids, and the fog wall rolling over the mountains like a tidal wave.
+- **The eclipse (3 to 5 s):** a wide shot from below, the giant moth silhouette crossing the sun with light shafts bursting around its wings, and the crowd looking up in shock.
+
+**Before you deliver, check it yourself:** saturation about 0.52, brightness 140 or more outside the fog, no shot held still for more than 10 frames, and no transparent, clipped or cropped characters.

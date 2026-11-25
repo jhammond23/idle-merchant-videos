@@ -9,6 +9,13 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Wed 11-25, 9:20 AM: three re-dos from Jake (read the folder's REVIEW-NOTES.md; each one = test clip first, then STOP)
+
+- **"Build moth-wings style test" chat, in this order:**
+  1. **`dungeon-called-me-master/`: NEW ART STYLE.** "Ultra dark, grimy, and poor." The bright gold look is out. Deliver a frame 0 and a 10 to 12 s look test only, then stop.
+  2. **`moth-wings-2/`: Round 2.** Jake finds the test clip "a bit sloppy." Take more time and re-do the 0 to 36.3 s test clip cleaner and more epic (no empty, clipped or see-through shots; richer scenery; a bigger fly-past). Then stop.
+- **Video builder, next after the current job:** **`footprints/`: NEW OPENING.** Re-do 0 to 6.2 s only, as a strong, fast, moonlit first scene (glowing prints racing to the black river). Deliver a 0 to 8 s test clip, then stop.
+
 ## NEW Wed 11-25, 12:15 AM: moth-wings-2 (for the "Build moth-wings style test" chat, right after the Dungeon Master test clip)
 
 `moth-wings-2/` = "MY MOTH WINGS LED THE GRIFFINS HOME." Moth Wings Part 2 (Part 1 posts Wed 6 AM). Jake approved the script and the voice: "exact same art style, and have a very similar attention grabbing intro." Frame 0 is a fly-past: the hero diving out of bright white fog at the lens with his eye spots blazing. Big cartoon faces, strong joke pictures, the first-year's "You're glowing" close-up. **Read `moth-wings-2/BUILD-PACKAGE.md`.** Test clip of lines 1 to 8 first, then stop for notes. Clean edition only. No shake or zooms (Claude adds them).

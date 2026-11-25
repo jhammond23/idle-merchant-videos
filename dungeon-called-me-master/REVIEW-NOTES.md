@@ -13,3 +13,22 @@
 6. Keep every shot at 1.8 s or under (24.0 s and 37.8 s run 1.9 s).
 
 Everything else: keep exactly as it is.
+
+## NEW ART STYLE: Jake, Wed 11-25 9:13 AM. STOP; build a LOOK TEST first
+
+Jake: "dungeon master still isn't good. we need more of an ultra dark feeling on that one. make it feel dark, grimy, and poor. i'm testing a new art style on this one."
+
+**The round 1 notes above are replaced.** The bright, gold, candy look is out. This film is a new art style test. **Do not build the full film yet.** Deliver a LOOK TEST first, then STOP for Jake's review:
+- `proofs/dungeon-called-me-master-dark/frame-0.png`
+- a **10 to 12 s style clip** cut to the real voice (0 s to the end of "I was the kid who carried their torches.") plus three extra shots: (a) the boy alone at the gate at night, (b) the prince and knights in shining armour next to the boy in rags, (c) the dragon lying at his feet.
+
+**The new look: ultra dark, grimy and poor**
+- **Light:** almost black shadows, with torches and embers as the only light sources. Hard warm pools of torch light, deep chiaroscuro, smoke and haze in the air with light beams through it, and floating embers and dust (rendered in the scene, not added in post). Faces and key objects must still always be readable: light them with the torch.
+- **Colour:** soot browns, rust, wet grey-blue stone, sickly green moss and slime, with warm orange torch fire as the only rich colour. Saturation about 0.30 to 0.35. Average brightness about 60 to 80, never murky: strong contrast, true blacks, bright highlights.
+- **Materials:** cracked wet stone streaked with grime, mud and puddles that reflect the torches, dripping water, rusted iron gates and chains, rotten wood beams, straw, cobwebs, scattered old bones (no gore) and rats.
+- **The torch boy is POOR:** a patched, torn, too-big sackcloth tunic, rag-wrapped bare feet, a soot-smeared face and hands, messy hair, and a thin frame. He sleeps on straw by the dungeon gate. His torch is a stick wrapped in rags. **The class gap is the point:** the prince and the fifty knights are clean, polished and shining, and they look down at him.
+- **The town is poor too:** mud streets, leaning patched shacks, chimney smoke, a grey overcast dawn, and townsfolk in rags. In the final square, the crowd in rags sees the boy ride in on the dragon.
+- **Monsters:** scary but kid-safe. The dragon is jet-black obsidian with glowing ember cracks, smoke curling from its nostrils, an old battle-scarred hide, and huge glowing eyes. Goblins are grimy, warty and in rags.
+- **Faces:** keep the rounded heads and the big cartoon faces, but make them grittier: tired eyes, soot smudges, dirty cheeks, a harder smirk on the boy, and a sneer on the prince.
+- **Frame 0:** pitch black, with one rag torch lighting the ragged boy at the rusted dungeon gate, and behind the bars **one enormous ember-glowing dragon eye opening** at his back. Title: THE DUNGEON CALLED ME MASTER. Make it big, readable and terrifying, with the boy calm.
+- **Camera:** the same fast cutting as Moth Wings (about 1 s shots, no shot still for more than 10 frames, no whips). Claude adds the shake-in and the effects in the finishing pass, so add no post effects yourself.
