@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Wed 11-25, 1:40 PM: power-level-zero (Video builder, right after King's Scale)
+
+`power-level-zero/` = "MY POWER LEVEL SAID ZERO." Jake approved the script and the voice. It is the Black Knight structure with a giant glowing number counting up on screen. The bar is Moth Wings / Stag quality with ~1 s cuts. **Read `power-level-zero/BUILD-PACKAGE.md`.** Push the cast-check still and keep building (Claude reviews it). Both editions to `ready/power-level-zero/`.
+
 ## CAST OK egg-army-day1 + DRAGON OK (Jake, Wed 11-25, 11:45 AM). NEW RULE: Claude approves casts from now on
 
 - **CAST OK egg-army-day1.** Video builder (2): build the full Day 1 film now, at Stag quality. Use stand-ins for the knight, the giant, the moon and the sparks until the Model Builder's packs are approved, then swap them in.
