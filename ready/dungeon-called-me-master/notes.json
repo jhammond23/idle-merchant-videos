@@ -1,0 +1,65 @@
+{
+  "title": "The Dungeon Called Me Master.",
+  "length_seconds": 112.033333,
+  "clean_length_seconds": 102.033333,
+  "summary": "A torch boy keeps a light burning for the dungeon. When a prince abandons him underground, all nine floors recognize their master.",
+  "frame_0": "The torch boy stands at the rusted gate with a rag torch and a calm, soot-marked smirk. An enormous ember eye opens behind him under the bold white title.",
+  "package_differences": [
+    "Jake’s accepted dark look replaces the sunny square opening and carries through the full story. The boy wears patched sackcloth and keeps his calm smirk.",
+    "Both editions were requested after the original clean-only build package. The sponsor edition adds the approved Flashloop read over the final scene."
+  ],
+  "clean_edition": "dungeon-called-me-master-clean.mp4",
+  "sponsor_edition": "dungeon-called-me-master.mp4",
+  "cover": "dungeon-called-me-master-cover.png",
+  "posting_thumbnail": "dungeon-called-me-master-thumbnail.jpg",
+  "story_shots": 106,
+  "average_story_shot_seconds": 0.963,
+  "voice_git_blob": "594785c41bbf55643b66beff3c3986de54d15969",
+  "timings_git_blob": "7d704769717040149bc8e6e8dd606ef5fd5b22d9",
+  "opening_and_style_approval": "bc20c6e, scripts-inbox 554927a",
+  "dragon": {
+    "model_name": "Dungeon Keeper / Bellgrave",
+    "sha256": "0e6dcc95a1476c8d0c002df4faf51f49e7d214c8e7116510e90adb78cf1d0a46",
+    "review_still_commit": "87e863a2d8a897ec9be60e4a0454fd3456864564",
+    "review_still_git_blob": "c9d0949808dd5025397d5cd24d3fe7112b697a6c",
+    "approval": "Jake, November 25, 2026, in this chat: Yes, use this dragon"
+  },
+  "quality_checks": {
+    "clean": {
+      "filename": "dungeon-called-me-master-clean.mp4",
+      "duration_seconds": 102.033333,
+      "size_bytes": 24650356,
+      "frames": 3061,
+      "max_picture_error": 1.738,
+      "source_to_film_shots_checked": 106,
+      "stylecheck": "duration 102.0 s | shots 78 | average shot 1.31 s | brightness 60 | saturation 0.36",
+      "glitchscan": [
+        "frames 3061 duration 102.03",
+        "STROBE/POP stretches (start s, end s, frames): []",
+        "black/white flash frames: []",
+        "frozen stretches >=5 frames: []"
+      ],
+      "story_voice_correlation": 0.993082,
+      "minimum_one_second_dialogue_correlation": 0.953736
+    },
+    "sponsor": {
+      "filename": "dungeon-called-me-master.mp4",
+      "duration_seconds": 112.033333,
+      "size_bytes": 24614795,
+      "frames": 3361,
+      "max_picture_error": 2.125,
+      "source_to_film_shots_checked": 107,
+      "stylecheck": "duration 112.0 s | shots 73 | average shot 1.53 s | brightness 60 | saturation 0.38",
+      "glitchscan": [
+        "frames 3361 duration 112.03",
+        "STROBE/POP stretches (start s, end s, frames): []",
+        "black/white flash frames: []",
+        "frozen stretches >=5 frames: []"
+      ],
+      "story_voice_correlation": 0.993082,
+      "minimum_one_second_dialogue_correlation": 0.953736,
+      "sponsor_voice_correlation": 0.999311
+    }
+  },
+  "audio_review": "The delivery was checked against the locked story waveform in one-second windows and the official sponsor take. Listening playback was unavailable in this session."
+}
