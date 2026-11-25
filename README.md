@@ -9,10 +9,15 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Wed 11-25, 10:40 AM: egg-army-day1 REWRITTEN (Video builder (2)) + creatures (Model Builder)
+
+- **Video builder (2): `egg-army-day1/` is a brand-new film.** "I HATCHED AN ARMY TO STOP THE MOON." This is Day 1 of 4, at Crown Stag quality. It has a new voice, script, beats and frame 0 (a flash-forward that opens every day). **Read the new `egg-army-day1/BUILD-PACKAGE.md`.** The old dragon/bear/fox package and its cast check are void. Cast check first, then stop.
+- **Model Builder chat: `egg-army-day1/CREATURES-BRIEF.md`.** Build the Blue Fire Knight, the Storm Giant, the burning moon and the sparks. Deliver one review still to `proofs/egg-army-day1/creatures.png`, then stop for Jake.
+
 ## Wed 11-25, 9:45 AM: Jake cut the list (quality over quantity)
 
 - **DROPPED, do no more work on them:** footprints, i-walked-out-to-meet-it (delivered; it will not post), phoenix part 2.
-- **egg-army-day1 is NOT dropped** (correction, 9:52 AM). It stays on hold until Jake answers on its cast.
+- **egg-army-day1 is NOT dropped.** It has been REWRITTEN; see the 10:40 AM section above.
 - **KEEP:** dungeon-called-me-master (dark look test), moth-wings-2 (round 2), and my-number-broke-the-kings-scale (Video builder: finish it).
 - **New bar:** Claude rejects any delivery that is not at Moth Wings quality and sends it back with notes. Only films that pass go to Jake. Fast cuts (about 1 s), big readable subjects, no empty, clipped or see-through shots, rich scenery.
 
