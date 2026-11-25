@@ -24,3 +24,12 @@
 5. Shot 14 "I grew moth wings": show the moment they pop out (a tiny "pff" of grey dust), then my face looking back at them.
 
 **Next:** push a new `proofs/moth-wings/test-clip.mp4` (same 0 to 15.11 s) and reply with the commit. Same voice, same cut times. No full film yet.
+
+## Jake, 6:49 PM: APPROVED. Build the full film now.
+
+Jake watched the round 1 test clip: "that video is pretty dope. I am digging that, go ahead and build the rest of that out." **CAST OK moth-wings. Test accepted.**
+
+- **Keep everything in the round 1 clip exactly as it is.** Do not rebuild shots 1 to 14 unless your round 1 fixes are already done and better.
+- **Build shots 15 to 48 in the same style.** Use round 1 notes 1, 2 and 4 as you go: an action or a big face in every shot, a new place or angle at every cut, rich colour. The reveal (shots 46 to 48) is the money shot: the wings opening to many times his height and blocking out the sun, with the whole cliff in shadow. Make it huge.
+- **Clean edition first:** `ready/moth-wings/moth-wings-clean.mp4`, plus the cover and posting thumbnail (the reveal, title MY MOTH WINGS STOPPED A GRIFFIN.). The sponsor edition waits: its ending line is being written for this video.
+- Run qa/glitchscan.py and qa/stylecheck.py on the full film before you push. Reply in the chat with the commit.

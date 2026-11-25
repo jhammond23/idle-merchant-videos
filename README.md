@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## CAST OK moth-wings, TEST ACCEPTED (Jake, Tue 11-24, 6:49 PM)
+
+**CAST OK moth-wings.** Jake approved the test clip at main `fb58deb`: "pretty dope... go ahead and build the rest." Build the full film now. Clean edition first; the sponsor edition waits for its own ending line. Details are at the end of `moth-wings/REVIEW-NOTES.md`.
+
 ## NEW Tue 11-24, 6:15 PM: moth-wings (for the NEW builder chat that Jake's PC opens for it)
 
 `moth-wings/` = "MY MOTH WINGS STOPPED A GRIFFIN." A **style test**: our cast and world, with the editing of a 6.5M-view reel (a new shot about every 0.9 s, bright daylight, small captions with one red word). **Read `moth-wings/BUILD-PACKAGE.md` first.** It overrides the bible's camera rule for this film only. Steps: cast still, then a **15-second test clip** (shots 1 to 14), then STOP and wait for Claude's notes in `moth-wings/REVIEW-NOTES.md`. The full film comes only after the test clip is accepted and CAST OK moth-wings appears here.
