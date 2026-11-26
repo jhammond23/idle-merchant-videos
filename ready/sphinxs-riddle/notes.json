@@ -6,8 +6,12 @@
   "package_differences": [],
   "edition": "clean",
   "camera": "Steady beat cuts with a widening view of the wing reveal.",
-  "audio": "Locked Adam and Lord Nyx dialogue with location and creature Foley. No music.",
+  "audio": "Claude’s November 25 re-voice (Adam narrating, Lucian as the Sphinx), on the locked clock with all 58 original Foley cues.",
   "riddles": "First riddle twice. Final question held to the cut. Neither answer is printed.",
   "cast_update": "The armored advisor is clean-shaven, with silver side-swept hair and an asymmetric brow. His statue carries the same likeness. The King retains his dark hair and full beard.",
-  "cast_check_commit": "9ee378ceb7190a7bec0129f00f17a0943f3fedb1"
+  "cast_check_commit": "9ee378ceb7190a7bec0129f00f17a0943f3fedb1",
+  "revoice_source": "b270be5b6cc602d14bc47adc0a2900b813aab431",
+  "sphinx_performance": "The sculpted jaw follows individual syllables and closes during pauses. The Sphinx remains on screen through “Then answer this” and “What can you keep”. The King takes the rest of the final riddle from 46.60 s.",
+  "court_performance": "The Prince leads the General down the stairs. Courtiers turn, lift their arms and settle at separate times. The boy lifts his gaze before he adjusts his shovel grip.",
+  "posting_thumbnail": "sphinxs-riddle-thumbnail.jpg"
 }
