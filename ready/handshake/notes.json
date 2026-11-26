@@ -2,32 +2,43 @@
   "title": "I COPY ANY SKILL WITH ONE HANDSHAKE.",
   "edition": "clean",
   "source_commit": "ec9ba660cea8698a1c2f0c881418dc29150c8454",
-  "picture_revision": "Locked camera and held-emote edit",
+  "picture_revision": "Round 3. Eased character performances on locked tripods.",
   "duration_seconds": 54.822,
   "length_seconds": 54.822,
   "native_frames": 1645,
   "authored_shots": 65,
   "caption_groups": 66,
-  "file_bytes": 23720009,
+  "file_bytes": 23130362,
   "summary": "A farm kid enters the king’s tournament and learns what his handshakes cost the fighters who taught him.",
   "frame_0": "The burnt-orange farm kid grips the Iron Champion’s gauntlet above his fallen sword in the tournament ring.",
   "posting_thumbnail": "handshake-thumbnail.jpg",
-  "camera": "One fixed tripod exposure and one held performance per cut.",
+  "camera": "One locked lens, focus and camera transform per shot.",
   "ending": "The final reaction and MY H— cut together with the original delivered sound at 54.822 s.",
   "qa": {
-    "stylecheck": "duration 54.8 s | shots 59 | average shot 0.93 s | brightness 145 | saturation 0.45",
-    "strobe_pop": 0,
-    "black_white_flashes": 0,
-    "intentional_holds": 65,
-    "minimum_measured_cut_luma_difference": 27.817,
-    "max_within_shot_luma_difference_outside_captions": 0.0611,
+    "stylecheck": "duration 54.8 s | shots 59 | average shot 0.93 s | brightness 144 | saturation 0.45",
     "decoded_frames_checked": 1645,
+    "native_animation_frames_rendered": 1645,
+    "shots_with_on_screen_action": 65,
+    "within_shot_transitions": 1580,
+    "visible_motion_transitions": 1079,
+    "brightness_saturation_previous": [
+      144.555,
+      0.453
+    ],
+    "brightness_saturation_current": [
+      144.047,
+      0.454
+    ],
+    "camera_transforms_verified": 65,
     "caption_groups_verified": 66,
-    "aac_packets_and_decoded_pcm_identical_to_previous_delivery": true,
-    "glitchscan_freeze_flags": 107,
-    "freeze_review": "Every freeze flag falls completely within a single intentional held shot."
+    "audio_packets_and_decoded_PCM_match_previous_edition": true,
+    "max_source_to_decode_luma_error": 2.332,
+    "strobe_or_flash_flags": 0,
+    "glitchscan_hold_flags": 20,
+    "early_hold_flags": []
   },
   "voice_blob": "fe11a9a12af2c118bd63dd588b79257363e92a4b",
   "sound": "Original locked narration and tournament foley. The crowd falls silent under the narration at 42.10 s.",
-  "cover": "The PNG is the exact first decoded frame. The posting thumbnail uses the same camera frame without dialogue captions."
+  "cover": "The PNG is the exact first decoded frame. The posting thumbnail uses the same camera frame without dialogue captions.",
+  "package_differences": []
 }
