@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Wed 11-25, 11:25 PM: CAST V2 is the cast for every new film
+
+Jake approved `cast-v2/` (13 characters: very different bodies, classic yellow avatars and real skin tones, Pokemon-style, anime and classic Roblox faces). **Read `cast-v2/CAST-V2.md`** and append the characters from `cast-v2/cast-v2.blend`. Films already in progress keep their cast unless Claude says otherwise. Builders never invent people; ask Claude for anyone new. The 16-character Model Builder brief in `cast-v2/CAST-LIBRARY-V2-BRIEF.md` is cancelled.
+
 ## NEW Wed 11-25, 5:30 PM: handshake ("Build moth-wings style test", right after the Moth Wings Part 2 round 2 test clip)
 
 `handshake/` = "I COPY ANY SKILL WITH ONE HANDSHAKE." It is built line for line on the structure of a 15.4M-view reel. Jake approved the script and the voice (54.9 s, fast, last word cut for the loop). CLEAN edition only. Moth Wings pace and quality. **Read `handshake/BUILD-PACKAGE.md`.** Do it while Jake reviews the Moth P2 test clip, then go back to Moth P2 when his notes arrive. Delete temp frames after each delivery.
