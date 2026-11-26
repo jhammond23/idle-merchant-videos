@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Thu 11-26, 3:15 PM: bunny-chains proof notes
+
+Cast check PASS, bunny PASS. Changes: the fog giant must look like fog (soft misty see-through body, gold pinprick eyes, not a pale gaunt figure); the horse-stage bunny must be clearly bigger than the kid; the castle-stage bunny goes beside OUR castle with the towers at its shoulder. Details in `bunny-chains/REVIEW-NOTES.md`. Keep building.
+
 ## NEW Thu 11-26, 2:30 PM: bunny-chains (Video builder (2), next; bunny model: Model Builder)
 
 `bunny-chains/` = "MY BUNNY ATE THE KING'S CHAINS." Jake approved the script and the voice (90.6 s). CLEAN edition only, house look (no build style picked). It reuses three past-hit monsters (the Black Knight model as a chained iron knight, the Crown Stag, the Fog Giant) and needs one new creature: the bunny in three sizes (teacup, horse, castle), plus a hill-sized chained egg prop. **Read `bunny-chains/BUILD-PACKAGE.md`.** Model Builder: build the bunny pack first and push `proofs/bunny-chains/bunny.png`, then keep going. Kid-safety picture rules are in the package.
