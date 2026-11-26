@@ -2,28 +2,32 @@
   "title": "I COPY ANY SKILL WITH ONE HANDSHAKE.",
   "edition": "clean",
   "source_commit": "ec9ba660cea8698a1c2f0c881418dc29150c8454",
-  "voice_blob": "fe11a9a12af2c118bd63dd588b79257363e92a4b",
+  "picture_revision": "Locked camera and held-emote edit",
   "duration_seconds": 54.822,
+  "length_seconds": 54.822,
   "native_frames": 1645,
   "authored_shots": 65,
   "caption_groups": 66,
-  "file_bytes": 21230102,
-  "cover": "The PNG is the exact first decoded frame. The posting thumbnail uses the same camera frame without dialogue captions.",
-  "ending": "The final caption reads “MY H—”. Picture and sound end together on the cut syllable at 54.822 s.",
-  "sound": "Original locked narration and tournament foley. The crowd falls silent under the narration at 42.10 s.",
+  "file_bytes": 23720009,
+  "summary": "A farm kid enters the king’s tournament and learns what his handshakes cost the fighters who taught him.",
+  "frame_0": "The burnt-orange farm kid grips the Iron Champion’s gauntlet above his fallen sword in the tournament ring.",
+  "posting_thumbnail": "handshake-thumbnail.jpg",
+  "camera": "One fixed tripod exposure and one held performance per cut.",
+  "ending": "The final reaction and MY H— cut together with the original delivered sound at 54.822 s.",
   "qa": {
-    "stylecheck": "duration 54.8 s | shots 58 | average shot 0.94 s | brightness 147 | saturation 0.44",
-    "glitchscan": [
-      "STROBE/POP stretches (start s, end s, frames): []",
-      "black/white flash frames: []",
-      "frozen stretches >=5 frames: []"
-    ],
-    "voice_alignment_windows": 55,
-    "max_voice_offset_ms": 0.0,
-    "source_to_export": {
-      "native_frames_checked": 1645,
-      "source_to_encode_median_luma_error": 2.031,
-      "source_to_encode_max_luma_error": 2.322
-    }
-  }
+    "stylecheck": "duration 54.8 s | shots 59 | average shot 0.93 s | brightness 145 | saturation 0.45",
+    "strobe_pop": 0,
+    "black_white_flashes": 0,
+    "intentional_holds": 65,
+    "minimum_measured_cut_luma_difference": 27.817,
+    "max_within_shot_luma_difference_outside_captions": 0.0611,
+    "decoded_frames_checked": 1645,
+    "caption_groups_verified": 66,
+    "aac_packets_and_decoded_pcm_identical_to_previous_delivery": true,
+    "glitchscan_freeze_flags": 107,
+    "freeze_review": "Every freeze flag falls completely within a single intentional held shot."
+  },
+  "voice_blob": "fe11a9a12af2c118bd63dd588b79257363e92a4b",
+  "sound": "Original locked narration and tournament foley. The crowd falls silent under the narration at 42.10 s.",
+  "cover": "The PNG is the exact first decoded frame. The posting thumbnail uses the same camera frame without dialogue captions."
 }
