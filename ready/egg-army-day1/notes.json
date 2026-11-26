@@ -3,34 +3,65 @@
   "length_seconds": 79.7,
   "clean_length_seconds": 70.4,
   "summary": "With four days until the moon hits, a kid hatches a Blue Fire Knight and a Storm Giant from the egg everyone mocked. The sword scratches the moon, and the town must choose how to reach it.",
-  "frame_0": "The orange-scarved kid faces a burning, cratered moon from a clay rooftop, flanked by the Blue Fire Knight and the Storm Giant. The title and a 4 DAYS countdown sit above him.",
-  "package_differences": [],
+  "frame_0": "The orange-scarved kid stands on a clay rooftop between the Blue Fire Knight and the Storm Giant. A burning moon trails fire high above them, behind bands of cirrus. The title and 4 DAYS countdown appear on frame zero.",
+  "package_differences": [
+    "Jake requested edited coverage throughout the story. The former 46-second glide is replaced by cuts on the spoken beats.",
+    "A physical orbital set shows the home planet, the hurricane dissipating, the sword scratching the burning moon, and the imagined storm staircase. The town sees the moon far above the roofline."
+  ],
   "series": "Egg Army",
   "day": 1,
   "story_package": "5f0d68f",
   "cast_approval": "f58233a31ea13981c0d69421eb1fed27b5603fdc",
   "cast_proof": "proofs/egg-army-day1/cast-check.png",
-  "camera": "Steady opening cuts followed by one continuous glide from the cracking egg through the vote.",
+  "camera": "Steady cut shots on the dialogue, with short, slow dollies for reveals and shallow focus on faces. Separate tripod views in the square and in orbit.",
   "story_cut_times_seconds": [
     1.5,
     3.0,
-    4.63,
-    7.39,
-    9.15,
+    4.633333333333334,
+    7.4,
+    9.166666666666666,
     10.8,
-    13.29,
-    15.25,
-    17.03,
-    19.95,
-    21.38,
+    13.3,
+    15.266666666666667,
+    17.033333333333335,
+    19.966666666666665,
+    21.4,
     23.0,
-    24.07
+    24.1,
+    26.2,
+    27.366666666666667,
+    28.7,
+    29.966666666666665,
+    31.7,
+    33.3,
+    34.96666666666667,
+    35.93333333333333,
+    37.4,
+    38.53333333333333,
+    39.733333333333334,
+    40.53333333333333,
+    42.266666666666666,
+    43.6,
+    44.5,
+    45.7,
+    46.6,
+    47.86666666666667,
+    50.3,
+    52.266666666666666,
+    53.53333333333333,
+    55.4,
+    56.86666666666667,
+    58.166666666666664,
+    60.266666666666666,
+    62.8,
+    64.33333333333333,
+    65.73333333333333,
+    66.83333333333333
   ],
   "creatures": [
     "Blue Fire Knight",
     "Storm Giant",
     "Burning Moon",
-    "Calm Moon",
     "Sparks",
     "Lightning Bolt"
   ],
@@ -38,7 +69,6 @@
     "Blue Fire Knight": "v002",
     "Storm Giant": "v002",
     "Burning Moon": "v001",
-    "Calm Moon": "v001",
     "Sparks": "v001",
     "Lightning Bolt": "v001"
   },
@@ -67,24 +97,27 @@
   "cover": "egg-army-day1-cover.png",
   "thumbnail": "egg-army-day1-thumbnail.jpg",
   "posting_thumbnail": "egg-army-day1-thumbnail.jpg",
-  "thumbnail_source": "Rooftop opening photographed with the actual cast and Model Builder assets.",
-  "photography": "Native Cycles photography with motion-compensated in-between frames at 30 fps. The two editions use the same story photography and locked narration.",
+  "thumbnail_source": "Actual revised rooftop exposure, cropped and lettered.",
+  "photography": "Native Cycles photography using the approved v002 Blue Fire Knight, v002 Storm Giant and v001 Burning Moon. The kid, mailed knight and cloud giant have different timing, anticipation and settling beats.",
   "files": {
     "egg-army-day1.mp4": {
-      "bytes": 21986726,
-      "sha256": "0c7bd58ff12327c52c011118db53ebf156796187275064e0c2f3c733ee1ac7d3"
+      "bytes": 22549555,
+      "sha256": "4f29dfa2d167a5c8e5d37c8bad01457783030a5092ab8d30df71e8cbc0248445"
     },
     "egg-army-day1-clean.mp4": {
-      "bytes": 19922377,
-      "sha256": "f44471a67d1e5282f694bfc0a02de326957bfbac19ca8fd13eb02dc91bbc9342"
+      "bytes": 22889649,
+      "sha256": "cddacd3ac565f6c92cd6afe40f16a52a011ee12a92fc4072c9bbfdb03803f5aa"
     },
     "egg-army-day1-cover.png": {
-      "bytes": 1474674,
-      "sha256": "d4a34bc0216ba8d9787bbc41e50ad79acf1ef8ec0bc9cb9bd0a15f67eadff25a"
+      "bytes": 1234871,
+      "sha256": "8c328788e968f33588c0f3a8318d01dc9b66e311dc206c8fe8618fa6cf4c0360"
     },
     "egg-army-day1-thumbnail.jpg": {
-      "bytes": 658085,
-      "sha256": "2bafdc51a47a9a4ecc047ac89808ccf133f605068c61749105bcd4e7e568c403"
+      "bytes": 597427,
+      "sha256": "9ee2dd97be8bc7834c5660d96b02171d2179d5fd1f36b9d9d6b267f1b5a08487"
     }
-  }
+  },
+  "round": 3,
+  "audio_qc": "Both original AAC streams were copied. Packet content, length and start timestamp matched the previous delivery.",
+  "caption_source_sha256": "10316abd44d4498d2bb6ecf06f2f65d2699fb6e7551b432ee7db768b943b5c3e"
 }
