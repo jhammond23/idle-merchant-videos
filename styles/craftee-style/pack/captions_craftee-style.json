@@ -1,0 +1,93 @@
+{
+ "id": "craftee-style",
+ "name": "Toybox Fable captions",
+ "canvas": {"width": 1080, "height": 1920, "fps": 30},
+ "measured": "Pass 2 re-check (11-26): on both formats the caption glyphs are 42 px cap height in the 720x1280 reels = 63 px at 1080 wide. With Poppins Bold (cap height 0.71 em) that is a font size of 88 px. The short format's white line and keyword line are the SAME size; their baselines are 88 px apart. The stroke is about 5 px at 720 (about 7 px at 1080). Pass 1 numbers (70/86/72-78 px) were glyph-height guesses and are replaced by these.",
+ "font": {
+  "family": "Poppins",
+  "weight": "Bold",
+  "file": "Poppins-Bold.ttf (Google Fonts, SIL Open Font License)",
+  "fallbacks": ["Montserrat ExtraBold", "DejaVu Sans Bold"],
+  "size_px": 88,
+  "size_note": "88 px is the em size, as used by FreeType, PIL, ffmpeg drawtext and Blender text objects. libass (ASS files) scales the font's whole line height instead, so the same look needs ASS Fontsize 156 and a +13 px y offset (calibrated in pass 2: renders 62-64 px caps with the block centre at y 503).",
+  "ass_fontsize": 156,
+  "ass_y_offset_px": 13,
+  "cap_height_px": 63,
+  "line_height_em": 1.0,
+  "line_pitch_px": 88,
+  "tracking": 0
+ },
+ "fill": "#FFFFFF",
+ "outline": {"colour": "#111111", "width_px": 7, "join": "round"},
+ "shadow": {"colour": "#000000", "opacity": 0.35, "offset_px": [0, 4], "blur_px": 4, "note": "soft drop shadow from pass 1, not re-measured"},
+ "keyword_colours": {
+  "rule": "One keyword colour per film, chosen to contrast with that film's dominant colour. Never mix two keyword colours in one film.",
+  "green": {"hex": "#2ECE30", "use": "default; against red, stone and daylight sets"},
+  "cyan": {"hex": "#42B4C7", "use": "against warm wood and interiors"},
+  "amber": {"hex": "#E6B872", "use": "against night blue and winter"},
+  "yellow_cinematic": {"hex": "#ECE648", "use": "cinematic variant only: every word in this colour"}
+ },
+ "formats": {
+  "short": {
+   "length_s": "37-39",
+   "anchor": "centre of the 2-line block",
+   "position_px": {"x": 540, "y": 503},
+   "position_pct": {"x": 50, "y": 26.2},
+   "max_width_px": 900,
+   "lines": [
+    {"role": "white", "case": "lowercase", "colour": "fill", "content": "the words before the keyword (omit the line if the card is only the keyword)"},
+    {"role": "keyword", "case": "UPPERCASE", "colour": "keyword colour", "content": "the keyword (the noun or verb that carries the joke), the last word(s) of the card"}
+   ],
+   "words_per_card": {"min": 1, "max": 4, "mean": 2.7},
+   "keyword_rule": "Every card has a keyword. The card ends on its keyword so the reading order never changes (e.g. 'for a whole / YEAR'). Number or noun reveals get a keyword-only card.",
+   "hold_s": {"median": 0.7, "range": [0.4, 1.3]},
+   "animation": {"in": "hard swap", "scale": [[0, 1.0]], "opacity": [[0, 1.0]], "out": "hard swap"},
+   "example_render": "line 1 'every kid gets' white, line 2 'ONE WISH' keyword colour (our own words)"
+  },
+  "long": {
+   "length_s": "136-158",
+   "anchor": "centre of the line",
+   "position_px": {"x": 540, "y": 1402},
+   "position_pct": {"x": 50, "y": 73.0},
+   "position_note": "68-73% measured across films; 73% is the default",
+   "max_width_px": 900,
+   "lines": [
+    {"role": "white", "case": "sentence case (capital at a sentence start and for names)", "colour": "fill"},
+    {"role": "keyword", "case": "UPPERCASE", "colour": "keyword colour", "content": "a keyword card shows the keyword ALONE"}
+   ],
+   "words_per_card": {"min": 1, "max": 3, "mean": 1.8, "note": "mostly 2 words; 3 seen occasionally"},
+   "keyword_rule": "About 1 card in 3 is a keyword card.",
+   "hold_s": {"median": 0.5, "range": [0.2, 0.8]},
+   "animation": {
+    "in": "hard swap, or on ~1 card in 3 a 3-frame scale pop",
+    "scale_pop": [[0, 0.85], [3, 1.0]],
+    "scale_pop_easing": "ease-out",
+    "opacity": [[0, 1.0]],
+    "ass": "{\\fscx85\\fscy85\\t(0,100,\\fscx100\\fscy100)}"
+   }
+  },
+  "cinematic": {
+   "use": "only when Jake asks for the cinematic variant (3:4 letterbox, bars 240 px)",
+   "position_pct": {"x": 50, "y": 70},
+   "size_px": 84,
+   "ass_fontsize": 149,
+   "size_note": "estimated from pass 1 (about 60 px glyph height), not re-measured",
+   "words_per_card": {"min": 1, "max": 1},
+   "colour": "#ECE648",
+   "hold_s": {"median": 0.3},
+   "animation": {"in": "hard swap"}
+  }
+ },
+ "timing": {
+  "first_card": "on frame 0 (the first caption is already up on the whip frame)",
+  "card_change_vs_cut_frames": 0,
+  "tolerance_frames": 3,
+  "rule": "Every cut is a card change (cards never cross a cut). About half of all card changes are also cuts; the rest change the words over the same shot. A card starts on its first word's onset and ends when the next card starts; the last card of a shot ends on the cut.",
+  "generator": "style_craftee_style.cut_plan() then caption_cards(); burn with post_craftee-style.py captions"
+ },
+ "reserved_zones": [
+  {"what": "@idlemerchantrng handle", "where": "top left (house rule)", "rule": "keep it out of the short-format caption band y 400-600"},
+  {"what": "Instagram UI", "where": "bottom 15% and the right-hand button column", "rule": "long captions at 73% stay above it"}
+ ],
+ "never": ["emoji", "stickers", "arrows", "title card", "more than 4 words on a card", "a keyword without its colour", "two keyword colours in one film"]
+}

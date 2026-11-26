@@ -1,0 +1,72 @@
+{
+ "id": "craftee-style",
+ "name": "Toybox Blockfolk",
+ "inspiredBy": "Craftee Films",
+ "oneLine": "Same-height classic blocky R6 people with a rounded classic head and big thick-ink hand-drawn faces that swap on ~70% of shots; hero in bold two-colour stripes (default: Cast v2 hero kid in burnt-orange/cream stripes) with a hair colour nobody else has; plush-round or shaggy-giant creatures.",
+ "head": "Classic rounded head (short bevelled cylinder, reads as rounded square), 1.25 wide x 1.25 tall in torso units; 0.24 of body height; same size for kids and adults",
+ "face": "Thick hand-drawn line art in #1E140E, stroke 3-4.5% of head width with tapered ends; features fill central 70-80% of head front; eye line 42% / mouth 68% of head height; no nose; blush only on 1-2 'soft' characters (small anime face family)",
+ "eyes": "Four kinds: black dot ovals (8%x11%), big white round eyes 20-24% wide with ink rim and 7-11% pupil (top-edge pupils = innocent, 4% pupils = terrified), squeezed > < chevrons (scream/sneeze/crying), half-lid (smug/angry/sleepy); centres 30-34% of head width apart; thick tapered brows 18-28% wide at +/-20-35 deg",
+ "mouth": "Flat line, smile arc, open grin (black D + pink tongue #F2A0A8), '3' whistle, white D shock, giant scream box (55-65% x 38%, white teeth bands, tongue), frown with tick ends, S-curve smirk, red crying mouth #C0282E; talk_open and talk_round variants",
+ "expressions": [
+  "neutral",
+  "happy",
+  "grin",
+  "innocent",
+  "shocked",
+  "terrified",
+  "scream",
+  "angry",
+  "furious",
+  "smug",
+  "sad",
+  "crying",
+  "sleepy",
+  "sneeze",
+  "talk_open",
+  "talk_round",
+  "blink"
+ ],
+ "proportions": {
+  "headToHeight": 0.24,
+  "shoulderToHead": "3.1-3.3",
+  "limbs": "0.8 x head width thick, 2 units long (arm = leg length), rigid; hands = bottom 20-25% of arm in skin colour; torso 1.6 x head height and width"
+ },
+ "bodyTypes": [
+  "standard R6 block (everyone, kids and adults same height)",
+  "flared dress/robe over legs (royalty, wizard)",
+  "bulky winter coat (torso 1.1x)",
+  "baby/toddler at scale 0.6 only",
+  "plush-round creature 1.6-2x kid height",
+  "shaggy giant 3-5x kid height with glowing eyes",
+  "hooded eerie figure with glowing eyes (no weapon)"
+ ],
+ "skinTones": [
+  "#FDD296",
+  "#F8B383",
+  "#EAB494",
+  "#E0A46C",
+  "#C88A4C",
+  "#8D6C4C",
+  "#6B4A35",
+  "#F5CD30"
+ ],
+ "hair": "Chunky low-poly spike meshes (7-11 spikes, 1.1-1.25x head width), fluffy mop, side-swept, long straight for women; flat colour roughness ~0.6; vivid options green #3FA33A / orange #F26B1D / blond #F2D04A (hero default: Cast v2 brown crop); others #6B4226 #8A8F96 #1C1A1E #EDE6D0; one unique hair per named character",
+ "clothing": "Printed 2D textures on blocks: hero in bold horizontal two-colour stripes (5 on torso, 5 per arm) or one saturated primary; never reuse their heroes' exact hair+outfit combos (green spiky + green/black stripes, grey spiky + red tracksuit, blond + yellow/black stripes, orange mop + cream knit); default = Cast v2 hero kid in #CF3D13/#F3E6C8 stripes; uniforms with printed trims; plaid, knit, pyjama prints for others; pants darker than shirt; only the hero is fully saturated",
+ "accessories": "One role prop each: crown/tiara/cape, helmet or plate print, tall hat, top hat + long coat, glasses, beard, backpack, pot helmet; handheld props oversized 1.3x",
+ "materials": "Principled plastic roughness 0.45-0.55, IOR level 0.5, no coat/SSS, block bevels 0.06-0.08; face is an alpha decal in the head material; fabric bump 0.18 only on knit/plaid; creatures fur cards or satin vinyl (roughness 0.35); no outlines or toon ramps",
+ "motion": "Idle sway +/-2 deg (never frozen), stock blocky walk/run with +/-40 deg limb swing (brisk: a step every ~6 frames, full cycle ~0.4 s), emotes (wave, point, cheer, shrug, faint, jump, dance) snapping in 3-6 frames; instant 1-frame face swaps on stressed words, holds 0.5-2 s; prop physics gags 6-15 frames; crowds staggered",
+ "recipe": [
+  "person(name, shirt, pants, skin, face, hair, head='classic', s=1.0, fs=0.75) from cast_v2.py with default R6 sizes (tw=2, td=1, th=2, lh=2, lw=1, aw=1, al=2); s=1.0 for kids and adults, 0.6 for babies only",
+  "Use the classic head mesh (head='classic'), never the 'refl' cylinder, for this style",
+  "Claude draws our own Blockfolk line face set: 1024x1024 transparent PNG, ink #1E140E, 36 px stroke, eye line y=430, mouth y=700, features in central 75%, 14 expressions + talk_open/talk_round/blink (see charsheet.png); never Roblox or the account's decals",
+  "Expression switching: face_set(head_material, '.../face_001.png') then face_swaps(head_material, [(frame, 'shocked'), ...]) from pack/style_craftee_style.py: Image Sequence held on one image, frame_offset keyed CONSTANT on the stressed word (frames from cut_plan)",
+  "Hero outfit: 5-stripe two-colour image texture on torso and arms, no bump; others flat colour + printed pattern, fabric() bump only on knit/plaid; pants darker",
+  "Hair: chunky spike mesh, vivid colour unique to the character, tint_hair() roughness 0.6",
+  "One role accessory from cone/torus/box helpers",
+  "Materials: skin roughness 0.45, clothes 0.5-0.85, bevel 0.06-0.08, no outline modifiers",
+  "Motion set: idle sway, walk, run, wave, point, cheer, faint, jump via arm/leg pivot empties; poses snap over 3-6 frames",
+  "Check: front still beside the cast sheet, face readable at phone size (eye >= 40 px wide at 1080), unique hair/silhouette, only the hero saturated; cast-check still to Claude/Jake before any full render"
+ ],
+ "units": "Our scenes: 1 m = 3.3 Blender units; Cast v2 person at s=1.0 ~6 units tall incl. hair; everyone at s=1.0 in this style",
+ "castCode": "/tmp/claude-0/cast2/cast_v2.py"
+}

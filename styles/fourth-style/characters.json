@@ -1,0 +1,139 @@
+{
+  "id": "fourth-style",
+  "name": "Sticker Saga Cast",
+  "inspiredBy": "Stickman.deadzone (Instagram @stickman.deadzone, 98.9K followers on 11-26; TikTok 74K)",
+  "oneLine": "Blocky R6 bodies with oversized anime hair and flat line-art face decals; every featured person gets a colour-coded name sticker and a new face every close-up.",
+  "head": "Classic Roblox head (Cast v2 'classic' mesh, rounded block), 1.2 x 1.2 studs. No 3D eyes or sculpted features. Head block is 23% of standing height; with hair it reads as 30-34%.",
+  "face": "Flat 2D decal, thin black ink lines (3-4 px at 1024 texture), no shading, no gloss. Features sit in the lower 60% of the face (eyes at 55% down the head, mouth at 78%). Two families: 'line faces' (dot/round eyes, single-stroke mouth) for most boys, adults and crowds; 'anime-lite faces' (half-lid eyes with a coloured iris, lash line, thin arched brows, tiny mouth) for featured characters.",
+  "eyes": "Round white eyes with small black pupils (alarm), two short horizontal dashes (bored/sleepy), half-lid lash line over a coloured iris (cool/smug), ^ ^ arcs (happy), single dots (blank). Eye width ~16% of head width, spacing ~40% of head width centre to centre. One white highlight dot only on the anime-lite family.",
+  "mouth": "Single ink stroke: flat line, small smile arc, smirk (one-sided), small 'o', open D-shape with dark fill (shout/shock), teeth bar (gritted). Width 15-30% of head width.",
+  "expressions": [
+    "calm",
+    "alarmed",
+    "happy",
+    "nervous (sweat drop)",
+    "smug",
+    "shouting",
+    "blank shock",
+    "determined",
+    "sleepy/bored",
+    "wink"
+  ],
+  "expressionDraw": [
+    {
+      "name": "CALM",
+      "eye": "half",
+      "brow": "flat",
+      "mouth": "flat"
+    },
+    {
+      "name": "ALARMED",
+      "eye": "round",
+      "brow": "up",
+      "mouth": "o"
+    },
+    {
+      "name": "HAPPY",
+      "eye": "happy",
+      "brow": "up",
+      "mouth": "grin"
+    },
+    {
+      "name": "NERVOUS",
+      "eye": "round",
+      "brow": "worried",
+      "mouth": "flat",
+      "sweat": true
+    },
+    {
+      "name": "SMUG",
+      "eye": "half",
+      "brow": "flat",
+      "mouth": "smirk"
+    },
+    {
+      "name": "SHOUT",
+      "eye": "narrow",
+      "brow": "angry",
+      "mouth": "teeth"
+    },
+    {
+      "name": "BLANK SHOCK",
+      "eye": "dot",
+      "brow": "up",
+      "mouth": "o"
+    },
+    {
+      "name": "DETERMINED",
+      "eye": "narrow",
+      "brow": "angry",
+      "mouth": "flat"
+    }
+  ],
+  "proportions": {
+    "headToHeight": "0.23 head block alone (teen/adult R6); 0.30-0.34 with hair; kid/flashback variant 0.28-0.30 head block",
+    "shoulderToHead": "shoulder span (torso + both arms) = 3.2-3.3 x head width; torso alone = 1.6-1.7 x head width; hair silhouette = 1.3-1.8 x head width",
+    "limbs": "arms and legs are blocks 1 stud thick (half the torso width), arm length = torso height (2 studs); legs 38% of height on teens/adults, 32% on kids",
+    "kid": {
+      "head": 0.29,
+      "torso": 0.39,
+      "legs": 0.32,
+      "torsoToHead": 1.5,
+      "hairVol": 0.45
+    },
+    "adult": {
+      "head": 0.23,
+      "torso": 0.39,
+      "legs": 0.38,
+      "torsoToHead": 1.65,
+      "hairVol": 0.4
+    },
+    "note": "Measured on full-body frames, matched to the R6 rig. Hair adds 0.3-0.5 head heights."
+  },
+  "bodyTypes": [
+    "standard teen R6 (most people)",
+    "kid 0.8 scale for flashbacks and little siblings",
+    "tall slim adult (teacher, parent)",
+    "broad adult (shopkeeper, guard)",
+    "elder (bald or bun, glasses, slight stoop pose)"
+  ],
+  "skinTones": [
+    "#F3D2B3",
+    "#E2B48C",
+    "#C8956A",
+    "#9A6A48",
+    "#6A4630",
+    "#F5CD30"
+  ],
+  "hairPalette": [
+    "#0E0E14",
+    "#3A2A22",
+    "#C9CDD6",
+    "#E8742A",
+    "#F2D57A",
+    "#7A3B2E"
+  ],
+  "hair": "Oversized anime hair meshes are the identity of each character: dense black spikes for the hero, long straight or twin-tail hair for featured girls, a heavy fringe that covers the top third of the face, bobs, slicked side-parts for adults. Hair is 1.3-1.8 x head width and adds 0.3-0.5 head heights on top. Texture: flat base colour plus darker painted strand strokes (dashed lines along the flow) and one soft highlight band; roughness 0.6, no gloss.",
+  "clothing": "Layered everyday uniforms read in one glance: blazer + bow + plaid skirt, black hoodie or tee with a big white graphic print, tracksuit with stripes, green knit jumper for a parent. One dominant outfit colour per person, prints big enough to read at phone size, chains or belts as extra silhouette detail.",
+  "accessories": [
+    "round wire glasses",
+    "hairband or bow",
+    "pointed elf-style ears for magical folk",
+    "satchel or box carried on the back",
+    "umbrella",
+    "sweat-drop and anger-mark stickers (2D overlays, not geometry)"
+  ],
+  "materials": "Skin and bodies: smooth plastic (roughness 0.5, specular 0.3), no subsurface. Faces: unlit-looking decal (mix the face PNG over skin colour, no bump). Clothes: flat colour + printed graphic, light weave bump 0.1. Special states change the WHOLE avatar material in one cut (all-grey stone with ink crack lines, all-desaturated for flashback).",
+  "motion": "Standard game-style rigid-limb animation: idle sway, walk, run, sit, lie down, point, arms-up flinch, hands-over-face, kneel. Poses change between shots more than inside them. Inside a held shot: one quick reaction (head turn, flinch, arm raise, ~6-8 frames) then idle. Impacts are physical: the body falls flat (ragdoll-style) and the camera stays still.",
+  "distinctCharactersPerVideo": "3-5 featured people (hero + 1-2 featured girls/rivals + 1-2 adults) plus 6-20 background extras",
+  "toldApartBy": "hair silhouette and colour first, outfit colour second, accessory third (glasses, ears, bow), and a colour-coded name sticker the first time each one appears",
+  "recipe": [
+    "Start from Cast v2 person() with head='classic' (classic Roblox head mesh); keep tw=2, td=1, th=2, lh=2, aw=1, al=2 for teens/adults; use s=0.8 and hs=1.15 for kids.",
+    "Face: draw a new flat line-art PNG (1024x1024, transparent, 3-4 px ink) in one of the two families, with the eyes 55% down the PNG and the mouth 78% down; it maps 1:1 with head_mat2 at the default voff=0 (person() does not pass voff; a positive voff moves the features down). Make the full 8-10 expression set for every featured person; swap per close-up with set_face() from pack/style_fourth_style.py.",
+    "Hair: build or pick an oversized hair mesh (1.3-1.8 x head width, +0.3-0.5 head heights); give it a flat base colour plus a painted strand-stroke texture and one highlight band; tint with tint_hair().",
+    "Outfit: fabric() with one dominant colour per person; add one big readable print or trim (crest, stripe, belt) and one silhouette accessory.",
+    "Pick a name-sticker colour for the character (teal, coral, gold, sky blue, lilac) and record it with the character, so every film uses the same one.",
+    "Materials: plastic skin (roughness 0.5); no outlines on the 3D model; no blush by default (Jake rejected blush on the puppet heads), use a sweat drop or anger mark sticker instead.",
+    "Make a turnaround still plus the expression strip and send it to Claude before use (only Claude adds new characters)."
+  ]
+}

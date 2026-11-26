@@ -1,0 +1,17 @@
+{
+ "input": "renders/story_shots.mp4",
+ "output": "renders/story_post.mp4",
+ "voice": "story-voice-final.mp3",
+ "bed": "ambience-bed.mp3",
+ "bed_db": -10,
+ "grade": null,
+ "vignette": 0.25,
+ "push": [],
+ "snap": [],
+ "roll": [],
+ "wobble": [],
+ "sepia": [[540, 690]],
+ "whiteout": [1200],
+ "preroll": false,
+ "sfx": [["sfx/door_thud.wav", 312, -4], ["sfx/magic_whoosh.wav", 1197, -6]]
+}

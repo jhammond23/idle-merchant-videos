@@ -1,0 +1,66 @@
+{
+ "id": "gneef-style-characters",
+ "name": "Inkface Blockfolk",
+ "inspiredBy": "Gneef (YouTube @Gneef)",
+ "oneLine": "Classic R6 block bodies with rounded heads and flat black-ink sticker faces: solid oval eyes, thick brows, red open mouths, one expression per shot, a signature colour on the lead.",
+ "head": "Rounded classic block head (Cast v2 head='classic'), 25% of body height without hair, width 0.62 of torso; matte plastic skin, roughness 0.5",
+ "face": "Flat vector decal in ink #111111, no nose, no 3D features, line weight 3-4% of head width; blush hatch #F59BB0, tears #6EC3F4, stubble dots on adult men; face scale fs 0.80-0.86 so it reads full-body",
+ "eyes": "Solid black vertical ovals 9% x 14% of head size, centres +-13% from the midline at 45% height; variants: happy up-arc with lashes, sad or sleepy down-arc, shocked inverted V, squeezed > <; thick tapered brows angled +-20-25 deg for anger or fear; terror variant: white sclera ovals with a black outline and small pupils (the only time whites appear)",
+ "mouth": "Centre at 70% height: dash, closed arc, smug hook, open D filled red #D7262B with pink tongue #F06A6A, black ring with red inside (shock), white gritted-teeth rectangle with 3 lines, zigzag (scared), small o",
+ "expressions": [
+  "neutral",
+  "smug/sure",
+  "happy",
+  "shocked",
+  "scared",
+  "angry",
+  "gritted/determined",
+  "crying",
+  "sleepy",
+  "surprised-o",
+  "terror (white-eye)"
+ ],
+ "proportions": {
+  "headToHeight": 0.25,
+  "headWithHairToHeight": 0.31,
+  "shoulderToHead": 1.6,
+  "armSpanToHead": 3.7,
+  "torsoToHeight": 0.37,
+  "legsToHeight": 0.38,
+  "limbs": "R6 boxes: arms and legs 1x2x1 (half the torso width, as long as the torso), hands the same width as the arm"
+ },
+ "bodyTypes": [
+  "classic R6 adult (scale 1.0)",
+  "kid (scale 0.85; the source uses the same size)",
+  "little kid (0.62)",
+  "big guard (1.05, torso width 2.4)",
+  "baby (head 45% of height, framed in a cradle)",
+  "creature or big thing 1.5-2x adult height, pale or desaturated, or a different material (porcelain, carved wood with drawn eyes, bark)"
+ ],
+ "skinTones": [
+  "#F6D2B0",
+  "#F0BE8C",
+  "#E3A06C",
+  "#C98E5F",
+  "#8D5A3B",
+  "#5A3524",
+  "#F5CD30"
+ ],
+ "hair": "Chunky low-poly shards (8-14 spikes or locks), flat saturated colour, no strands, +30-40% head height, overhangs the sides 10-15%, fringe to the brows; long hair is a solid sheet with a side fringe; palette #F56E02 #7A4A2A #E8C25A #1E1A1A #B8B4B0 #A63A1E",
+ "clothing": "Base shirt and trousers plus one 3D layer (vest, apron, jacket, knit); the most textured surface on screen (cable knit, denim, worn leather, fleece; bump 0.18-0.30); one dominant colour per person; the lead's signature colour is unique",
+ "accessories": "Big readable props: hats and helmets, satchels, lanterns, wooden swords, crowns, staves, ropes, keys, chest plates or sashes that carry the story rule; magic items emissive magenta #E722BD or ember #E35214",
+ "materials": "Plastic skin and hair (roughness 0.5), fabric() clothing with bump, low-roughness metal, emissive magic; no outlines on geometry, ink only in the face decal; one motivated key light, no fill",
+ "motion": "Held readable poses (arms out 'what?!', pointing, sitting, lying, cowering); plain game walks (about 1 step per 0.5 s) and ragdoll tumbles; no lip sync, no blinks, faces change only on cuts; offset crowd idles; the camera carries the motion",
+ "recipe": [
+  "person(name, shirt, pants, skin, face, hair, head='classic') with the R6 defaults tw=2.0 td=1.0 th=2.0 lh=2.0 lw=1.0 aw=1.0 al=2.0 hs=1.0",
+  "Size with the root scale s: adult 1.0, kid 0.85, little kid 0.62, big guard 1.05 with tw=2.4",
+  "Draw 8-10 expression PNGs (1024x1024, transparent) with flat black shapes per the face spec; save to /tmp/claude-0/cast2/faces/face_<name>_<expr>.png; use head_mat2(..., fs=0.80-0.86)",
+  "Skin from the skinTones list via srgb(); roughness 0.5",
+  "Hair: an existing hair_col key, tint_hair(key, rgb) from the hair palette, hair_s 0.95-1.05 so it overhangs 10-15%",
+  "Clothing: fabric(name, rgb, sc) plus one 3D layer box() in knit, denim or leather (bump 0.25 for knit)",
+  "Give only the lead the signature colour; check everyone else against it",
+  "Accessories with the box, cone, torus and ball helpers; emissive via mat(emit=..., estr=5-8)",
+  "Pose with the R6 pivots (arms=, out=); add breathing (torso Z +-1%, 3 s) and offset idles",
+  "Render a cast-check still under ember-interior and moon-night lighting at phone size and push it per the Studio Bible"
+ ]
+}

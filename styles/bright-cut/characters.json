@@ -1,0 +1,71 @@
+{
+ "id": "bright-cut-cast",
+ "name": "Sunny Block Folk",
+ "styleId": "bright-cut",
+ "inspiredBy": "cannonanimates",
+ "oneLine": "Toy-block townsfolk: rounded block heads, flat 2D cartoon faces that swap every shot, one bright garment each, readable in a 0.7 s shot.",
+ "head": "Rounded block (classic Roblox-style head, heavy bevel), width ~= height; head skin = 0.225 of body height (0.29 with hair); same mesh for every new character (locked hero kid keeps his Reflection head)",
+ "face": "Flat matte line-art decal on the head front covering ~70% width x 60% height; no nose/ears; two registers: line decals for wide/medium (~70% of faces), comic punch faces for close-ups/reactions; never glossy 3D eyes or soft blush",
+ "eyes": "Line: black dots/ovals 6-8% of face width or arcs. Comic: round whites 25-30% of face width each, ~1 eye-width apart, black outline ~5%, tiny pupils 4-6% (pinpoint for shock), no shine",
+ "mouth": "Line: single black stroke (smile arc, frown, flat line, small D). Comic: outlined open shapes - gritted teeth band, D-grin with pink tongue #F06C8F, wobbly worried line, wide scream",
+ "expressions": [
+  "neutral",
+  "happy/laughing",
+  "smug",
+  "shocked",
+  "scared/worried",
+  "angry",
+  "sad/crying",
+  "determined",
+  "sceptical",
+  "ominous (shadowed eyes)"
+ ],
+ "expressionChange": "Swap on the cut, never animated inside a shot (no lip sync, no blinks); new face for each reaction; one mid-shot swap only during a crash push-in (T4, at ~65% of the move)",
+ "proportions": {
+  "headToHeight": 0.225,
+  "headWithHairToHeight": 0.29,
+  "torsoToHeight": 0.36,
+  "legsToHeight": 0.41,
+  "shoulderToHead": "1.4-1.7 (Cast v2 1.67)",
+  "armWidthToTorsoWidth": 0.5,
+  "armLengthToTorsoHeight": 1.0,
+  "limbs": "straight rectangular blocks, slightly rounded edges; mitt or 4-finger cartoon hands"
+ },
+ "bodyTypes": [
+  "standard person (scale 1.0)",
+  "kid (0.85-0.9; locked hero 0.8)",
+  "wide (torso 2.4) - guards, smiths, max one per shot",
+  "tall (1.1) - kings, captains",
+  "classic yellow blocky crowd filler"
+ ],
+ "skinTones": [
+  "#F4D4B7",
+  "#E9C4A3",
+  "#E2B282",
+  "#E6BA7E",
+  "#CD9E79",
+  "#B07A55",
+  "#8A5A3C",
+  "#5E3B2A",
+  "#F5CD30"
+ ],
+ "hair": "Chunky glossy single-mesh accessory hair (spiky, swept, side swoop, long, bun, twin tails), roughness 0.35, painted strand grooves; silhouette is the ID; colours #13121B #352D2C #693610 #E3C27A #B3261E #B888C0 #576574; use our library hair only",
+ "clothing": "Printed 2D clothing on blocks with subtle weave; neutral base (white/grey/black/denim) + ONE bright accent garment per person, never shared in a shot; medieval: printed tunics with belt/stitching, tabards over mail print, aprons, cloak accessory in accent colour",
+ "accessories": "1-2 per person for identity: glasses, headband, hats (crown, hood, pot helmet, chef), satchel, held prop (sword, broom, bread, ball)",
+ "materials": "Skin Principled roughness 0.45 / Specular IOR Level 0.35; cloth roughness 0.8 bump 0.05-0.08; hair roughness 0.35; metal 0.8 metallic 0.3 roughness; noon sun + sky fill; no toon ramp, no body outline; optional 2-4 px light halo via unsharp",
+ "motion": "Idle sway 2-3 s offset per person; stiff game walk ~1 s/cycle, run ~0.6 s; gestures snap to pose in 4-8 f and hold while the camera drifts; key poses every 6-12 f, linear; power state = whole-body material swap fading over 3-15 f",
+ "castPerVideo": "8-20 distinct people; told apart by hair silhouette > accent colour > accessory > skin > face style",
+ "creatures": "Detailed organic models with fur/feather textures at true scale; filmed from their own height or lower",
+ "recipe": [
+  "Head: person(..., head='classic') -> library 'Classic Roblox head' CMESH, hs=1.0 (1.1 for comic relief); hero kid keeps 'refl'",
+  "Proportions: keep Cast v2 R6 blocks tw=2.0 td=1.0 th=2.0 lh=2.0 lw=1.0 aw=1.0 al=2.0; people s=0.85-1.0, wide tw=2.4, tall s=1.1",
+  "Faces: draw two 1024x1024 alpha PNG sets per character (10 line faces, 8 comic faces), black strokes only, no shine; load via head_mat2(name, skin, face, fs) with fs=0.86 (line) / 0.78 (comic); swap per shot",
+  "Skin: pick from skinTones; hands via mat(name+'k', srgb(...), 0.45)",
+  "Clothes: fabric(name, rgb) with bump 0.08 and ColorRamp stops 0.45/0.55; neutral base + one accent garment; printed belt/stitch details",
+  "Hair: tint_hair(key, rgb) with a library hair; check silhouette differs from everyone else in the story",
+  "Accessories: 1-2 via cone/torus/ball helpers or Lunchbox packs",
+  "Idle: shared idle with random phase offset; pose armL/R, legL/R pivots",
+  "Check: cast-check still at noon light, 35 mm, beside two Cast v2 people, viewed at 360 px wide; must read in 0.7 s and differ in >=3 traits"
+ ],
+ "codeSource": "/tmp/claude-0/cast2/cast_v2.py (also /tmp/claude-0/cast2/pkg/cast_v2.py); scripts-inbox cast-v2/"
+}

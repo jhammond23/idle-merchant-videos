@@ -1,0 +1,94 @@
+{
+ "style_id": "gneef-style",
+ "name": "Torchlit Blocktale captions",
+ "canvas": [
+  1080,
+  1920
+ ],
+ "fps": 30,
+ "font": {
+  "family": "Poppins",
+  "weight": "Bold",
+  "file_hint": "Poppins-Bold.ttf (Google Fonts, OFL)",
+  "fallback": [
+   "Montserrat ExtraBold",
+   "Nunito Black",
+   "Arial Bold"
+  ],
+  "size_px": 72,
+  "letter_spacing_px": 0,
+  "measured": "x-height 48 px and full box 84 px including the outline (y 1267-1351); Poppins Bold 72 px gives x-height 40 + 8 px of outline = 48 and a box of 78 + 8 = 86"
+ },
+ "position": {
+  "anchor": "baseline-center",
+  "x": 540,
+  "baseline_y": 1330,
+  "safe_width_px": 960,
+  "note": "x-centre measured 540 (0.498 of width); glyph box y 1267-1351 = 69% of height. The daylight video sat about 50 px lower; keep 1330 for all moods"
+ },
+ "words_per_caption": 1,
+ "case": "lowercase as spoken; capitalise names, 'I' and onomatopoeia ('Dong'); numbers as digits ('300', '11:20')",
+ "punctuation": "drop commas and full stops; keep apostrophes ('don't', 'you're')",
+ "fill": "#FFFFFF",
+ "outline": {
+  "color": "#000000",
+  "width_px": 4,
+  "join": "round"
+ },
+ "shadow": {
+  "color": "#000000",
+  "opacity": 0.6,
+  "offset_px": [
+   3,
+   3
+  ],
+  "blur_px": 4
+ },
+ "box": null,
+ "keyword_color_rules": "none: every word is white (the source never colours key words); emphasis comes from the picture and the cut",
+ "animation": {
+  "in": {
+   "type": "scale",
+   "from": 0.85,
+   "to": 1.0,
+   "frames": 2,
+   "curve": "linear",
+   "origin": "baseline-center"
+  },
+  "hold": "until the next word's onset (no gap, no fade)",
+  "out": "hard cut to the next word",
+  "opacity": [
+   [
+    0,
+    1.0
+   ]
+  ],
+  "measured": "word-to-word hold median 0.30 s, 90th percentile 0.50 s; a scale pop is visible on about 1 word in 3 at 10 fps sampling, so it lasts 1-2 frames"
+ },
+ "timing": {
+  "show_at": "word start from *-word-timings.json, rounded DOWN to the frame",
+  "hide_at": "next word start (last word holds to the end of the video)",
+  "offset_vs_cut": "0 frames: cuts are placed on word onsets (cut_plan), so the caption change and the cut land on the same frame 85%+ of the time",
+  "never_empty_while_voice_runs": true
+ },
+ "multi_word_exceptions": "numbers and times stay one token ('11:20'); hyphenated words stay one token",
+ "title_card": null,
+ "extras": {
+  "handle": {
+   "text": "@idlemerchantrng",
+   "position": "top-left",
+   "x": 48,
+   "y": 96,
+   "size_px": 34,
+   "fill": "#FFFFFF",
+   "opacity": 0.85,
+   "note": "ours (Studio Bible), not in the source"
+  },
+  "sticker_overlays": "2D stickers ('Z z z', music notes) are picture elements, not captions: stepped at 10 fps, drifting up 40-60 px/s"
+ },
+ "ass_equivalent": {
+  "style": "Style: Word,Poppins,72,&H00FFFFFF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,0,0,1,4,3,2,40,40,570,1",
+  "event_text": "{\\fscx85\\fscy85\\t(0,66,\\fscx100\\fscy100)}word",
+  "note": "alignment 2 (bottom centre); MarginV 570 = 1920 - 1350, the measured bottom of the glyph box incl. descenders and outline, which puts the baseline at about y 1330"
+ }
+}

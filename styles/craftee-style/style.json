@@ -1,0 +1,326 @@
+{
+ "id": "craftee-style",
+ "name": "Toybox Fable",
+ "inspiredBy": "Craftee Films",
+ "oneLine": "Blocky same-height avatars with big drawn line-art faces in bright game-map towns, cut on every phrase (~1.2-1.5 s), camera mostly locked, bold rounded captions with one coloured keyword, music bed under a fast narrator.",
+ "bestFor": "Kid-POV fables and twist mini-stories: a weird town rule told as a joke (37-39 s) or as a mystery with a loop/twist ending (136-158 s); comedy with creatures; mild eerie/night stories.",
+ "palette": [
+  "#5D8CD0",
+  "#E4E7E2",
+  "#D3B78B",
+  "#A98758",
+  "#6B5A41",
+  "#7C7C7E",
+  "#48546D",
+  "#362B27",
+  "#0B060A",
+  "#CF3D13",
+  "#2ECE30",
+  "#42B4C7",
+  "#E6B872"
+ ],
+ "brightness": "daytime mean luma 106-125 of 255 (measured 106, 108, 125); night/eerie films 85-99 with 11-25% dark frames; no vignette. Calibrated on our town square: luma 117 at Standard + 'High Contrast', exposure -1.0, sun 6.0, sky fill 0.3",
+ "saturation": "HSV mean 0.38-0.46 daytime (measured 0.36-0.50); one saturated hero outfit + one keyword colour. Our scene calibrated: 0.43",
+ "avgShot": "1.2 s short / 1.3-1.5 s long (pooled 390 shots: mean 1.39, median 1.3, p10 0.7, p90 2.0; 39-50 cuts/min)",
+ "camera": "82-90% locked in short films (54-70% long); eye level ~75%, low ~15% for creatures, high ~10% for crowds; 26 mm standard (69.4 deg vFOV), 18 mm comic closes, 35 mm two-shots, 50 mm inserts; whip-in at frame 0 (lands f3, settled f8); long films add fly-throughs, crane reveals, swish pans (~21 fast moves/min); no shake",
+ "characters": "Classic R6 blocks, everyone same height, rounded classic head, thick near-black hand-drawn faces (~14 expressions, swap on ~70% of face shots, instant), hero in bold 2-colour stripes (default Cast v2 hero kid in burnt-orange/cream stripes; never their heroes' combos), big crowds; creatures plush-round or shaggy-huge with glowing eyes, one humanising prop of our own; see CHARACTERS.md",
+ "textures": "Smooth plastic bodies (roughness ~0.5) with printed 2D clothing (stripes, uniforms, plaid, knit); detailed game-map sets (cobbles, plaster, timber, slate, glass); no outlines, no grain, no grade",
+ "animation": "Stock blocky idles/walks/emotes, rigid limbs, snappy; instant face swaps; prop physics gags (6-15 f); puff-ring and fire VFX; crowds staggered; camera moves fast-in ease-out; never a frozen frame",
+ "captions": "Poppins Bold 88 px em (63 px caps; ASS Fontsize 156 +13 px y), white, 7 px #111111 stroke, soft 4 px shadow. Short: 2 same-size lines 88 px apart, block centred y 503 (26%): white lowercase line + UPPERCASE keyword line in the film's keyword colour, card ends on its keyword, 1-4 words (mean 2.7), hold ~0.7 s, hard swap. Long: 1 line centred y 1402 (73%), sentence case, 1-3 words (mean 1.8), keyword cards alone in colour (~1 in 3), hold ~0.5 s, optional 3-frame pop 85->100%. Spec: pack/captions_craftee-style.json",
+ "sound": "Music bed ~7-10 dB under the voice in every film, dropped to silence once for the big beat; whoosh/pop/impact on 41-73% of cuts (73% in the creature short), low boom ~every 3 s in creature films incl. one on the opening whip; first-person narrator, target 4.5-5.0 words/s in short films (measured 4.7-4.9 short, 3.3-5.2 overall), no pauses between sentences",
+ "length": "37-39 s (short fable) or 136-158 s (long fable)",
+ "overrides": [
+  "Camera: replaces 'steady opening then one smooth glide' with hard cuts throughout (median 1.2-1.3 s)",
+  "Camera: allows whip-in at frame 0 and fast fly-throughs/swish pans in long films (house bans whips/swings) - needs Jake's yes",
+  "Look: saturation 0.38-0.46 instead of 0.55-0.65; bright neutral daylight instead of deep saturated grade",
+  "Sound: music bed under narration (house: no looping music bed)",
+  "Frame 0: whip frame or loop frame, no title card (house: memorable picture with title)",
+  "Narration 4.5-5.0 words/s in short films (house 3.4-3.9)",
+  "Opening: 0.7-2.0 s locked shots, no punch-ins (house: 1.2-3 s, camera never still)",
+  "Evening rules: steady cameras overridden for T1/T5/T8; eased movement kept for camera, overridden for faces (instant swaps); staggered timing kept; believable faces replaced by cartoon line-art faces",
+  "Cast v2: kid scale 0.8 replaced by everyone at 1.0"
+ ],
+ "studied": [
+  {
+   "title": "GLASS WORLD",
+   "url": "https://www.instagram.com/craftee_films/reel/DgHmVeNv99g/",
+   "views": "1.5M"
+  },
+  {
+   "title": "ROYAL GUARD",
+   "url": "https://www.instagram.com/craftee_films/reel/DgKDZWPJY-i/",
+   "views": "1.1M"
+  },
+  {
+   "title": "THE PERFECT TOWN",
+   "url": "https://www.instagram.com/craftee_films/reel/DgH2t9ohi73/",
+   "views": "1.1M"
+  },
+  {
+   "title": "I'm The Middle One",
+   "url": "https://www.instagram.com/craftee_films/reel/DgKUWogBMiZ/",
+   "views": "795K"
+  },
+  {
+   "title": "Monster's Child",
+   "url": "https://www.instagram.com/craftee_films/reel/DgJoBIgv0_C/",
+   "views": "647K"
+  },
+  {
+   "title": "Dragon Dad",
+   "url": "https://www.instagram.com/craftee_films/reel/DgHOwcIt4NU/",
+   "views": "551K"
+  }
+ ],
+ "techniques": [
+  {
+   "name": "T1 Whip-in opening (blurred frame 0)",
+   "frequency": "1 per film (4 of 6 films)",
+   "timing": "f0 mid-swing blur, lands f3, -2 deg overshoot f5, settled f8; whoosh + boom peak f4-f6",
+   "size": "25-35 deg swing; 2 deg overshoot (~48 px; measured 30-60)",
+   "trigger": "first word",
+   "recipe": "whip_in(cam, f0): Bezier keys +30@f-3, 0@f3, -2@f5, 0@f8; shutter 1.5 on f0-f3 only"
+  },
+  {
+   "name": "T2 Hard cut on the phrase",
+   "frequency": "39-50/min",
+   "timing": "on the first word's onset, +/-3 f",
+   "size": "-",
+   "trigger": "every phrase (~5 words)",
+   "recipe": "cut_plan(word_timings, fmt): short 0.6-2.1 s (target 1.2), long 0.6-2.3 s (target 1.4); no dissolves"
+  },
+  {
+   "name": "T3 Locked-off shot",
+   "frequency": "82-90% of in-shot frames (short), 54-70% (long)",
+   "timing": "whole shot",
+   "size": "0 px",
+   "trigger": "default",
+   "recipe": "lock(cam, f0, f1)"
+  },
+  {
+   "name": "T4 Slow drift",
+   "frequency": "15-30% of in-shot frames (long)",
+   "timing": "whole shot, linear",
+   "size": "150-300 px/s lateral (default 200)",
+   "trigger": "establishing, aerials, tension",
+   "recipe": "drift(cam, f0, f1, px_per_s=200, direction='truck_left'); 2D: post drift2d. Push variant +8% is an estimate"
+  },
+  {
+   "name": "T5 Fly-through with foreground wipe",
+   "frequency": "part of ~21 fast moves/min (long)",
+   "timing": "0.6-1.0 s (24 f); occluder covers 3-5 f",
+   "size": "~120 px/frame; camera 4-6 H/s (24-36 BU/s)",
+   "trigger": "travelling through the world",
+   "recipe": "fly_through(cam, points, f0, 24, occluder=pole) -> cut_window; pass within 1.7 BU (0.5 m)"
+  },
+  {
+   "name": "T6 Crane-out reveal with roll",
+   "frequency": "~1 per long film (1-2 films, estimate)",
+   "timing": "18 f, CUBIC ease-out",
+   "size": "1.2 H -> 18 H (108 BU, ~30 m) up; 40 deg roll to level",
+   "trigger": "revealing the world rule",
+   "recipe": "crane_out(cam, kid, f0)"
+  },
+  {
+   "name": "T7 Snap pull-out",
+   "frequency": "1-2 per film",
+   "timing": "9 f ease-out",
+   "size": "picture scale x2.5",
+   "trigger": "revealing how big a gag is",
+   "recipe": "snap_pull(cam, f0, subject=kid) (dolly x2.5) or mode='zoom' (65 -> 26 mm)"
+  },
+  {
+   "name": "T8 Swish pan within shot",
+   "frequency": "~1/min (long)",
+   "timing": "9-12 f (10), SINE ease-in-out",
+   "size": "~90 deg, 60+ px/frame",
+   "trigger": "following a runner/boat to a new composition",
+   "recipe": "swish(cam, f0): shutter 0.5 on those frames only"
+  },
+  {
+   "name": "T9 Follow-the-prop",
+   "frequency": "~1 per long film (1 film, estimate)",
+   "timing": "~20 f",
+   "size": "camera ~1 BU (0.3 m) from prop, roll up to 15 deg",
+   "trigger": "note/coin travels somewhere secret",
+   "recipe": "animate prop, then follow_prop(cam, prop, f0, f1)"
+  },
+  {
+   "name": "T10 Tracking truck with runner",
+   "frequency": "~1/min (long)",
+   "timing": "1-2 s",
+   "size": "runner speed, side 2.4 H (14.4 BU, ~4 m), chest height 0.7 H",
+   "trigger": "chase / running",
+   "recipe": "animate runner, then track_runner(cam, runner_root, f0, f1); pillar wipe"
+  },
+  {
+   "name": "T11 Face-swap punch",
+   "frequency": "~70% of face shots; every punchline",
+   "timing": "1-frame swap, holds 0.5-2 s",
+   "size": "-",
+   "trigger": "reaction on the stressed word",
+   "recipe": "face_set(head_mat, face_001.png); face_swaps(head_mat, [(frame, 'shocked'), ...]) (CONSTANT)"
+  },
+  {
+   "name": "T12 Prop physics gag",
+   "frequency": "1-3 per film (1 example, estimate)",
+   "timing": "6 f ease-out",
+   "size": "2 head-heights (2.6 BU), 180 deg spin",
+   "trigger": "sneeze, roar, slam",
+   "recipe": "hat_pop(hat, f0)"
+  },
+  {
+   "name": "T13 Puff-ring / fire VFX",
+   "frequency": "1-3 per creature film (1 film, estimate)",
+   "timing": "rings 15 f, 3 f apart; fire 9 f to full",
+   "size": "rings 0.3 -> 0.9 H across; fire to 1.2 H",
+   "trigger": "creature acts",
+   "recipe": "puff_rings(mouth_loc, f0); fire particles #FF8A2A emission 5 + bloom(scene)"
+  },
+  {
+   "name": "T14 Locked-off time-skip montage",
+   "frequency": "~1 per film",
+   "timing": "3-4 beats x 0.8-1.2 s (1.0)",
+   "size": "identical framing",
+   "trigger": "'a week went by'",
+   "recipe": "time_skip(cam, f0) + light_rig('day'/'dusk'/'evening'/'night') per beat; crowd thins"
+  },
+  {
+   "name": "T15 Light pulse",
+   "frequency": "1-2 per long film (estimate)",
+   "timing": "6 f: 2 up, 4 down",
+   "size": "+30 luma",
+   "trigger": "fireworks, magic",
+   "recipe": "light_pulse(f, loc) (2000 W x 3.3^2); 2D: post pulse --frames f"
+  },
+  {
+   "name": "T16 Black beat",
+   "frequency": "1-3 per long film",
+   "timing": "1-3 s",
+   "size": "luma < 12",
+   "trigger": "'nobody saw him again'",
+   "recipe": "light_rig('black') + practical(loc, 30); music drop-out"
+  },
+  {
+   "name": "T17 Dutch tilt",
+   "frequency": "0 short; ~18% of shots in one long film",
+   "timing": "whole shot",
+   "size": "10-30 deg roll (15)",
+   "trigger": "uneasy / wrong-world beats",
+   "recipe": "dutch(cam, f0, f1, 15); never on the triumph shot"
+  },
+  {
+   "name": "T18 Prop insert (ECU)",
+   "frequency": "~10-15% of long-film shots",
+   "timing": "0.8-1.5 s",
+   "size": "prop fills 60-80% (70%)",
+   "trigger": "notes, drawings, calendars, clocks",
+   "recipe": "prop_insert(cam, prop, f0, f1): 50 mm, distance from prop size; prop 1.3x, flat light"
+  },
+  {
+   "name": "T19 Zoom-through loop ending",
+   "frequency": "1 per long film (1 film, estimate)",
+   "timing": "last 6 f, linear",
+   "size": "x1.4 push into a screen",
+   "trigger": "final reveal linking to the opening",
+   "recipe": "frame 0 on an in-world screen; zoom_through(cam, screen, f_end); post loopcheck"
+  },
+  {
+   "name": "T20 Mirror + white flash (cinematic only)",
+   "frequency": "1 per film",
+   "timing": "3 f: 2 mirror, 1 white",
+   "size": "left-half mirror then white",
+   "trigger": "ECU -> world reveal",
+   "recipe": "post flash --frames f"
+  },
+  {
+   "name": "T21 Swing-and-settle (cinematic only)",
+   "frequency": "~38 reversals/min",
+   "timing": "10-30 f move + 6 f settle",
+   "size": "60+ px/frame, 10% overshoot",
+   "trigger": "following a huge object",
+   "recipe": "swing_settle(cam, f0)"
+  },
+  {
+   "name": "T22 Letterbox 3:4 (cinematic only)",
+   "frequency": "whole film",
+   "timing": "-",
+   "size": "240 px bars",
+   "trigger": "movie tone",
+   "recipe": "post letterbox"
+  },
+  {
+   "name": "T23 Caption scale pop (long, optional)",
+   "frequency": "~1 in 3 cards",
+   "timing": "3 f ease-out",
+   "size": "85% -> 100%",
+   "trigger": "new card",
+   "recipe": "post captions --fmt long (every 3rd card)"
+  },
+  {
+   "name": "T24 Sound-synced cuts",
+   "frequency": "41-73% of cuts",
+   "timing": "transient within +/-4 f of the cut",
+   "size": "-",
+   "trigger": "cut into action/new place",
+   "recipe": "post sfx --plan plan.json (shot 1 + every 2nd cut, or --shots)"
+  },
+  {
+   "name": "T25 Music drop-out",
+   "frequency": "~1 per long film",
+   "timing": "0.3-1.0 s silence, 30 ms ramps",
+   "size": "-60 dB",
+   "trigger": "scariest/saddest beat",
+   "recipe": "post dropout music.wav out.wav --ranges a-b (music stem)"
+  },
+  {
+   "name": "T26 Walk-to-camera reframe",
+   "frequency": "1-3 per film (1 walk measured, estimate)",
+   "timing": "24 f; a step every 6 f",
+   "size": "full body 60% of frame height -> head 40% of frame width (7.2 -> 4.2 BU at 26 mm)",
+   "trigger": "entrance, 'right in front of me'",
+   "recipe": "locked camera; walk_to_camera(person, cam, f0)"
+  },
+  {
+   "name": "NOT USED: camera shake, zoom punches, speed ramps, slow-mo, freeze/stutter frames, impact/invert flashes, vignette, grain, CA, stickers/emoji",
+   "frequency": "0",
+   "timing": "-",
+   "size": "0 direction reversals/min in short films",
+   "trigger": "-",
+   "recipe": "do not add; if Jake insists: impact_shake(cam, f) / post shake (8 px, 12 Hz, 8 f)"
+  }
+ ],
+ "units": "Our scenes: 1 m = 3.3 Blender units; Cast v2 people ~6 units tall (everyone at s=1.0 in this style); pack converts light watts (x3.3^2) and DOF f-stops (/3.3)",
+ "pack": {
+  "module": "pack/style_craftee_style.py",
+  "post": "pack/post_craftee-style.py",
+  "captions": "pack/captions_craftee-style.json",
+  "readme": "pack/README.md"
+ },
+ "calibrated": {
+  "scene": "/tmp/claude-0/kits/look_test.py town square (Cast v2 hero, sister, guard; a1_* town models), Cycles",
+  "settings": {
+   "view": "Standard",
+   "look": "High Contrast",
+   "exposure_day": -1.0,
+   "sun": 6.0,
+   "sun_elevation": 50,
+   "sun_angle": 1.5,
+   "sun_colour": "#FFF4E0",
+   "sky_fill": 0.3,
+   "sky": "#5D8CD0 -> #A4AEC0 (camera sees exact hex)"
+  },
+  "result": {
+   "luma": 117.2,
+   "saturation": 0.428,
+   "luma_sd": 49.0,
+   "res": "270x480",
+   "samples": 8
+  },
+  "before": {
+   "luma": 117.2,
+   "saturation": 0.295,
+   "luma_sd": 36.9
+  }
+ }
+}

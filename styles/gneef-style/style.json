@@ -1,0 +1,514 @@
+{
+ "id": "gneef-style",
+ "name": "Torchlit Blocktale",
+ "inspiredBy": "Gneef (YouTube @Gneef)",
+ "oneLine": "Block-character stories lit like a film set: ember interiors and moonlit nights, deep saturation over crushed blacks, a camera that pushes in on every shot, hard cuts on the word every 1.4 s, one white word on screen at a time.",
+ "bestFor": "Long (2-3 min) eerie or wondrous 'In this town' rule stories at night or by lantern light, with a recurring lead, a creature or big reveal, and diegetic rule props (signs, clocks, marks).",
+ "palette": [
+  "#0E0810",
+  "#372F69",
+  "#636EB9",
+  "#B6ACB4",
+  "#41110E",
+  "#762810",
+  "#B9471C",
+  "#E98B46",
+  "#EECE88",
+  "#5E5B3B",
+  "#E35214",
+  "#E722BD"
+ ],
+ "brightness": "Mean 82/255 (night 60-75, interior 75-90, day or golden hour 95-105); 30-45% of pixels below 40; highlights 1-3%; vignette edges 15-28% darker; calibrated on our scene: ember 77, moon 69, golden 94, day 95",
+ "saturation": "Mean 0.64 (target 0.60-0.72); one dominant temperature per scene (ember orange or lilac moonlight) plus one opposite accent",
+ "avgShot": "1.54 s average, 1.30-1.40 s median over 594 shots (10th/90th percentile 0.6/2.6 s); about 38 cuts/min for the whole video; open at 1.0-1.3 s per shot (the newest upload: 0.94 s); 85%+ of cuts on a word onset; 4-6 words per shot",
+ "camera": "Never locked off: 64-85% of shots push in (pooled about 71%) at +3 to +9%/s, default +6.5%/s (snap pushes +30-85%/s, 1-4/min), 1-3 px rms handheld wobble (6-14 px in action), roll drift 1.5-4 deg/s on about half the shots; framing 26% wide, 24% full, 26% medium, 13% close, 6% extreme close, 7% insert; 12% low angle, 6% top-down; 26 mm look (70 deg vertical FOV)",
+ "characters": "Classic R6 block bodies with rounded classic heads and flat ink sticker faces (solid black oval eyes, thick brows, red open mouths, no nose); one expression per shot; the lead has one signature colour; see characters.json (Inkface Blockfolk)",
+ "textures": "Smooth game plastic on skin and hair, real 3D game maps (wood grain, stone, grass), the richest texture on clothing (knit, denim, leather); emissive practicals and magic with bloom; no outlines, grain or haze",
+ "animation": "The camera carries the motion; characters hold readable poses or simple game walks and tumbles; no lip sync or blinks; looping emissive VFX; 2D stickers stepped at 10 fps; prop time-skips (calendar flip, clock)",
+ "captions": "One lowercase word at a time, white with a 4 px black outline and a 60% shadow, Poppins Bold 72 px, centred x 540, baseline y 1330, 2-frame 85->100% pop, shown from word onset to the next word (pack/captions_gneef.json); no title card, emoji or coloured keywords",
+ "sound": "Narration 3.2-3.5 words/s from frame 0 to the last frame; continuous bed about 10 dB under the voice (never silent); 7-22 low hits and 15-35 high transients per minute placed on actions, not cuts",
+ "length": "110-180 s (studied: 112, 151, 160, 170, 174, 178 s)",
+ "overrides": [
+  "Camera 02: cuts for the whole video (about 39/min, about 60/min in the opening) instead of 20-25 s of cuts then one glide",
+  "Camera 02 / top rule 3: soft handheld wobble (1-3 px), roll drift and snap pushes (safe version: no whip re-frames)",
+  "Sound 03: continuous bed under the voice instead of effects only (fallback: ambience bed at -10 dB)",
+  "On screen: one white word at a time instead of the house font with coloured keywords",
+  "Look 01: frame 0 is a moving establishing shot with the first caption word, no title (title goes on the thumbnail and cover)",
+  "Brightness: target 70-100 instead of our usual 95-100 (nights darker)"
+ ],
+ "techniques": [
+  {
+   "name": "Continuous slow push-in",
+   "frequency": "64-85% of shots (pooled about 71%), about 27/min",
+   "size": "+6.5%/s default; medians +3 to +9%/s",
+   "timing": "linear across the whole shot, continuing through the cut",
+   "trigger": "every phrase",
+   "blender": "dolly along the view axis d(t)=d0*(1-0.065t), linear F-curve",
+   "ffmpeg": "render 1.3x, zoompan=z='1+0.0023*on':d=1:s=1080x1920:fps=30",
+   "confidence": "high (6 videos, 590 shots)",
+   "pack": "S.push(cam,f0,f1,pct_per_s=6.5,dist=)"
+  },
+  {
+   "name": "Snap push",
+   "frequency": "1-4/min",
+   "size": "+30 to +85%/s",
+   "timing": "15-24 frames, ease-out",
+   "trigger": "reveal or shock word",
+   "blender": "dolly 25-45% in 18 frames, Bezier ease-out",
+   "ffmpeg": "zoompan=z='1+0.35*(1-pow(1-min(on/18,1),3))'",
+   "confidence": "medium",
+   "pack": "S.snap_push(cam,f,frames=18,pct=35)"
+  },
+  {
+   "name": "Slow pull-out reveal",
+   "frequency": "5-17% of shots (2-3/min)",
+   "size": "-6 to -10%/s",
+   "timing": "whole shot",
+   "trigger": "showing scale or crowds",
+   "blender": "reverse dolly",
+   "ffmpeg": "reverse zoompan",
+   "confidence": "high",
+   "pack": "S.pull_out(cam,f0,f1,pct_per_s=6)"
+  },
+  {
+   "name": "Handheld micro-wobble",
+   "frequency": "every shot",
+   "size": "1-3 px rms calm, 6-14 px rms action/boat (at 1080 wide)",
+   "timing": "3-8 Hz, reversals every 0.1-0.3 s",
+   "trigger": "always; stronger in danger",
+   "blender": "Noise modifier on camera rot X/Z, Scale 9 frames, Strength 0.10 deg calm / 0.45 deg action",
+   "ffmpeg": "scale=1124:1998,crop=1080:1920:x='22+2*sin(2*PI*4.3*t)+1.2*sin(2*PI*7.7*t+1)':y='39+2*sin(2*PI*3.7*t+2)+1.2*sin(2*PI*6.1*t)'",
+   "confidence": "medium (30 fps windows, ~60 shots)",
+   "pack": "S.wobble(cam,f0,f1,px_rms=2.0,freq_hz=4.3)"
+  },
+  {
+   "name": "Roll drift (Dutch drift)",
+   "frequency": "30-65% of shots",
+   "size": "1.5-4 deg/s, 2-6 deg per shot",
+   "timing": "linear over the shot",
+   "trigger": "unease, night, travel",
+   "blender": "keyframe camera roll 0 to +-2.5 deg",
+   "ffmpeg": "rotate='0.035*t' on an oversized frame",
+   "confidence": "medium",
+   "pack": "S.roll_drift(cam,f0,f1,deg_per_s=+-2)"
+  },
+  {
+   "name": "Boat rock",
+   "frequency": "boat or storm scenes",
+   "size": "sine +-4 deg (peaks 10-18 deg/s)",
+   "timing": "2-3 s period",
+   "trigger": "ship, storm, quake",
+   "blender": "roll driver 4*sin(frame/30*2.5)",
+   "ffmpeg": "rotate with sin(t)",
+   "confidence": "low (1 video)",
+   "pack": "S.boat_rock(cam,f0,f1,amp_deg=4,period_s=2.5)"
+  },
+  {
+   "name": "Tilt-up reveal",
+   "frequency": "about 1 per video",
+   "size": "about 830 px/s",
+   "timing": "2-2.5 s",
+   "trigger": "introducing a character or the twist",
+   "blender": "camera Z +1.5 units over 72 frames with a look-at on the face",
+   "ffmpeg": "n/a",
+   "confidence": "low (1 clear example)",
+   "pack": "S.tilt_up_reveal(cam,f0,frames=72,rise=1.5,look_at=)"
+  },
+  {
+   "name": "Fast lateral truck",
+   "frequency": "2-4/min in openings",
+   "size": "650-740 px/s",
+   "timing": "1-1.3 s",
+   "trigger": "corridors, rows of doors",
+   "blender": "camera X +3-4 units over 36 frames, linear",
+   "ffmpeg": "n/a",
+   "confidence": "low (2 examples)",
+   "pack": "S.lateral_truck(cam,f0,f1,px_per_s=700,dist=)"
+  },
+  {
+   "name": "Whip re-frame",
+   "frequency": "about 1 per video",
+   "size": "jump to a tighter framing",
+   "timing": "2-3 frames, then a slow push",
+   "trigger": "a creature noticing someone",
+   "blender": "3-frame constant-interpolation jump",
+   "ffmpeg": "n/a",
+   "confidence": "low (1 example)",
+   "pack": "S.whip_reframe(cam,f,to_loc,to_look_at,frames=3)"
+  },
+  {
+   "name": "Plunge zoom top-down",
+   "frequency": "about 1 per video",
+   "size": "+2.1%/frame (about 88%/s)",
+   "timing": "0.8 s",
+   "trigger": "falling into a portal or pit",
+   "blender": "top-down camera dolly down 50% in 24 frames",
+   "ffmpeg": "zoompan 1.0 to 1.9 over 24 frames",
+   "confidence": "low (1 example)",
+   "pack": "S.top_down(...); S.plunge(cam,f0,frames=24)"
+  },
+  {
+   "name": "Follow-tumble",
+   "frequency": "about 1 per video",
+   "size": "tracks about 20 px/frame with a slight roll",
+   "timing": "about 1 s",
+   "trigger": "a fall or throw",
+   "blender": "camera parented to an empty with Damped Track on the ragdoll",
+   "ffmpeg": "n/a",
+   "confidence": "low (1 example)",
+   "pack": "S.follow_tumble(cam,target,f0,f1)"
+  },
+  {
+   "name": "Low-angle hero/creature",
+   "frequency": "12% of shots",
+   "size": "camera at knee height, 20-35 deg up",
+   "timing": "whole shot",
+   "trigger": "big things, threat, awe",
+   "blender": "camera Z 0.4-0.8 m, pitch +25 deg",
+   "ffmpeg": "n/a",
+   "confidence": "medium (140 classified shots)",
+   "pack": "S.low_angle(cam,target,dist=4,height=0.6)"
+  },
+  {
+   "name": "Top-down",
+   "frequency": "6% of shots",
+   "size": "90 deg down",
+   "timing": "whole shot",
+   "trigger": "maps, beds, falls",
+   "blender": "pitch -90 deg",
+   "ffmpeg": "n/a",
+   "confidence": "medium",
+   "pack": "S.top_down(cam,target,height=6)"
+  },
+  {
+   "name": "Extreme close-up on a face sticker",
+   "frequency": "6% of shots",
+   "size": "eye or mouth fills about 60% of the frame",
+   "timing": "0.5-1 s",
+   "trigger": "shock words",
+   "blender": "70-85 mm lens, 0.3 m from the head",
+   "ffmpeg": "n/a",
+   "confidence": "medium",
+   "pack": "S.ecu(cam,head_center,dist=0.35)"
+  },
+  {
+   "name": "Diegetic insert",
+   "frequency": "7% of shots (2-3/min)",
+   "size": "prop fills the frame",
+   "timing": "0.7-1.5 s with a push",
+   "trigger": "stating a rule, time or number",
+   "blender": "model the prop as its own shot",
+   "ffmpeg": "n/a",
+   "confidence": "medium",
+   "pack": "S.set_lens(cam,'insert'); S.push(...)"
+  },
+  {
+   "name": "Calendar page-flip time skip",
+   "frequency": "rare",
+   "size": "page rotates 90 deg on its left edge",
+   "timing": "about 15 frames",
+   "trigger": "time passing",
+   "blender": "rotate the page Y 0 to -90 deg, ease-in",
+   "ffmpeg": "n/a",
+   "confidence": "low (1 example)",
+   "pack": "S.calendar_flip(page,f0,frames=15)"
+  },
+  {
+   "name": "Hard cut on the word",
+   "frequency": "every transition (about 39/min; about 60/min in the first 30 s of the newest upload)",
+   "size": "n/a",
+   "timing": "85%+ within +-0.1 s of a word onset",
+   "trigger": "every new phrase or object",
+   "blender": "cut list from voice word timings",
+   "ffmpeg": "concat by word timings",
+   "confidence": "high",
+   "pack": "S.cut_plan(word_timings)"
+  },
+  {
+   "name": "Motion-continuous cut",
+   "frequency": "most cuts",
+   "size": "push already running on frame 1",
+   "timing": "n/a",
+   "trigger": "keeps the energy up",
+   "blender": "start each push before the shot's first frame",
+   "ffmpeg": "n/a",
+   "confidence": "medium",
+   "pack": "S.push (linear from f0)"
+  },
+  {
+   "name": "Grade-switch flashback",
+   "frequency": "1-2 per video",
+   "size": "sepia, or B&W with scan lines",
+   "timing": "4-6 s, hard switch on the cut",
+   "trigger": "memory or long ago",
+   "blender": "compositor saturation 0 plus a tint",
+   "ffmpeg": "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131",
+   "confidence": "low (2 examples)",
+   "pack": "post: sepia/bw ranges"
+  },
+  {
+   "name": "Danger monochrome",
+   "frequency": "rare (older format)",
+   "size": "full red tint",
+   "timing": "2-4 shots",
+   "trigger": "the threat appears",
+   "blender": "compositor red tint, saturation 0",
+   "ffmpeg": "colorchannelmixer=1:0:0:0:.25:0:0:0:.25:0:0:0",
+   "confidence": "low (older format only)",
+   "pack": "post: danger ranges"
+  },
+  {
+   "name": "Whiteout glow transition",
+   "frequency": "about 1 per video",
+   "size": "+10 luma with heavy bloom",
+   "timing": "3 frames then a hard cut",
+   "trigger": "entering magic",
+   "blender": "animate bloom mix and exposure +1 over 3 frames",
+   "ffmpeg": "eq=brightness ramp plus gblur=sigma=6 on the last 3 frames",
+   "confidence": "low (1 example)",
+   "pack": "S.whiteout(scene,f_cut,3) / post: whiteout"
+  },
+  {
+   "name": "Opening pre-roll snap",
+   "frequency": "5 of 6 videos",
+   "size": "20-30 deg roll or offset framing",
+   "timing": "frames 0-2, then level",
+   "trigger": "frame 0 grab and the loop seam",
+   "blender": "3 rolled frames (constant interpolation) before shot 1",
+   "ffmpeg": "prepend 3 frames of the first shot with rotate=0.45",
+   "confidence": "high (5 of 6 videos)",
+   "pack": "S.preroll_snap(cam,f_first=1,roll_deg=25)"
+  },
+  {
+   "name": "Soft background on day closes",
+   "frequency": "day close-ups",
+   "size": "background blur, no focus pulls",
+   "timing": "whole shot",
+   "trigger": "outdoor closes",
+   "blender": "depth of field f/2.8 at 2-3 m",
+   "ffmpeg": "n/a",
+   "confidence": "medium",
+   "pack": "camera DOF f/2.8"
+  },
+  {
+   "name": "Stepped 2D stickers",
+   "frequency": "1-2 per video",
+   "size": "Z z z or music notes drifting up 40-60 px/s",
+   "timing": "redrawn every 3 frames (10 fps)",
+   "trigger": "sleep, music, magic hum",
+   "blender": "Grease Pencil on threes",
+   "ffmpeg": "overlay a 10 fps PNG sequence",
+   "confidence": "low-medium",
+   "pack": "S.step_animation(obj,3)"
+  },
+  {
+   "name": "Caption pop",
+   "frequency": "every word",
+   "size": "85 to 100% scale",
+   "timing": "2 frames",
+   "trigger": "word onset",
+   "blender": "n/a",
+   "ffmpeg": "ASS {\\fscx85\\fscy85\\t(0,66,\\fscx100\\fscy100)}",
+   "confidence": "medium-high",
+   "pack": "captions_gneef.json"
+  },
+  {
+   "name": "Onomatopoeia caption",
+   "frequency": "rare",
+   "size": "same caption style, capitalised",
+   "timing": "on the effect",
+   "trigger": "a big sound",
+   "blender": "n/a",
+   "ffmpeg": "caption event at the effect onset",
+   "confidence": "low",
+   "pack": "captions_gneef.json"
+  },
+  {
+   "name": "Sound hits on actions, not cuts",
+   "frequency": "7-22 low plus 15-35 high per minute",
+   "size": "booms, whooshes, chimes",
+   "timing": "only 8-30% coincide with cuts",
+   "trigger": "impacts, magic, doors, bells",
+   "blender": "n/a",
+   "ffmpeg": "place effects on the action frame",
+   "confidence": "low-medium (2 videos x 40 s)",
+   "pack": "post: sfx [[file,frame,dB]]"
+  },
+  {
+   "name": "Same-setup jump cut (expression swap)",
+   "frequency": "0-1.4/min (4% of cuts or fewer)",
+   "size": "same framing, new face sticker",
+   "timing": "on the word",
+   "trigger": "a reaction beat",
+   "blender": "duplicate the shot and swap the face texture",
+   "ffmpeg": "cut between two renders",
+   "confidence": "high (that it is rare)",
+   "pack": "duplicate shot, swap face texture"
+  },
+  {
+   "name": "Temperature smash cut",
+   "frequency": "each scene change (4-8 per video)",
+   "size": "ember interior to moonlit exterior",
+   "timing": "hard cut",
+   "trigger": "scene or place change",
+   "blender": "grade presets per scene",
+   "ffmpeg": "n/a",
+   "confidence": "medium",
+   "pack": "S.apply_look(mood=...) per scene"
+  },
+  {
+   "name": "Continuous voice over cuts",
+   "frequency": "every cut",
+   "size": "narration and bed never break",
+   "timing": "n/a",
+   "trigger": "always",
+   "blender": "n/a",
+   "ffmpeg": "continuous audio tracks; cut picture only",
+   "confidence": "high",
+   "pack": "post: voice + bed"
+  },
+  {
+   "name": "Sound-ring VFX",
+   "frequency": "rare (a bell or a loud call)",
+   "size": "2D white concentric rings expanding from the source",
+   "timing": "redrawn every 3 frames for about 3 s",
+   "trigger": "a bell, horn or shout that matters",
+   "blender": "emissive circles scaled up over 9 frames, stepped",
+   "ffmpeg": "overlay a 10 fps PNG ring sequence",
+   "confidence": "low (1 video)",
+   "pack": "S.step_animation(obj,3)"
+  },
+  {
+   "name": "Stepped jump-cut burst",
+   "frequency": "rare (climax)",
+   "size": "3-4 cuts on one set-up, each a little tighter",
+   "timing": "0.2-0.5 s each",
+   "trigger": "the last beat before the reveal",
+   "blender": "one shot cut 3 times with +10% snap pushes",
+   "ffmpeg": "cut list only",
+   "confidence": "low (1 video)",
+   "pack": "S.snap_push(cam,f,frames=3,pct=10) x3"
+  }
+ ],
+ "notUsed": [
+  "match cuts",
+  "impact or flash frames",
+  "inverted frames",
+  "speed ramps",
+  "slow motion",
+  "freeze frames",
+  "reverse",
+  "stutter",
+  "dissolves or wipes",
+  "zoom-through or shape-mask transitions",
+  "chromatic aberration",
+  "film grain",
+  "light leaks",
+  "letterbox",
+  "emoji, arrows, circles, meme inserts",
+  "shaking or bouncing text",
+  "title card"
+ ],
+ "studied": [
+  {
+   "title": "The Watcher's Knot",
+   "url": "https://www.youtube.com/shorts/AFRNUv0a8SI",
+   "views": "8.6M"
+  },
+  {
+   "title": "In This Town, You Get 1,000,000 Steps",
+   "url": "https://www.youtube.com/shorts/gHBRuoHok6s",
+   "views": "36M"
+  },
+  {
+   "title": "Never Be Caught Awake At Night",
+   "url": "https://www.youtube.com/shorts/J0OQXSo1chk",
+   "views": "35M"
+  },
+  {
+   "title": "Love Chains",
+   "url": "https://www.youtube.com/shorts/2U7jPU0kw6Q",
+   "views": "8.6M"
+  },
+  {
+   "title": "Line Of Sight",
+   "url": "https://www.youtube.com/shorts/27ElpHj_aDw",
+   "views": "2.4M (newest upload)"
+  },
+  {
+   "title": "Soul Sucker",
+   "url": "https://www.youtube.com/shorts/l6uyKGKQALQ",
+   "views": "2.9M (pass 2 check)"
+  },
+  {
+   "title": "In This Town, You Are Not Allowed To Speak",
+   "url": "https://www.youtube.com/shorts/crvPRFMpKLA",
+   "views": "5.8M"
+  }
+ ],
+ "pack": {
+  "module": "pack/style_gneef.py",
+  "post": "pack/post_gneef.py",
+  "captions": "pack/captions_gneef.json",
+  "measure": "pack/measure_gneef.py",
+  "readme": "pack/README.md",
+  "example": "pack/example_shot.py"
+ },
+ "styleTest": "About 12 s, 10 shots from the first 3 script lines: night wide with pre-roll snap; ember medium; rule insert; lateral truck; snap push on shocked close; eye ECU; crowd pull-out; top-down; tilt-up reveal hold; close reaction ending mid-word. Compare side by side with a reference reel and Crown Stag Part 2; pass if measure_gneef.py reads brightness 60-100, saturation 0.60-0.72, near-black 30-45%, average shot 0.9-1.3 s, 7 of 10 shots pushing in (STYLE.md section 18)",
+ "ourFilmsSameScale": {
+  "Crown Stag Part 2": {
+   "brightness": 82,
+   "saturation": 0.56,
+   "nearBlack": 0.3,
+   "avgShot": 1.9,
+   "pushShare": 0.5
+  },
+  "Egg Army Day 1": {
+   "brightness": 113,
+   "saturation": 0.4,
+   "nearBlack": 0.13,
+   "avgShot": 2.1,
+   "pushShare": 0.36
+  },
+  "Dungeon Called Me Master": {
+   "brightness": 56,
+   "saturation": 0.32,
+   "nearBlack": 0.5,
+   "avgShot": 1.1,
+   "pushShare": 0.15
+  }
+ },
+ "calibration": {
+  "scene": "main town-square look test (Cast v2 + town models, Cycles, Standard + Medium High Contrast)",
+  "unitsPerMetre": 3.3,
+  "results": {
+   "ember": {
+    "luma": 77,
+    "sat": 0.67,
+    "nearBlack": 0.37,
+    "res": "540x960 SAMP16"
+   },
+   "moon": {
+    "luma": 69,
+    "sat": 0.61,
+    "nearBlack": 0.39
+   },
+   "golden": {
+    "luma": 94,
+    "sat": 0.55,
+    "nearBlack": 0.07
+   },
+   "day": {
+    "luma": 95,
+    "sat": 0.58,
+    "nearBlack": 0.05
+   }
+  },
+  "before": {
+   "luma": 32,
+   "sat": 0.98,
+   "note": "solid red: near-black world, saturated 2700K points at metre scale, strong grade"
+  },
+  "finalStill": "/tmp/claude-0/kits/look/final_gneef-style.png"
+ }
+}

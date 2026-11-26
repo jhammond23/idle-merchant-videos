@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Thu 11-26, 12:15 PM: BUILD STYLES (selectable per film) + character kits
+
+`styles/` holds four new build styles Jake can pick per film in the studio app, each reverse-engineered from a viral account (method only), with a Blender code pack calibrated on our scene, a character kit and drawn face sets: **Bright Snap Cut** (`bright-cut`), **Torchlit Blocktale** (`gneef-style`), **Toybox Fable** (`craftee-style`), **Comic Sticker Saga** (`fourth-style`). **Read `styles/README.md`.** A film's build package names its style; if it names none, build the house look (Studio Bible). Picking a style is Jake's yes to the house rules that style overrides, for that film only. Start any new-style film with the style test in its STYLE.md.
+
 ## NEW Thu 11-26, 11:20 AM: snow-globe frame 0 notes
 
 Cast check: PASS. **Frame 0: change it before the final render** (the glass dome must read, pull the face back, no clipped people in the corners, lose the side colour smudges). Details in `snow-globe/REVIEW-NOTES.md`. Keep building.

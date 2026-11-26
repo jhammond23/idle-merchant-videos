@@ -1,0 +1,321 @@
+{
+  "id": "fourth-style",
+  "name": "Comic Sticker Saga",
+  "inspiredBy": "Stickman.deadzone (Instagram @stickman.deadzone)",
+  "oneLine": "Locked game-set shots cut every 1.45 s, anime-hair block heroes with a new line-art face each close-up, and a comic sticker layer: name cards, bubbles, time tags, question card.",
+  "bestFor": "Character-driven 'in this town' stories with 3-5 named people, reveals and reactions (rivals, a strange new arrival, a curse, a secret), Part 1 / Part 2 and vote episodes.",
+  "palette": [
+    "#08080F",
+    "#2F4356",
+    "#6E8287",
+    "#A8B7C3",
+    "#5EB1D5",
+    "#EDE5D1",
+    "#C7AE93",
+    "#8E603A",
+    "#DF9033",
+    "#488F47",
+    "#FFD23F",
+    "#FF4757"
+  ],
+  "graphicsPalette": {
+    "captionFill": "#FFFFFF",
+    "captionOutline": "#0B0B10",
+    "keywordYellowAndDialogue": "#FFD23F",
+    "keywordRed": "#FF4757",
+    "keywordMagic": "#B48CFF",
+    "nameSticker1": "#3FD0C9",
+    "nameSticker2": "#FF5A6E",
+    "voteA": "#FF4757",
+    "voteB": "#2F7DF6",
+    "timeTag": "#FFB627"
+  },
+  "brightness": "mean luma 102 (89-113 per reel); true blacks (p5 0-15), whites 222-232 with bloom; per-shot luma SD about 60",
+  "saturation": "0.42 HSV mean (0.34-0.46); natural colour, accents live in the graphics",
+  "avgShot": "1.45 s average, 1.3 s median (about 41 cuts a minute); story shots 0.4-3.1 s; end cards 4-8 s",
+  "camera": "Locked inside shots (under 1 px a frame of drift), eye level about 85%; framing wide 19 / medium 35 / medium close-up 24 / close-up 18 / insert 4%; 1-2 key moves per film (slow pull-out about 2x in 1.4 s, 30° orbit in 1.6 s, crane-down 500 px/s, snap zoom +17% in 5 frames); no whips, no shake on impacts",
+  "characters": "Blocky R6 bodies on the classic head with flat line-art face decals; oversized anime hair (1.3-1.8x head width) as identity; 3-5 featured people; the lead's face changes in almost every close-up (8-12 expressions per film); see characters.json",
+  "textures": "Smooth plastic bodies, printed clothes, realistic dense game sets (brick, plaster, wood grain, glossy floors), bloom on whites; flat vector stickers with ink outlines; no toon outlines on 3D",
+  "animation": "Stock rigid-limb game motion; poses change between shots; one 6-8 frame reaction then idle; impacts by falling bodies in a static frame; captions pop for 1 frame at 108%; stickers pop over 5 frames",
+  "captions": "Always on; 1-3 words (mean 1.9), median 0.5 s, 1.88-1.90 a second (3 reels); Poppins ExtraBold about 110 px caps, white with a 6-7 px ink outline and a shadow; baseline at y 67%, dropping to 79% on face close-ups; keyword colour on 35-50% of caption time (yellow > red > lilac); spoken dialogue yellow in quotes",
+  "sound": "Fast narrator from 0.16 s (about 3.6 words a second, pauses 0.1-0.45 s); the account uses a continuous bed 20-25 dB under the voice (no bass for the first 6-15 s, swells at the end) and sparse low hits (0-4 per film; none on the snap zoom or flash). House default stays effects-only: thumps on key cuts, pops on stickers.",
+  "length": "86-100 s total: about 80-90 s story + a 4-8 s question card (+ sponsor in the Instagram edition)",
+  "overrides": [
+    "House saturation 0.55-0.65 -> 0.40-0.48 natural colour with true blacks and bloom (needs Jake's yes)",
+    "Frame 0 title picture -> no title on frame 0; a moving mid-scene picture, with the premise on the closing question card",
+    "Moth Wings finishing shakes and the shake-in opening -> none; only one snap zoom per film",
+    "The 11-23 steady-then-glide structure -> cuts all the way through (consistent with the 11-25 evening rule 1)",
+    "No music bed -> unchanged by default; the account's bed is optional only with Jake's yes"
+  ],
+  "techniques": [
+    {
+      "name": "Hard cut",
+      "perMinute": 41,
+      "timing": "1.45 s average, 1.3 s median",
+      "trigger": "a new phrase or noun"
+    },
+    {
+      "name": "Locked shot with micro-creep",
+      "share": "about 90% of shots",
+      "size": "0-2 px a frame"
+    },
+    {
+      "name": "Reaction close-up with face swap",
+      "perMinute": 7,
+      "timing": "0.5-1.2 s"
+    },
+    {
+      "name": "Cut-in plus snap zoom punch",
+      "perFilm": 1,
+      "timing": "5 frames",
+      "size": "+17% (+5% x3, +2%)",
+      "trigger": "a shout or shock",
+      "pack": "snap_zoom(cam, f)",
+      "evidence": "seen once in 4 reels; numbers from that one instance"
+    },
+    {
+      "name": "Slow pull-out reveal",
+      "perFilm": 1,
+      "timing": "hold 6 frames, then ~1.9%/frame for 30 frames, ease-out over the last 12",
+      "size": "about 2x scale",
+      "trigger": "a transformation reveal",
+      "pack": "pull_out(cam, f0)",
+      "evidence": "seen once in 4 reels; numbers from that one instance"
+    },
+    {
+      "name": "Orbit round a hero prop",
+      "perFilm": 1,
+      "timing": "1.6 s, ease in-out",
+      "size": "25-35°",
+      "trigger": "listing a prop's features",
+      "pack": "orbit(cam, target, f0)",
+      "evidence": "seen once in 4 reels; numbers from that one instance"
+    },
+    {
+      "name": "Crane or tilt down into an over-the-shoulder",
+      "perFilm": 1,
+      "timing": "0.3 s ease-in, then 1.1 s",
+      "size": "16 px a frame (500 px/s), ~600 px in all",
+      "pack": "crane_down(cam, f0): -0.65 m, -8.5 deg, 42 frames",
+      "evidence": "seen once in 4 reels; numbers from that one instance"
+    },
+    {
+      "name": "Jump-cut reframe",
+      "perFilm": "1-2",
+      "timing": "1.0-1.2 s segments",
+      "size": "5-15%",
+      "pack": "jump_cuts(cam, f0)",
+      "evidence": "seen once in 4 reels; numbers from that one instance"
+    },
+    {
+      "name": "Fast-forward repetition with jitter",
+      "perFilm": "0-1",
+      "timing": "1.6 s at 3-4x",
+      "size": "±27 px, ±0.9° roll",
+      "pack": "ff_jitter(cam, f0, f1) + post ff_jitter (2.9 Hz pulse)",
+      "evidence": "seen once in 4 reels; numbers from that one instance"
+    },
+    {
+      "name": "Impact without camera shake",
+      "perFilm": 1,
+      "timing": "cut 0.7 s after the hit"
+    },
+    {
+      "name": "Flash pulse",
+      "perFilm": "0-1",
+      "timing": "3 frames up, 3 down",
+      "size": "+36 luma",
+      "pack": "post_fourth_style.py event",
+      "evidence": "seen once in 4 reels; numbers from that one instance"
+    },
+    {
+      "name": "Black-and-white cutaway",
+      "perFilm": "0-2",
+      "timing": "0.5-1.9 s",
+      "size": "saturation 0.04",
+      "pack": "post_fourth_style.py event"
+    },
+    {
+      "name": "Sepia old-photo flashback",
+      "perFilm": "0-2 shots",
+      "timing": "1.3-1.6 s",
+      "size": "rounded border 24 px, vignette, dust",
+      "pack": "post_fourth_style.py event"
+    },
+    {
+      "name": "Light dim in a held shot",
+      "perFilm": 1,
+      "timing": "1.1 s",
+      "size": "-15 to -30 luma",
+      "pack": "light_dim(light, f0) or post dim"
+    },
+    {
+      "name": "Dip to black before the sponsor",
+      "perFilm": 1,
+      "timing": "1-3 frames",
+      "pack": "post_fourth_style.py event"
+    },
+    {
+      "name": "Question card",
+      "perFilm": 1,
+      "timing": "dims 35% over 8 frames, holds 4-8 s across 2-4 cuts",
+      "pack": "post_fourth_style.py event"
+    },
+    {
+      "name": "Name sticker",
+      "perMinute": 2,
+      "timing": "pop over 5 frames, holds 1.5-3 s",
+      "size": "caps 120-160 px, rotated -3°",
+      "pack": "post_fourth_style.py event"
+    },
+    {
+      "name": "Speech bubble",
+      "perFilm": "2-4",
+      "timing": "pop over 5 frames, holds for the shot",
+      "size": "60-70% of frame width",
+      "pack": "post_fourth_style.py event"
+    },
+    {
+      "name": "Day and time tag",
+      "perFilm": "1-5",
+      "timing": "pop plus ±3° wiggle over 5 frames",
+      "size": "rotated -5°, top-left",
+      "pack": "post_fourth_style.py event"
+    },
+    {
+      "name": "Icon gags (dizzy stars, ? badges, sweat drop)",
+      "perFilm": "1-3",
+      "timing": "stars orbit for 1.5 s",
+      "pack": "post_fourth_style.py event"
+    },
+    {
+      "name": "Prop or note insert",
+      "perFilm": "2-3",
+      "timing": "0.6-1.5 s",
+      "size": "top-down, luma 175-195"
+    },
+    {
+      "name": "Over-the-shoulder with a blurred foreground head",
+      "perFilm": "1-2",
+      "size": "foreground 20-35% of the frame"
+    },
+    {
+      "name": "Low-angle looming close-up",
+      "perFilm": 1
+    },
+    {
+      "name": "Top-down shot",
+      "share": "about 6% of shots"
+    },
+    {
+      "name": "Extreme close-up on an eye",
+      "perFilm": 1
+    },
+    {
+      "name": "Caption pop and keyword colour",
+      "timing": "1 frame at 108%",
+      "share": "keyword on 35-50% of caption time"
+    },
+    {
+      "name": "Weather and particles",
+      "perFilm": "1-2"
+    },
+    {
+      "name": "Bloom on whites and the sun disc",
+      "share": "constant",
+      "size": "Glare threshold 0.9, size 7"
+    },
+    {
+      "name": "Absent (do not use)",
+      "list": [
+        "whip and swish pans",
+        "crossfades",
+        "wipes",
+        "dutch angles",
+        "letterbox",
+        "grain",
+        "light leaks",
+        "chromatic aberration",
+        "motion blur",
+        "impact flashes or shakes",
+        "slow motion",
+        "freeze frames"
+      ]
+    }
+  ],
+  "cardNumbers": [
+    [
+      "Average shot",
+      "1.45 s"
+    ],
+    [
+      "Brightness (luma)",
+      "102"
+    ],
+    [
+      "Saturation",
+      "0.42"
+    ],
+    [
+      "Words a second",
+      "≈3.6"
+    ],
+    [
+      "Length",
+      "86-100 s"
+    ],
+    [
+      "Camera",
+      "locked, 1-2 moves"
+    ]
+  ],
+  "studied": [
+    {
+      "title": "Lies turn you to stone, Part 1 (our descriptor)",
+      "url": "https://www.instagram.com/stickman.deadzone/reel/DgI3_cjIzWb/",
+      "views": "views hidden when logged out; 88.9K likes, 434 comments"
+    },
+    {
+      "title": "The dangerous dad, Part 1 (our descriptor)",
+      "url": "https://www.instagram.com/stickman.deadzone/reel/DgI27o3IXFk/",
+      "views": "views hidden; 70K likes, 693 comments"
+    },
+    {
+      "title": "Carried to school in a box, Part 1 (our descriptor)",
+      "url": "https://www.instagram.com/stickman.deadzone/reel/DgGbD0cIBhg/",
+      "views": "views hidden; 54.1K likes, 363 comments"
+    },
+    {
+      "title": "Secret language, Part 2 (our descriptor)",
+      "url": "https://www.instagram.com/stickman.deadzone/reel/DgLUojxI7ns/",
+      "views": "views hidden; 47.5K likes, 2,044 comments"
+    },
+    {
+      "title": "Time loop, Part 1 (weak reel for contrast, our descriptor)",
+      "url": "https://www.instagram.com/stickman.deadzone/reel/DgLPEZhoEkj/",
+      "views": "views hidden; 5.2K likes, 37 comments"
+    }
+  ],
+  "pack": {
+    "dir": "pack/",
+    "blender": "pack/style_fourth_style.py (apply_look, light_rig, camera, creep, snap_zoom, pull_out, orbit, crane_down, jump_cuts, ff_jitter, light_dim, ots, low_angle, top_down, eye_ecu, set_face, face_swaps, caption_groups, cut_plan)",
+    "post": "pack/post_fourth_style.py (frame-range effects + name stickers, speech bubbles, time tags, icon gags, question card; modes run, frames, ffmpeg, cues, check, preview)",
+    "captions": "pack/captions_fourth-style.json",
+    "preview": [
+      "pack/preview/preview_stickers.png",
+      "pack/preview/preview_card.png",
+      "pack/preview/preview_pop.png",
+      "pack/preview/preview_fx.png"
+    ],
+    "readme": "pack/README.md",
+    "fonts": "Poppins ExtraBold + Lilita One (OFL) go in pack/fonts/; fallbacks Poppins Bold + Fredoka One"
+  },
+  "styleTest": "10-15 s, 9 shots: mid-action wide frame 0, name sticker, reaction close-up with new face, speech bubble, snap zoom on \"NO!\", pull-out reveal, top-down note insert with time tag, impact without shake + dizzy stars, question card. See STYLE.md section 19.",
+  "calibrated": {
+    "scene": "main's town-square look test (Cycles, Cast v2 cast, 1 m = 3.3 units)",
+    "unitsPerMetre": 3.3,
+    "day": "AgX High Contrast, exposure -1.3; Multiple Scattering sky, sun disc off, 0.12 to camera / 0.04 fill; sun 6.0 at 48 deg el, 35 deg az (sun_rot_for(cam)); bloom 0.9, contrast +10, saturation 0.95",
+    "result": "luma 107.9, p5 0, p95 184 (no true whites in this set), saturation 0.418 at 270x480 (was 214 / 0.10)",
+    "notCalibrated": "sunset, interior, night, insert rigs; EEVEE"
+  }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "bright-cut-captions",
+ "style": "bright-cut",
+ "measuredFrom": "Phase (21M) and Material (7.9M) at 30 fps; size/position also on Tag and Spirit Beasts stills",
+ "canvas": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30
+ },
+ "font": {
+  "family": "Montserrat",
+  "weight": "ExtraBold (800)",
+  "fallback": [
+   "Poppins Bold",
+   "Inter Display Black"
+  ],
+  "source": "Google Fonts, OFL (free)",
+  "case": "UPPERCASE",
+  "letterSpacing": 0
+ },
+ "size": {
+  "fontPx": 52,
+  "capHeightPx": [
+   30,
+   40
+  ],
+  "note": "small on purpose: measured cap height 30-40 px (1.6-2.1% of frame height)"
+ },
+ "position": {
+  "align": "center",
+  "baselineYPx": 1410,
+  "baselineRangePct": [
+   66,
+   74
+  ],
+  "maxWidthPct": 88,
+  "lines": "1 (2 only if the phrase is wider than 88%)"
+ },
+ "colors": {
+  "fill": "#FFFFFF",
+  "outline": "#111111",
+  "outlinePx": 5,
+  "shadow": {
+   "color": "#000000",
+   "alpha": 0.5,
+   "offsetPx": 2,
+   "blurPx": 2
+  }
+ },
+ "content": {
+  "unit": "one narration phrase per caption",
+  "wordsPerCaption": [
+   3,
+   7
+  ],
+  "splitOver": 7,
+  "trailingEllipsis": "use '..' on trailing phrases as the account does, optional",
+  "noEmoji": true,
+  "noTitleCard": true
+ },
+ "keyword": {
+  "maxPerCaption": 1,
+  "rules": [
+   {
+    "when": "the story's power word (the thing the hero can do)",
+    "color": "#27C4D0",
+    "note": "use the story's ONE power colour; cyan is the default"
+   },
+   {
+    "when": "danger, emotion or result words (deadly, ever, gone, stronger, never, cursed)",
+    "color": "#E0262A"
+   },
+   {
+    "when": "playful words (bouncy, tiny, silly)",
+    "color": "#F2D33A"
+   }
+  ],
+  "frequency": "about 1 caption in 4 has a coloured word",
+  "outline": "same 5 px #111111"
+ },
+ "timing": {
+  "startFramesBeforeCut": 2,
+  "relativeToWordOnsetFrames": -1,
+  "endsAt": "next caption start (no gaps, no overlap)",
+  "pictureCutRule": "picture cut lands +1 f after the phrase's first word onset"
+ },
+ "animation": {
+  "in": {
+   "curve": "damped spring",
+   "keys": [
+    {
+     "f": 0,
+     "scale": 0.45,
+     "opacity": 1
+    },
+    {
+     "f": 3,
+     "scale": 1.18
+    },
+    {
+     "f": 6,
+     "scale": 0.9
+    },
+    {
+     "f": 9,
+     "scale": 1.0
+    }
+   ],
+   "note": "long captions spill past the frame edges at f3; that is in the reference"
+  },
+  "hold": {
+   "scale": 1.0,
+   "motion": "none (no wobble, no per-word bounce, no shake)"
+  },
+  "out": {
+   "keys": [
+    {
+     "fFromEnd": -7,
+     "scale": 1.0
+    },
+    {
+     "fFromEnd": -3,
+     "scale": 1.15
+    },
+    {
+     "fFromEnd": 0,
+     "scale": 0.4
+    }
+   ],
+   "note": "swell over 3-5 f, then shrink in 2-3 f; next caption pops on the next frame"
+  },
+  "origin": "centre of the text block"
+ },
+ "ass": {
+  "styleLine": "Style: BC,Montserrat ExtraBold,52,&H00FFFFFF,&H00FFFFFF,&H00111111,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,60,60,500,1",
+  "playRes": "PlayResX: 1080 / PlayResY: 1920",
+  "inTags": "{\\fscx45\\fscy45\\t(0,100,\\fscx118\\fscy118)\\t(100,200,\\fscx90\\fscy90)\\t(200,300,\\fscx100\\fscy100)}",
+  "outTags": "{\\t(D-230,D-90,\\fscx115\\fscy115)\\t(D-90,D,\\fscx40\\fscy40)}  (D = caption duration in ms)",
+  "keywordTag": "{\\c&HD0C427&}WORD{\\c&HFFFFFF&}  (ASS colours are BGR: red #E0262A = &H2A26E0&, cyan #27C4D0 = &HD0C427&, yellow #F2D33A = &H3AD3F2&)"
+ },
+ "houseRulesKept": {
+  "handle": "@idlemerchantrng top left",
+  "sponsorCard": "Instagram edition only, top right"
+ }
+}

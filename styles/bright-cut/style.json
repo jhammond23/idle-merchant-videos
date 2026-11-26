@@ -1,0 +1,420 @@
+{
+ "id": "bright-cut",
+ "name": "Bright Snap Cut",
+ "inspiredBy": "cannonanimates",
+ "oneLine": "Noon-bright toy-town look cut on every phrase (~0.7 s shots), every shot drifting, small white pop captions with one red word.",
+ "bestFor": "Fast 45-55 s wish-fulfilment and power stories, montages of many people/creatures, bright daytime towns; also night horror with the same cutting.",
+ "palette": [
+  "#8BD0F4",
+  "#E2E9E9",
+  "#C2D2E3",
+  "#A2ABBB",
+  "#4C586A",
+  "#13121B",
+  "#D4B588",
+  "#874137",
+  "#76C784",
+  "#4E8F52",
+  "#E0262A",
+  "#27C4D0",
+  "#D4BE43"
+ ],
+ "brightness": "mean luma 135-155 of 255 (measured 131-154 daylight; 110 night). Calibrated on our town square: 147.0 at exposure 0.0",
+ "saturation": "HSV mean 0.30-0.42 (measured 0.29-0.41); calibrated on our scene: 0.349; vivid pixels ~5-8%",
+ "avgShot": "0.7 s (measured 0.56-0.94; median 0.67-0.80; max 2.6)",
+ "camera": "85-90% of shots move at constant speed: push 42-60%, pull 31-42%, slide ~15%; 16-22%/s zoom, 170-205 px/s drift; cut mid-motion; whip-in on frame 0; crash push-in + micro-shake on shocks; 26/35/50/85 mm",
+ "characters": "Blocky Roblox-style avatars with rounded block heads and flat face decals (line decals wide, comic punch faces close); faces swap per shot; realistic creatures; see CHARACTERS.md",
+ "textures": "Smooth plastic skin, printed 2D clothing with subtle weave, glossy mesh hair, clean Roblox-style materials (plaster, stone, wood grain, brick, grass); no toon outlines, no grain",
+ "animation": "Snappy game emotes (key poses every 6-12 f, linear), held poses under moving camera, desynced crowds, power tints, particles; no lip sync, no freeze frames",
+ "captions": "Montserrat ExtraBold caps, white, 5 px black outline, cap height 30-40 px, baseline at 66-74% height, whole phrase (3-7 words), spring pop 45->118->90->100% over 9 f, swell+shrink out, caption leads the picture cut by 1-2 f, one keyword coloured by meaning: red #E0262A danger/result, power colour for the power word, yellow #F2D33A playful",
+ "sound": "Single calm narrator 3.8-4.0 w/s; strong whoosh/impact transients 20-24 per minute, 82-88% on cuts (about 1 cut in 4); their soft bed (~4-5 dB under voice, steady bass) is OFF by default (Bible rule) unless Jake enables it",
+ "length": "45-55 s (studied 45.7-55.3 s; one 142 s outlier)",
+ "overrides": [
+  "Look: HSV 0.55-0.65 deep colour -> 0.30-0.42 at brightness 135-155, midday",
+  "Banned flat daylight -> bright midday allowed (haze still banned)",
+  "Frame 0 title picture -> whip-in blur + first caption, no title",
+  "Steady opening then one glide -> cuts all the way, ~0.7 s shots",
+  "No whips/swings/snaps/shake -> allowed only as T3, T4, T6, T7, T11, T15 at catalogue sizes",
+  "Opening shots 1.2-3 s with eased moves -> 0.4-1.2 s, linear moves cut mid-motion",
+  "Foreground in most shots -> only in OTS/through-glass shots",
+  "House caption look -> small white outlined pop captions with one coloured keyword"
+ ],
+ "keeps": [
+  "Cast v2 / locked cast, rounded heads",
+  "no music bed unless Jake enables",
+  "handle top left",
+  "1080x1920 30 fps, -14 LUFS",
+  "quality checklist (note T7/T13/T14 frames in notes.json)",
+  "sponsor ending in IG edition"
+ ],
+ "techniques": [
+  {
+   "id": "T1",
+   "name": "Breathing push / pull",
+   "perMinute": "60-90",
+   "frames": "whole shot (12-30)",
+   "size": "16-22% scale/s median",
+   "trigger": "every shot",
+   "blender": "2 keys, Linear interpolation, dolly ~0.5 m/s at 3 m (35 mm)",
+   "ffmpeg": "zoompan=z='1+0.0067*on':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1080x1920:fps=30",
+   "confidence": "high",
+   "pack": "push / pull"
+  },
+  {
+   "id": "T2",
+   "name": "Lateral drift",
+   "perMinute": "~10",
+   "frames": "whole shot",
+   "size": "170-205 px/s median",
+   "trigger": "walks, rows, two-face pans",
+   "blender": "Linear X translation 0.2-0.4 m/s",
+   "confidence": "high",
+   "pack": "drift"
+  },
+  {
+   "id": "T3",
+   "name": "Whip-in on frame 0",
+   "perMinute": "every video (7 of 7 openings)",
+   "frames": "blur f0-f3, settled by f3-f7",
+   "size": "60-100 px blur",
+   "trigger": "hook",
+   "blender": "yaw 25-35 deg over f0-f5, Exponential ease-out, shutter 1.0",
+   "ffmpeg": "dblur=angle=0:radius=60:enable='lte(n,1)',dblur=angle=0:radius=25:enable='between(n,2,3)'",
+   "confidence": "high",
+   "pack": "whip_in + post whip_in"
+  },
+  {
+   "id": "T4",
+   "name": "Crash push-in to ECU + face swap",
+   "perMinute": "1-2 per video",
+   "frames": "20-26",
+   "size": "~2.5x scale, accelerating",
+   "trigger": "shock / punchline",
+   "blender": "Quadratic ease-in dolly, swap face texture at 65%, add T6 for last 6 f",
+   "confidence": "low",
+   "pack": "crash_push + shake"
+  },
+  {
+   "id": "T5",
+   "name": "Axis punch-in cut",
+   "perMinute": "1-3 per video",
+   "frames": "9-18 per step",
+   "size": "2-4x per step",
+   "trigger": "naming an object/time",
+   "blender": "two cameras on one axis, same drift",
+   "confidence": "medium",
+   "pack": "axis_punch"
+  },
+  {
+   "id": "T6",
+   "name": "Micro-shake (impact only)",
+   "perMinute": "~2",
+   "frames": "4-8",
+   "size": "4-10 px at 4-6 Hz",
+   "trigger": "shock face, landing, explosion",
+   "blender": "shake(cam,f0,f1,px_at_1080=8,freq=5): Noise F-mods rot X/Z, scale 30/freq, strength 2x amplitude (8 px @35 mm = 0.0042 rad), restricted range, 2 f blend",
+   "ffmpeg": "crop=iw-24:ih-43:12+8*sin(2*PI*5*t)*between(t,T,T+0.2):21+6*sin(2*PI*6*t+1)*between(t,T,T+0.2),scale=1080:1920",
+   "confidence": "medium",
+   "pack": "shake + post shake"
+  },
+  {
+   "id": "T7",
+   "name": "RGB-glitch transition",
+   "perMinute": "2 of 7 videos (power stories), once at 1.2-1.5 s",
+   "frames": "6-8 before cut",
+   "size": "0-25 px channel offset",
+   "trigger": "power reveal",
+   "blender": "compositor Separate Color, translate R +X / B -X keyed 0-25 px",
+   "ffmpeg": "rgbashift=rh=-6:bh=6 / -12:12 / -24:24 in three enable windows",
+   "confidence": "low",
+   "pack": "post rgb_glitch"
+  },
+  {
+   "id": "T8",
+   "name": "Power tint fade",
+   "perMinute": "6-14 per power video",
+   "frames": "in 3-5, out 10-15",
+   "size": "full body",
+   "trigger": "using the power",
+   "blender": "Mix to Emission (power colour, 2.0) + alpha 0.6, keyed",
+   "confidence": "medium",
+   "pack": "power_tint"
+  },
+  {
+   "id": "T9",
+   "name": "Solid-colour hit flash",
+   "perMinute": "Tag 1-2/video; Material ~12/video (~15/min)",
+   "frames": "1-3 (hit), 3-5 before a material reveal",
+   "size": "subject silhouette",
+   "trigger": "touch / hit / transform",
+   "blender": "emission override #E0262A for 2 f",
+   "confidence": "medium",
+   "pack": "hit_flash"
+  },
+  {
+   "id": "T10",
+   "name": "Through-surface wipe",
+   "perMinute": "0-2 per video",
+   "frames": "2-3 surface fill",
+   "size": "full frame",
+   "trigger": "through walls/floors, entering",
+   "blender": "fly camera through plane, cut on full-frame surface",
+   "confidence": "low",
+   "pack": "fly_through"
+  },
+  {
+   "id": "T11",
+   "name": "Follow roll 90-180 deg",
+   "perMinute": "2-3 when motivated",
+   "frames": "6-12",
+   "size": "90-180 deg",
+   "trigger": "falls, flips",
+   "blender": "camera roll keyed linear, hold upside-down <=0.5 s",
+   "confidence": "low",
+   "pack": "follow_roll"
+  },
+  {
+   "id": "T12",
+   "name": "Small roll / dutch",
+   "perMinute": "6-9",
+   "frames": "3-5",
+   "size": "4-7.5 deg",
+   "trigger": "unease, action",
+   "blender": "1.5 deg/frame roll then hold",
+   "confidence": "medium",
+   "pack": "roll"
+  },
+  {
+   "id": "T13",
+   "name": "White flash transition",
+   "perMinute": "~1 per video",
+   "frames": "1 at 85-95% white + 3 fade",
+   "size": "full frame",
+   "trigger": "camera flash, burst",
+   "ffmpeg": "fade=t=in:st=T:d=0.1:color=white",
+   "confidence": "low",
+   "pack": "post white_flash"
+  },
+  {
+   "id": "T14",
+   "name": "Impact burst frames",
+   "perMinute": "2-4 per action video",
+   "frames": "3-6",
+   "size": ">60% of frame",
+   "trigger": "explosions, power hits",
+   "blender": "burst sprite/particles near lens, bloom up",
+   "confidence": "low",
+   "pack": "staging"
+  },
+  {
+   "id": "T15",
+   "name": "Snap-start",
+   "perMinute": "34-43% of fast frames sit 0-3 f after cuts",
+   "frames": "1-3",
+   "size": "60-105 px/frame",
+   "trigger": "action cuts",
+   "blender": "start move 2 f before cut-in",
+   "confidence": "medium",
+   "pack": "push(lead=2)"
+  },
+  {
+   "id": "T16",
+   "name": "Cut on the word",
+   "perMinute": "every cut",
+   "frames": "+0.6 to +1.6 after word onset",
+   "size": "n/a",
+   "trigger": "always",
+   "blender": "cut list from word timings",
+   "confidence": "high",
+   "pack": "cut_plan"
+  },
+  {
+   "id": "T17",
+   "name": "Flash inserts",
+   "perMinute": "8-20% of shots",
+   "frames": "4-12",
+   "size": "close/ECU",
+   "trigger": "naming an object",
+   "blender": "0.15-0.35 s inserts with 10-20% push",
+   "confidence": "high",
+   "pack": "cut_plan"
+  },
+  {
+   "id": "T18",
+   "name": "Object to lens",
+   "perMinute": "1-3 per video",
+   "frames": "6-15",
+   "size": "40-60% of frame",
+   "trigger": "action",
+   "blender": "prop flies at 24 mm camera",
+   "confidence": "low",
+   "pack": "staging"
+  },
+  {
+   "id": "T19",
+   "name": "Low-angle creature",
+   "perMinute": "every creature intro",
+   "frames": "whole shot",
+   "size": "creature 50-80% of height",
+   "trigger": "creature reveal",
+   "blender": "24-26 mm, camera Z 0.4 m, tilt up 10-25 deg",
+   "confidence": "medium",
+   "pack": "low_angle"
+  },
+  {
+   "id": "T20",
+   "name": "Over-the-shoulder",
+   "perMinute": "2-4 per video",
+   "frames": "whole shot",
+   "size": "foreground head 30-50%",
+   "trigger": "conversations, watching",
+   "blender": "head 0.5 m from 35 mm lens",
+   "confidence": "medium",
+   "pack": "staging"
+  },
+  {
+   "id": "T21",
+   "name": "Through-glass foreground",
+   "perMinute": "a few per video",
+   "frames": "whole shot",
+   "size": "frame + reflections",
+   "trigger": "vehicles, peeking",
+   "blender": "glass plane reflectance 0.1-0.2",
+   "confidence": "low",
+   "pack": "staging"
+  },
+  {
+   "id": "T22",
+   "name": "Shadowed eyes",
+   "perMinute": "~1 per video",
+   "frames": "1-2 shots",
+   "size": "upper 40% of face dark",
+   "trigger": "ominous reveal",
+   "blender": "decal variant with dark gradient over eyes",
+   "confidence": "low",
+   "pack": "face decal"
+  },
+  {
+   "id": "T23",
+   "name": "Highlight outline",
+   "perMinute": "occasional",
+   "frames": "whole shot",
+   "size": "2-3 px",
+   "trigger": "the chosen one",
+   "blender": "Freestyle on one collection; Roblox Highlight outline #BFF3FF",
+   "confidence": "low",
+   "pack": "Freestyle / Roblox Highlight"
+  },
+  {
+   "id": "T24",
+   "name": "Character exits, camera stays",
+   "perMinute": "~1 per video (Phase, Gold)",
+   "frames": "3-6 empty frames",
+   "size": "n/a",
+   "trigger": "leaving, vanishing",
+   "blender": "keep drift, cut after exit",
+   "confidence": "low",
+   "pack": "staging + drift"
+  },
+  {
+   "id": "T25",
+   "name": "Caption spring pop",
+   "perMinute": "every caption (30-40 per video)",
+   "frames": "in 45->118% (f3)->90% (f6)->100% (f9); out swell to 115% over 3-5 f then 40% over 2-3 f; leads picture cut by 1-2 f",
+   "size": "caption",
+   "trigger": "every phrase",
+   "ass": "{\\fscx45\\fscy45\\t(0,100,\\fscx118\\fscy118)\\t(100,200,\\fscx90\\fscy90)\\t(200,300,\\fscx100\\fscy100)} ... \\t(D-230,D-90,\\fscx115\\fscy115)\\t(D-90,D,\\fscx40\\fscy40)",
+   "confidence": "high",
+   "pack": "captions_bright_cut.json"
+  },
+  {
+   "id": "T26",
+   "name": "Keyword colour",
+   "perMinute": "~1 in 4 captions",
+   "frames": "with caption",
+   "size": "one word",
+   "trigger": "danger or power word",
+   "ass": "{\\c&H2A26E0&}",
+   "confidence": "high",
+   "pack": "caption_plan"
+  },
+  {
+   "id": "T27",
+   "name": "In-world info insert",
+   "perMinute": "1-3 per video",
+   "frames": "9-30",
+   "size": "full/medium",
+   "trigger": "time passing, news",
+   "blender": "town crier board, bell-tower clock, wanted poster",
+   "confidence": "medium",
+   "pack": "staging"
+  },
+  {
+   "id": "T28",
+   "name": "Snap zoom on transformation",
+   "perMinute": "1-3 per power video",
+   "frames": "3-5",
+   "size": "1.8-2x",
+   "trigger": "transformation, power-up",
+   "blender": "dolly or focal 35->70 mm over 4 f, linear; pair with T9 + impact SFX",
+   "confidence": "low",
+   "pack": "snap_zoom + hit_flash"
+  }
+ ],
+ "studied": [
+  {
+   "title": "The Kid Who Could Phase Through Anything",
+   "url": "https://www.youtube.com/shorts/8WEm8GKMT4w",
+   "views": "21M"
+  },
+  {
+   "title": "The Boy Who Could Borrow People's Talent",
+   "url": "https://www.youtube.com/shorts/BFR-sN4jwJQ",
+   "views": "15M"
+  },
+  {
+   "title": "The Boy Who Could Become Any Material",
+   "url": "https://www.youtube.com/shorts/d0WnD1qUNBk",
+   "views": "7.9M"
+  },
+  {
+   "title": "The World Where Spirit Beasts Determine Power (Part 1)",
+   "url": "https://www.youtube.com/shorts/bgZX1mZZVZA",
+   "views": "6.5M"
+  },
+  {
+   "title": "In This Town, A Game Of Tag Is Deadly",
+   "url": "https://www.youtube.com/shorts/Miqjydp1ulM",
+   "views": "5.4M"
+  },
+  {
+   "title": "He Could See One Word Above Everyone's Head (opening only)",
+   "url": "https://www.youtube.com/shorts/K8vEef5_yVU",
+   "views": "16M"
+  },
+  {
+   "title": "Everything He Touched Turned to Gold (opening + ending)",
+   "url": "https://www.youtube.com/shorts/muQQI05Ns10",
+   "views": "9.8M"
+  }
+ ],
+ "characterKit": "characters.json",
+ "framing": "medium 43%, close/insert 27%, wide/angle 23%, over-shoulder 4%, effect burst 4% (Material, 82 shots measured)",
+ "pack": {
+  "dir": "pack/",
+  "module": "pack/style_bright_cut.py",
+  "post": "pack/post_bright_cut.py",
+  "captions": "pack/captions_bright_cut.json",
+  "check": "pack/check_bright_cut.py",
+  "readme": "pack/README.md"
+ },
+ "styleTest": "Build the first ~12 s of an approved script with cut_plan shots (14-17), noon look; include T3 whip-in, T5 axis punch, T19 low angle, T4 crash push + face swap + T6 shake, T8/T9 power beat + T28; check with check_bright_cut.py (luma 135-155, sat 0.30-0.42, avg shot 0.6-0.8 s); show beside our current opening and the Phase reference link. See STYLE.md section 17.",
+ "calibration": {
+  "scene": "main look_test.py town square, Cycles",
+  "luma": 147.0,
+  "sat": 0.349,
+  "settings": "Standard, exposure 0.0, camera-ray sky #D6EEFA->#8BD0F4, world fill 0.4, sun 4.5 #FFF3E2 elev 55 az 35, glare FogGlow 1.0/0.5/0.12, Hue/Sat 1.05",
+  "unitsPerMetre": 3.3,
+  "render": "/tmp/claude-0/kits/look/final_bright-cut.png"
+ }
+}
