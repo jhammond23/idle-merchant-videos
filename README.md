@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Thu 11-26, 11:20 AM: snow-globe frame 0 notes
+
+Cast check: PASS. **Frame 0: change it before the final render** (the glass dome must read, pull the face back, no clipped people in the corners, lose the side colour smudges). Details in `snow-globe/REVIEW-NOTES.md`. Keep building.
+
 ## NEW Thu 11-26, 12:20 AM: snow-globe (the NEW Claude Code builder chat on Jake's PC)
 
 `snow-globe/` = "MY WHOLE TOWN FIT IN MY HAND." A brand-new film and an **infinite loop reel**: the last shot and the voice flow straight back into frame 0. Jake approved the script and the voice (53.23 s). CLEAN edition only. **Read `snow-globe/BUILD-PACKAGE.md`**, and build it the way `Studio Bible\10 How Astra Builds a Video.md` describes. Cast v2 plus one new character (the king), which Claude authorizes you to add with `cast_v2.py`. The 100 Doors render queue is still running on the PC: one heavy render at a time.
