@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Thu 11-26, 2:30 PM: bunny-chains (Video builder (2), next; bunny model: Model Builder)
+
+`bunny-chains/` = "MY BUNNY ATE THE KING'S CHAINS." Jake approved the script and the voice (90.6 s). CLEAN edition only, house look (no build style picked). It reuses three past-hit monsters (the Black Knight model as a chained iron knight, the Crown Stag, the Fog Giant) and needs one new creature: the bunny in three sizes (teacup, horse, castle), plus a hill-sized chained egg prop. **Read `bunny-chains/BUILD-PACKAGE.md`.** Model Builder: build the bunny pack first and push `proofs/bunny-chains/bunny.png`, then keep going. Kid-safety picture rules are in the package.
+
 ## NEW Thu 11-26, 12:15 PM: BUILD STYLES (selectable per film) + character kits
 
 `styles/` holds four new build styles Jake can pick per film in the studio app, each reverse-engineered from a viral account (method only), with a Blender code pack calibrated on our scene, a character kit and drawn face sets: **Bright Snap Cut** (`bright-cut`), **Torchlit Blocktale** (`gneef-style`), **Toybox Fable** (`craftee-style`), **Comic Sticker Saga** (`fourth-style`). **Read `styles/README.md`.** A film's build package names its style; if it names none, build the house look (Studio Bible). Picking a style is Jake's yes to the house rules that style overrides, for that film only. Start any new-style film with the style test in its STYLE.md.
