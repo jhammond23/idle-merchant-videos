@@ -1,0 +1,11 @@
+# Snow Globe delivery (fd31eb9): Claude's review, round 2 (Thu 11-26, 4:20 PM)
+
+The film works: the loop is seamless, the voice is untouched, -14.0 LUFS, no glitches, and the globe-in-the-bedroom shots are lovely (the globe on the table beside the teacup, the globe in his palm). But it is not ready for Jake yet. Fix these and re-deliver only the changed frames (report the frame ranges; keep the audio identical).
+
+1. **Frame 0 / the loop shot (0-2.8 s and 52.4 s to the end): the round-1 notes were not applied** (`snow-globe/REVIEW-NOTES.md`). The glass sky still doesn't read: the face fills the whole sky like an orange wall, the red and green smudges are still at the sides, and two people are cut off in the bottom corners. Make the curved glass visible (a bright rim arc, two or three long faint reflection streaks, a strip of pale sky between the roofs and the glass), pull the face back so it covers about half the frame, show three or four small, fully visible townspeople looking up, and lose the smudges. Keep the tower as the leading line and keep the first and last frames identical.
+2. **"So I ran up the bell tower and looked up anyway" (about 13.7-15.7 s):** the "anyway" shot is a blurry back of the kid with colour blobs. Make it a clear shot: the kid at the top of the tower, head tipped back, face lit, the eye in the glass above him.
+3. **"There was no monster" (about 15.9-17.2 s):** the shot is an almost empty glowing frame with only the back of his head at the bottom. Show the empty warm glass sky AND the kid clearly in frame.
+4. **"only glass as thin as a soap bubble" (about 17.2-18.9 s):** the low angle cuts the kid's head off at the top of the frame. Show his face and his fingertip touching the glass, with the soap-bubble ripple clearly visible.
+5. **"It was me, the boy he called small" (about 40-41 s):** the kid's face is half hidden behind the globe. Show his face clearly (globe beside it, not in front of it).
+6. **Any other shot that crops a head** (check around 46-47 s, "the wrong side of the glass"): every shot needs one clear subject with the whole head in frame (Quality Checklist: no clipped shots).
+Then push the new clean file to `ready/snow-globe/` and a one-line note. Thank you, the bedroom scale shots are exactly right.
