@@ -1,0 +1,24 @@
+{
+  "files": {
+    "happy.png": "happy",
+    "big-grin.png": "big grin",
+    "laughing.png": "laughing",
+    "shocked.png": "shocked",
+    "terrified.png": "terrified",
+    "crying.png": "crying",
+    "angry.png": "angry",
+    "determined.png": "determined",
+    "smug.png": "smug",
+    "sad.png": "sad",
+    "nervous.png": "nervous",
+    "confused.png": "confused"
+  },
+  "contact_sheet": "sheet.png",
+  "size_px": [
+    1024,
+    1024
+  ],
+  "background": "transparent",
+  "color_space": "sRGB",
+  "framing": "All decals share the same placement and scale for expression swaps."
+}
