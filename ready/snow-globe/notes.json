@@ -1,0 +1,56 @@
+{
+  "title": "MY WHOLE TOWN FIT IN MY HAND.",
+  "slug": "snow-globe",
+  "edition": "clean",
+  "loop": "Infinite loop reel: the voice ends on 'because' and the film flows straight back into frame 0 ('In this town...'). The last 17 frames are the moments just before frame 0 in the same shot (same camera, eye, snow, title); there is no tail, fade or end card.",
+  "summary": "In a snowy town where the sky is glass and a giant eye is always watching, the smallest boy climbs the bell tower, pushes through the glass and grows to full size: his town is a snow globe on a windowsill. He catches it as it falls, and now the king who called him small hides under his bed.",
+  "frame_0": "Low in the town square, looking straight up the tall bell tower at a huge warm eye pressed against the glass sky; the kid's face fills the sky, the blurred warm bedroom shows round the edges, townspeople look up at the bottom. Title in the top band, handle top left.",
+  "camera": "locked shots, a new shot about every 1-1.5 s; slow moves only on the grow (23.5-25.4 s) and the catch (32.8-33.7 s)",
+  "cast": "Cast v2: Hero kid (lead), Little sister, Newbie, Bacon kid, Big kid, Girl hero, Wizard, Slender teen, Goofy guard, Knight; NEW Cast v2 | King (built with cast_v2.py person(), classic Roblox head and classic faces, grey beard, gold crown with red gems, red velvet robe with fur, gold chain), as authorised in the package.",
+  "posting_thumbnail": "snow-globe-thumbnail.jpg",
+  "comment_question": "If you climbed out and grew giant, would you A) stay out and guard the town, or B) shrink back in and go home?",
+  "chips": [
+    "A - STAY GIANT",
+    "B - GO BACK HOME"
+  ],
+  "sound": "Approved voice untouched at sample 0 (Adam, 53.23 s). No music bed. Effects only, synthesised in the build: town ambience (wind, distant bells, snow hush) made periodic so the loop is seamless in sound, marble-jar rattle and rumble on both quakes, rattling beds, stair footsteps, glass hum, bubble bloops on the touch and push-through, rising whoosh on the grow, boot thump, gusts and curtain flutter, wooden scrapes as the globe slides, falling whoosh, thud and glass chime on the catch, snow twinkle in his palm, crown clatter, window shutting, table knock. Effects duck under the narrator.",
+  "package_differences": [
+    "Built and rendered entirely in Claude's cloud workspace (Blender 5.3 Python module, Cycles CPU); nothing ran on Jake's PC, so Astra's 100 Doors queue was never touched. The PC-side tools in note 10 (GPU, Foley library, Astra's QA scripts) were not reachable from this session.",
+    "Picture rendered at 540x960 (5 samples + OpenImageDenoise) on a 2-core CPU, upscaled to 1080x1920 with Lanczos and light sharpening; all lettering is drawn at full 1080x1920. Motion blur off (cost); depth of field on close-ups.",
+    "Sound effects are synthesised, not from the approved recorded Foley library (that folder wasn't accessible from this session).",
+    "The final loop shot starts at frame 1580 (52.67 s) rather than ~52.4 s so the king-under-the-bed picture lands on 'bed' (52.54 s); the loop shot still runs through the last frame into frame 0.",
+    "The bell tower is tall: its top platform sits just under the glass so he can reach the glass from it (the package's touch and pop-out-of-the-top beats need this).",
+    "The window shelf is knee-high so his boot can land beside the globe on it; the globe slides along it to the edge.",
+    "Outside the two 3-D eyes, the giant face is plain skin (no nose or mouth at that scale) so no stray mouth fragment shows at frame edges.",
+    "The sister's packed Cast v2 face set only has her friendly face, so her 'scared eyes in the dark' are played through darkness and framing (eyes peeking from under the bed).",
+    "'Shorter than my fingernail': block hands have no nails, so it plays as his hand pressed on the far side of the glass behind the tiny town, then the King cowering on his balcony under the giant eye.",
+    "The King is saved inside this build's scene file (snowglobe.blend, Cast v2 | King); it was not written back to scripts-inbox, which only Claude writes to."
+  ],
+  "length_seconds": 53.233,
+  "clean_length_seconds": 53.233,
+  "frames": 1597,
+  "fps": 30,
+  "qa": {
+    "width": 1080,
+    "height": 1920,
+    "frames": 1597,
+    "lufs": -14.09,
+    "true_peak": -1.56,
+    "mean_brightness": 92.7984390258789,
+    "mean_saturation": 0.627,
+    "pops": [],
+    "dark_frames": [],
+    "white_frames": [],
+    "frozen_runs": [],
+    "aba_reversals": [],
+    "loop_join_diff": 3.18,
+    "loop_shot_neighbour_diff_max": 3.39,
+    "loop_check": "Last frame -> frame 0 differs no more than neighbouring frames in the loop shot (the step is the caption changing from BECAUSE to IN THIS TOWN); ambience continuous across the join with no click; no fade at either end."
+  },
+  "files": {
+    "snow-globe-clean.mp4": "455533e3dcc253b70711e1280e9e98e2b4b150ce8092cedc061db390369df8be",
+    "snow-globe-cover.png": "b62058248bdd8ee09345422f01cecd4ef33d9409f8fffd5499734f98500c7fcc",
+    "snow-globe-thumbnail.jpg": "1744b6040ac8bbd324d8a44f084c02416cf664cbc2cd73ecc2bc7491d3931f05"
+  },
+  "builder": "Claude builder (cloud session), Thu 2026-11-26"
+}
