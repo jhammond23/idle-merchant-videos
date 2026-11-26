@@ -19,7 +19,7 @@ This year, the King's gold ran out. So he sent his best.
 First, the Prince.
 
 6
-00:00:16,196 --> 00:00:19,942
+00:00:16,196 --> 00:00:19,706
 "What gets bigger, the more you take away from it?"
 
 7
@@ -43,7 +43,7 @@ Stone.
 The King pointed at me. "The stable boy. Nobody will miss him."
 
 12
-00:00:29,064 --> 00:00:32,792
+00:00:29,064 --> 00:00:32,574
 "What gets bigger, the more you take away from it?"
 
 13
@@ -63,10 +63,10 @@ The vault opened.
 The King came running down the steps. "Those are mine!"
 
 17
-00:00:42,502 --> 00:00:44,823
+00:00:42,502 --> 00:00:44,896
 The sphinx turned to him. "Then answer this."
 
 18
-00:00:45,046 --> 00:00:48,433
+00:00:45,050 --> 00:00:48,660
 "What can you keep, even after you give it away?"
 
