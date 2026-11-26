@@ -1,0 +1,29 @@
+{
+  "title": "I COPY ANY SKILL WITH ONE HANDSHAKE.",
+  "edition": "clean",
+  "source_commit": "ec9ba660cea8698a1c2f0c881418dc29150c8454",
+  "voice_blob": "fe11a9a12af2c118bd63dd588b79257363e92a4b",
+  "duration_seconds": 54.822,
+  "native_frames": 1645,
+  "authored_shots": 65,
+  "caption_groups": 66,
+  "file_bytes": 21230102,
+  "cover": "The PNG is the exact first decoded frame. The posting thumbnail uses the same camera frame without dialogue captions.",
+  "ending": "The final caption reads “MY H—”. Picture and sound end together on the cut syllable at 54.822 s.",
+  "sound": "Original locked narration and tournament foley. The crowd falls silent under the narration at 42.10 s.",
+  "qa": {
+    "stylecheck": "duration 54.8 s | shots 58 | average shot 0.94 s | brightness 147 | saturation 0.44",
+    "glitchscan": [
+      "STROBE/POP stretches (start s, end s, frames): []",
+      "black/white flash frames: []",
+      "frozen stretches >=5 frames: []"
+    ],
+    "voice_alignment_windows": 55,
+    "max_voice_offset_ms": 0.0,
+    "source_to_export": {
+      "native_frames_checked": 1645,
+      "source_to_encode_median_luma_error": 2.031,
+      "source_to_encode_max_luma_error": 2.322
+    }
+  }
+}
