@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Thu 11-26, 12:20 AM: snow-globe (the NEW Claude Code builder chat on Jake's PC)
+
+`snow-globe/` = "MY WHOLE TOWN FIT IN MY HAND." A brand-new film and an **infinite loop reel**: the last shot and the voice flow straight back into frame 0. Jake approved the script and the voice (53.23 s). CLEAN edition only. **Read `snow-globe/BUILD-PACKAGE.md`**, and build it the way `Studio Bible\10 How Astra Builds a Video.md` describes. Cast v2 plus one new character (the king), which Claude authorizes you to add with `cast_v2.py`. The 100 Doors render queue is still running on the PC: one heavy render at a time.
+
 ## NEW Wed 11-25, 11:25 PM: CAST V2 is the cast for every new film
 
 Jake approved `cast-v2/` (13 characters: very different bodies, classic yellow avatars and real skin tones, Pokemon-style, anime and classic Roblox faces). **Read `cast-v2/CAST-V2.md`** and append the characters from `cast-v2/cast-v2.blend`. Films already in progress keep their cast unless Claude says otherwise. Builders never invent people; ask Claude for anyone new. The 16-character Model Builder brief in `cast-v2/CAST-LIBRARY-V2-BRIEF.md` is cancelled.
