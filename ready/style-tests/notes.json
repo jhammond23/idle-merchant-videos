@@ -101,6 +101,79 @@
       },
       "audio": "Approved narration at source speed. Opening whoosh tail, swipe, reaction hit, hatch pop and chain jingle.",
       "cast": "Appended the scripts-inbox Cast v2 collections with the Sunny Block Folk face PNGs. The king uses the approved Bunny Chains crowned Newbie costume."
+    },
+    "gneef-style": {
+      "master": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "30/1",
+        "frames": 360,
+        "duration_seconds": 12.0,
+        "size_bytes": 15043360,
+        "video_codec": "h264",
+        "audio_codec": "aac"
+      },
+      "preview": {
+        "width": 540,
+        "height": 960,
+        "fps": "30/1",
+        "frames": 360,
+        "duration_seconds": 12.01,
+        "size_bytes": 2350062,
+        "video_codec": "h264",
+        "audio_codec": "aac"
+      },
+      "mean_brightness": 87.39,
+      "mean_hsv_saturation": 0.6695,
+      "average_shot_length_seconds": 1.2,
+      "authored_shot_count": 10,
+      "shot_start_frames": [
+        0,
+        37,
+        68,
+        86,
+        121,
+        138,
+        170,
+        207,
+        241,
+        311
+      ],
+      "pack_check": {
+        "script": "measure_gneef.py",
+        "output": "measure                 value   target\nbrightness             87.320   60-100 ok\nsaturation              0.666   0.6-0.72 ok\nshadow_share            0.318   0.3-0.45 ok\nedge_centre             0.802   0.72-0.85 ok\nshots                  11.000   \navg_shot                1.091   1.2-1.6 OFF\nmedian_shot             1.100   \navg_shot_first30        1.091   0.9-1.3 ok\npush_share              0.727   0.7-1.0 ok"
+      },
+      "integrated_lufs": -14.29,
+      "true_peak_dbtp": -3.21,
+      "voice_correlation_by_two_second_window": [
+        0.952,
+        0.9253,
+        0.964,
+        0.9493,
+        0.9567,
+        0.9517
+      ],
+      "preview_max_frame_mean_rgb_error_0_255": 1.492,
+      "identical_frame_pairs_at_108x192": [],
+      "master_sha256": "7c0490b65d621baea72e6468a63596518f596c8bcbc162a9dc1c4c0a5215f288",
+      "preview_sha256": "a194381663118f1633c74f8e38cd52fe72087ab2203c1d32eaf5e0d16bdbc728",
+      "name": "Torchlit Blocktale",
+      "set": "Bunny Chains castle gate at moonrise and the existing throne hall by lantern light",
+      "cast": "Scripts-inbox Cast v2, with the Inkface expression set",
+      "techniques": [
+        "25-degree opening snap for three frames",
+        "moon exterior to ember interior",
+        "seven primary push-ins plus a slight focal-length increase in the truck and upward reveal",
+        "700 px/s lateral truck",
+        "80 mm face insert",
+        "6%/s crowd pullback",
+        "overhead egg insert",
+        "70-frame upward reveal",
+        "2 px RMS camera wobble and Ã‚Â±2-degree/s roll drift"
+      ],
+      "sound": "Locked voice, unpitched room air at Ã¢Ë†â€™10 dB in the pack mixer, and three action cues. No music.",
+      "timing": "The packÃ¢â‚¬â„¢s first-pass word segmentation was fitted to its ten-shot test table. Every cut is snapped to an approved word onset and the narration ends at exactly 12.000 s.",
+      "detector_note": "The ten authored shots average 1.200 s. The checker also identifies the 700 px/s lateral move at 3.6 s as a cut. Its 1.091 s detected average passes the 0.9â€“1.3 s opening-test target. Its separate full-film average target is 1.2â€“1.6 s."
     }
   }
 }
