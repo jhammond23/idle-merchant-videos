@@ -299,6 +299,135 @@
           "exposure_change": -0.67
         }
       }
+    },
+    "fourth-style": {
+      "master": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "30/1",
+        "frames": 360,
+        "duration_seconds": 12.0,
+        "size_bytes": 5874968,
+        "video_codec": "h264",
+        "audio_codec": "aac"
+      },
+      "preview": {
+        "width": 540,
+        "height": 960,
+        "fps": "30/1",
+        "frames": 360,
+        "duration_seconds": 12.01,
+        "size_bytes": 1431127,
+        "video_codec": "h264",
+        "audio_codec": "aac"
+      },
+      "mean_brightness": 104.12,
+      "mean_hsv_saturation": 0.4329,
+      "average_shot_length_seconds": 1.3333,
+      "authored_shot_count": 9,
+      "shot_start_frames": [
+        0,
+        54,
+        93,
+        120,
+        162,
+        192,
+        255,
+        291,
+        309
+      ],
+      "pack_check": {
+        "script": "post_fourth_style.py check",
+        "output": "{'file': 'check-015.png', 'luma': 100.6, 'p5': 2.7, 'p95': 223.7, 'sat': 0.447, 'ok': True}\n{'file': 'check-067.png', 'luma': 98.2, 'p5': 5.6, 'p95': 221.9, 'sat': 0.45, 'ok': True}\n{'file': 'check-168.png', 'luma': 97.3, 'p5': 3.4, 'p95': 221.6, 'sat': 0.463, 'ok': True}",
+        "sample_frames": [
+          15,
+          67,
+          168
+        ]
+      },
+      "integrated_lufs": -14.3,
+      "true_peak_dbtp": -4.19,
+      "voice_correlation_by_two_second_window": [
+        0.9994,
+        0.9998,
+        0.9975,
+        0.9998,
+        0.9895,
+        0.9994
+      ],
+      "preview_max_frame_mean_rgb_error_0_255": 0.948,
+      "identical_frame_pairs_at_108x192": [],
+      "master_sha256": "8bac14a5e0fef86b37c4cec8587f614b30fef7ceba1a8339af1c2b3273fa8eb2",
+      "preview_sha256": "cab099b1d81a9a5c863a87d2c9b88a92a44add739cc163498fd940b3a44a0116",
+      "name": "Comic Sticker Saga",
+      "set": "The existing Bunny Chains castle aisle and throne hall, with a chained royal egg display and a sealed royal decree.",
+      "cast": "Scripts-inbox Cast v2 Hero kid and Little sister, using the packâ€™s line-art faces.",
+      "techniques": [
+        "Frame-zero walk in the corridor",
+        "coral LITTLE SIS name with a five-frame pop and âˆ’3Â° tilt",
+        "alarmed reaction with captions at y=1515",
+        "two-word speech bubble with tail on the sister",
+        "silent gold quoted NO! reaction and 17% snap zoom over five frames",
+        "85-to-42 mm royal egg reveal with a six-frame hold, 42-frame pull and 12-frame ease",
+        "top-down decree and animated NEXT MORNING time tag",
+        "static impact, action cut and animated dizzy stars"
+      ],
+      "timing": "The four-second question card starts at frame 240. It overlays the end of the reveal, the decree insert and the final gag so the narration is the same 12 seconds as the other tests. The backgrounds cut at 255 and 291. Frame 309 cuts to the aftermath acting in the same camera and background. The 0.9-second aftermath continues as an end hold.",
+      "caption_design": "The approved narration is captioned in one to three words throughout. The quoted NO! and the sisterâ€™s speech bubble are silent character reactions.",
+      "sound": "The original voice, four sticker pops and three low thumps. No music.",
+      "effect_cues": [
+        [
+          1.8,
+          "pop",
+          "name"
+        ],
+        [
+          4.0,
+          "pop",
+          "bubble"
+        ],
+        [
+          5.4,
+          "thump",
+          "beat"
+        ],
+        [
+          8.0,
+          "thump",
+          "card"
+        ],
+        [
+          8.5,
+          "pop",
+          "time_tag"
+        ],
+        [
+          9.7,
+          "thump",
+          "beat"
+        ],
+        [
+          10.3,
+          "pop",
+          "gag"
+        ]
+      ],
+      "plan_stats": {
+        "shots": 9,
+        "avg": 1.333,
+        "median": 1.3,
+        "cuts_per_min": 45.0,
+        "longest": 2.1,
+        "shortest": 0.6
+      },
+      "warrant_insert_frame_273": {
+        "pre_card_mean_brightness": 188.6,
+        "composite_mean_brightness": 178.85
+      },
+      "warrant_insert_luma_range_36_frames": [
+        175.72,
+        181.35
+      ]
     }
   }
 }
