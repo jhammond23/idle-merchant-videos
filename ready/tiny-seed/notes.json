@@ -1,0 +1,123 @@
+{
+  "title": "MY TINY SEED HUGGED A GIANT TROLL",
+  "slug": "tiny-seed",
+  "editions": {
+    "tiny-seed-clean.mp4": "CLEAN edition for Facebook, TikTok and YouTube. Ends on the end screen (WOULD YOU SAY \"HUG\"? / A: HUG, B: RUN / FOLLOW FOR MORE \"IN THIS TOWN\"). No music bed: Claude adds music in the finishing pass.",
+    "tiny-seed.mp4": "Flashloop SPONSOR edition for Instagram: the same film with the small Flashloop logo card top right throughout, then the approved Sponsor Ending V2 (fixed voice file, phone prompt \"A tiny seed hugs a giant troll.\") after the end screen."
+  },
+  "summary": "On Harvest Day everyone brings their giant plants to the measuring pillar; the narrator's seed is a dot that measures 1. A baby rock troll stomps in and squishes the pie table, she plants her dot and it shoots up into a giant blossoming tree that hugs the troll like a teddy: 9,001. The tree fixes the table, hands her a golden apple, and she keeps it over the champion's mountain of gold. The old garden keeper grabs her arm, shaking: tiny seeds don't listen to anyone, not in a thousand years, but this one hugged when she said hug. Then a shadow covers the sun: the troll's mother steps onto the hill, 900,000. Everybody runs, her tree doesn't; it wraps its branches round her and her little sister and waits for one word.",
+  "frame_0": "The giant blossoming tree (golden apples glowing, knothole face smiling) hugging the baby rock troll like a teddy in the sunny harvest square, the narrator small in front seen from behind, the measuring pillar beside her showing 9,001. Title MY TINY SEED / HUGGED A GIANT TROLL in the top band (TINY SEED in the accent green), handle top left. Frame 0 is a sharp still: it holds ~1.6 s under the title while line 1 starts, then the Toybox whip-blur (3 frames) cuts into the story.",
+  "camera": "Toybox Fable locked framing with Torchlit Blocktale camera moves: a slow push-in (~6.5%/s) with a very small handheld wobble on almost every shot; the package's three reveal moves (the dot shooting up with a fast tilt, the mother's foot landing on the hill, the slow tilt up her). Cuts on the captions, a new shot about every 1-1.5 s.",
+  "cast": "Cast v2: Narrator = Girl hero (no sword; trowel in her belt), Storybook faces; best friend = Hero kid, Classic Block; little sister, Anime Shine; the champion = Rich kid, Bold Comic Ink; crowd = other Cast v2 people with Toybox faces; Wizard cameo in the Harvest Day crowd (Inkface). NEW, authorised by Claude: the old garden keeper (built the Cast v2 way: R6 blocks, rounded head, library hair recoloured grey in a low bun, straw sun hat with a flower, green apron over a brown dress, garden gloves, trowel), Inkface; cast check in proofs/tiny-seed/cast-check.png. She exists only in this build's scene file, not in cast-v2/ on scripts-inbox.",
+  "posting_thumbnail": "tiny-seed-thumbnail.jpg",
+  "comment_question": "Would you say \"hug\"? A) HUG or B) RUN?",
+  "chips": [
+    "A: HUG",
+    "B: RUN"
+  ],
+  "mid_video_chips": [
+    "A: TREE",
+    "B: GOLD"
+  ],
+  "sound": "Approved voice untouched at sample 0 (Adam, md5 0d0a100ece88637fd691e7c4526bc6e7). No music bed. Effects only, synthesised in the build: harvest-square ambience (breeze, birds, crowd murmur; cold wind after the shadow), whooshes on about one cut in four, troll stomps and thuds, pie squish, the dot's pop and the tree's creaking rush up, rustles for branches and blossoms, chimes on the golden apples, gold jingle, the troll's roll-out rumble and bumps, the shadow's low whoosh, the mother's ground-shaking stomps, crowd gasps and running feet. Effects duck under the narrator. Sponsor edition: sponsor-ending-voice.mp3 untouched after the end screen.",
+  "package_differences": [
+    "MODELS ARE STAND-INS. tiny-seed/models/ had not landed on scripts-inbox when this was delivered (last checked Fri 11-27, 9:30 AM CST, scripts-inbox 8284234), so the tree stages, the champion's oak, bushes, the baby rock troll, the troll mother, the measuring pillar, the pie tables and the golden apples are simple stand-ins built in the scene (tree and troll faces are line-art faces on their stand-in heads). When the model pack lands, the scene needs the swap and a re-render.",
+    "Built and rendered entirely in Claude's cloud workspace (Blender 5.3 Python module, Cycles CPU on 2 cores); nothing ran on Jake's PC. The PC-side tools in note 10 (GPU, Foley library, Astra's QA scripts) were not reachable from this session.",
+    "Picture rendered at 540x960 (4 samples + OpenImageDenoise), upscaled to 1080x1920 with Lanczos and light sharpening; all lettering (title, one-word captions, number cards, chips, end screen, sponsor ending) is drawn at full 1080x1920. Motion blur off (cost). The sponsor-ending background (story picture behind the phone) is rendered at half that and blurred by the phone card anyway.",
+    "Sound effects are synthesised, not from the recorded Foley library (not reachable from this session).",
+    "Frame 0 is a sharp still (it is the cover); the Toybox whip-blur plays on the cut out of it at 1.6 s rather than landing into frame 0.",
+    "Sun direction is set per shot (Toybox key 35 degrees off the camera axis) so faces stay lit from the front on every angle; the light is still one daytime look for lines 1-30. The shadow sweeps across the square during line 31 and the dark beat holds from line 32 to the end (cool, soft sun; faces still read).",
+    "Line 20 split frame (A: TREE / B: GOLD) is a true split: the tree on the left half, the champion's gold on the right, with the A/B chips flashing small.",
+    "Line 26's two flash inserts reuse the film's own hug (line 10) and release (line 22) shots with a warm sepia grade and a soft whoosh, then cut back to the keeper's face.",
+    "Number cards (50 / 9,000 / 1 / 9,001 / 900,000) are drawn as big flat cards over the picture, and on line 34 the 9,001 card shrinks down to a pebble-sized number as the package asks.",
+    "Frame 0 / cover: the pillar's own 9,001 panel is too small to read at phone size from the cover angle, so a smaller copy of the film's 9,001 number card rides on the panel during the 1.6 s cover shot.",
+    "The package's style mix (picked by Jake for this film) overrides note 09's 'locked camera, no shake or whips': every shot has the Torchlit slow push and a very small wobble, and the Toybox whip plays once, out of the cover.",
+    "The every-frame screen flags four big frame-to-frame changes at 1963-1964 and 2003-2004: these are the planned white flash-ins of line 26's two flash inserts (each fades in over 3 frames), not glitches.",
+    "Clean edition runs 96.0 s: the 94.1 s voice plus a short hold of the end screen; sponsor edition adds the 9.3 s Flashloop ending."
+  ],
+  "length_seconds": 105.3,
+  "clean_length_seconds": 96.0,
+  "frames": 3159,
+  "clean_frames": 2880,
+  "fps": 30,
+  "qa": {
+    "tiny-seed-clean.mp4": {
+      "frames": 2880,
+      "black": [],
+      "white": [],
+      "pops": [],
+      "frozen_runs": [],
+      "mean_luma": 93.8,
+      "mean_saturation": 0.486,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "lufs": -14.0,
+      "true_peak": -1.4,
+      "lra": 1.9,
+      "duration_s": 96.0,
+      "bytes": 24226317,
+      "planned_flash_ins": [
+        [
+          1963,
+          48.4
+        ],
+        [
+          1964,
+          48.1
+        ],
+        [
+          2003,
+          46.2
+        ],
+        [
+          2004,
+          46.0
+        ]
+      ]
+    },
+    "tiny-seed.mp4": {
+      "frames": 3159,
+      "black": [],
+      "white": [],
+      "pops": [],
+      "frozen_runs": [],
+      "mean_luma": 87.5,
+      "mean_saturation": 0.48,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "lufs": -14.0,
+      "true_peak": -1.3,
+      "lra": 2.0,
+      "duration_s": 105.3,
+      "bytes": 24238464,
+      "planned_flash_ins": [
+        [
+          1963,
+          46.1
+        ],
+        [
+          1964,
+          47.1
+        ],
+        [
+          2003,
+          43.9
+        ],
+        [
+          2004,
+          44.8
+        ]
+      ]
+    },
+    "cover_equals_decoded_frame_0": true
+  },
+  "files": {
+    "tiny-seed.mp4": "1dc370e5038775ca24140bec144022cccd47f16068cfab488dd87edae53ecbdb",
+    "tiny-seed-clean.mp4": "64142f0f82664aba18903d27db4c0050ca5061d020cca034962c99cb2c5f2553",
+    "tiny-seed-cover.png": "ed6d58ff1f619928cb49c459e1ad5056b0e48faf4897eaa68c33f5d3f17d8722",
+    "tiny-seed-thumbnail.jpg": "737946d8b0d6d3d04f552cd437b6c911ad04c38e72a9e871b8bdd0b136a5f895"
+  },
+  "builder": "Claude builder (cloud session), Fri 2026-11-27"
+}
