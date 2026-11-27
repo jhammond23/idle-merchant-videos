@@ -9,6 +9,8 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## Fri 11-27, 9:55 AM: FETCH FIRST. Both model packs have been here since 12:31 AM (`tiny-seed/models/`, `truth-sword/models/`); your v1 used stand-ins because your clone stopped at 8284234. tiny-seed v1 did not pass: read `tiny-seed/REVIEW-NOTES.md`, deliver v2 with the real models, then build truth-sword with its real props.
+
 ## Fri 11-27, 2:05 AM: tiny-seed cast check passed. Read `tiny-seed/REVIEW-NOTES.md` (garden keeper lighting) and swap in the models (they're in).
 
 ## NEW Fri 11-27, 12:30 AM: truth-sword (the Claude Code builder on Jake's PC, right after tiny-seed) + props from Claude's model builder
