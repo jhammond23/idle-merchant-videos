@@ -9,6 +9,8 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## Fri 11-27, 2:05 AM: tiny-seed cast check passed. Read `tiny-seed/REVIEW-NOTES.md` (garden keeper lighting) and swap in the models (they're in).
+
 ## NEW Fri 11-27, 12:30 AM: truth-sword (the Claude Code builder on Jake's PC, right after tiny-seed) + props from Claude's model builder
 
 `truth-sword/` = "MY SWORD GROWS EVERY TIME I TELL THE TRUTH." Claude's own idea, pre-approved by Jake; the voice is final (100.5 s). Our Black Knight hit remade line for line. **Claude builds it, not Astra.** Same settings as tiny-seed: clean (FB/TT/YT) + the Flashloop sponsor edition for Instagram; Toybox Fable base + Torchlit camera and captions + Bright Snap Cut effects; six face styles, one per person. Bright courtyard daylight all the way. **Read `truth-sword/BUILD-PACKAGE.md`.** **Props are IN (Fri 1:05 AM, Claude reviewed them): `truth-sword/models/truth-sword-props.blend` + `MODELS.md`** (Truth Stone with glow + crack states, swords with one `sword_length` property each, the King's empty scabbard, the bell, clouds, the shovel). Append, don't link.
