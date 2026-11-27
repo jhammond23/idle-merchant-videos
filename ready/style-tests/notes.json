@@ -174,6 +174,131 @@
       "sound": "Locked voice, unpitched room air at Ã¢Ë†â€™10 dB in the pack mixer, and three action cues. No music.",
       "timing": "The packÃ¢â‚¬â„¢s first-pass word segmentation was fitted to its ten-shot test table. Every cut is snapped to an approved word onset and the narration ends at exactly 12.000 s.",
       "detector_note": "The ten authored shots average 1.200 s. The checker also identifies the 700 px/s lateral move at 3.6 s as a cut. Its 1.091 s detected average passes the 0.9â€“1.3 s opening-test target. Its separate full-film average target is 1.2â€“1.6 s."
+    },
+    "craftee-style": {
+      "master": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "30/1",
+        "frames": 360,
+        "duration_seconds": 12.0,
+        "size_bytes": 6630266,
+        "video_codec": "h264",
+        "audio_codec": "aac"
+      },
+      "preview": {
+        "width": 540,
+        "height": 960,
+        "fps": "30/1",
+        "frames": 360,
+        "duration_seconds": 12.01,
+        "size_bytes": 1653231,
+        "video_codec": "h264",
+        "audio_codec": "aac"
+      },
+      "mean_brightness": 105.6,
+      "mean_hsv_saturation": 0.4581,
+      "average_shot_length_seconds": 1.2,
+      "authored_shot_count": 10,
+      "shot_start_frames": [
+        0,
+        24,
+        68,
+        121,
+        166,
+        192,
+        235,
+        265,
+        295,
+        325
+      ],
+      "pack_check": {
+        "script": "post_craftee-style.py check",
+        "output": "{\n \"frames\": 24,\n \"luma\": 105.6,\n \"sat\": 0.457,\n \"luma_sd\": 54.6,\n \"dark_frames_pct\": 8.3,\n \"corner_ratio\": 1.16,\n \"pass\": {\n  \"luma\": true,\n  \"sat\": true,\n  \"no_vignette\": true\n }\n}"
+      },
+      "integrated_lufs": -14.21,
+      "true_peak_dbtp": -3.91,
+      "voice_correlation_by_two_second_window": [
+        0.9994,
+        0.9993,
+        0.9988,
+        0.9995,
+        0.9998,
+        0.9988
+      ],
+      "preview_max_frame_mean_rgb_error_0_255": 0.955,
+      "identical_frame_pairs_at_108x192": [],
+      "master_sha256": "49ee938465cb82143c5f969f426418e31851e2d94da5c694c8569dbecfac19d2",
+      "preview_sha256": "31b98ded1c0d5ae30907658b51f71a7db1415806451dede688b0a92e1472bf49",
+      "name": "Toybox Fable",
+      "set": "Bunny Chains market square with Juniper Cottage and Copperleaf Apothecary from Marches Market Town",
+      "cast": "Cast v2 hero, guard and townspeople with Toybox face decals. The crowd reuses 22 existing Cast v2 people across four rows.",
+      "techniques": [
+        "26 mm opening whip",
+        "18 mm comic close-up and face swap",
+        "locked crowd wide",
+        "35 mm hero and guard two-shot",
+        "six-frame helmet pop",
+        "guard walk to 40 percent head width",
+        "identical camera for three 30-frame day, dusk and night beats",
+        "keeper apron and a last-word expression swap"
+      ],
+      "sound": "Approved narration, cut swipes, a low impact, helmet pop and chain. No music.",
+      "caption_design": "White setup and green #2ECE30 keywords centered at 26 percent of picture height.",
+      "plan_stats": {
+        "shots": 10,
+        "mean": 1.2,
+        "median": 1.17,
+        "min": 0.8,
+        "max": 1.7666666666666666,
+        "cuts_per_min": 45.0,
+        "words_per_shot": 4.5
+      },
+      "pack_still_checks": {
+        "day": {
+          "frame": 94,
+          "luma": 115.9,
+          "sat": 0.439,
+          "luma_sd": 58.5,
+          "corner_ratio": 1.98,
+          "clip_pct": 0.91,
+          "pass": {
+            "luma": true,
+            "sat": true,
+            "luma_sd": true,
+            "no_vignette": true,
+            "clip": true
+          },
+          "exposure_change": -0.01
+        },
+        "dusk": {
+          "frame": 280,
+          "luma": 84.5,
+          "sat": 0.518,
+          "luma_sd": 55.8,
+          "corner_ratio": 1.45,
+          "clip_pct": 0.1,
+          "pass": {
+            "luma": true,
+            "sat": true,
+            "no_vignette": true
+          },
+          "exposure_change": 0.1
+        },
+        "night": {
+          "frame": 310,
+          "luma": 57.5,
+          "sat": 0.489,
+          "luma_sd": 43.2,
+          "corner_ratio": 1.2,
+          "clip_pct": 0.47,
+          "pass": {
+            "luma": true,
+            "no_vignette": true
+          },
+          "exposure_change": -0.67
+        }
+      }
     }
   }
 }
