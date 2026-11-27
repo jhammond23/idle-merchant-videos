@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Fri 11-27, 12:40 PM: fake-power is for a NEW Claude video builder in the cloud, NOT the PC builder
+
+`fake-power/` = "MY FAKE POWER BEAT THE STONE GIANT." Jake approved it by voice (12:30 PM); the voice is final (86.6 s). **PC builder: leave this folder alone** and keep going with tiny-seed v2, then truth-sword. A separate Claude builder makes it as a **still-frame film** (Jake's pick: the older non-animated style of our hits, with all his app picks kept: Torchlit camera moves as post-moves, expression changes, mouths moving on dialogue). Clean edition only. Models from Claude's model builder land in `fake-power/models/`.
+
 ## Fri 11-27, 9:55 AM: FETCH FIRST. Both model packs have been here since 12:31 AM (`tiny-seed/models/`, `truth-sword/models/`); your v1 used stand-ins because your clone stopped at 8284234. tiny-seed v1 did not pass: read `tiny-seed/REVIEW-NOTES.md`, deliver v2 with the real models, then build truth-sword with its real props.
 
 ## Fri 11-27, 2:05 AM: tiny-seed cast check passed. Read `tiny-seed/REVIEW-NOTES.md` (garden keeper lighting) and swap in the models (they're in).

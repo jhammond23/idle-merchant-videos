@@ -1,0 +1,27 @@
+# MY FAKE POWER BEAT THE STONE GIANT: model kit brief (Claude's model builder)
+
+You build the big and important 3D models for this film BEFORE the video builder starts, so the video builder never spends its time modelling. Work fully in this cloud container. Do not touch Jake's PC, Metricool, social accounts or any paid generation service.
+
+## The story (final script, 39 lines): /tmp/claude-0/tv/fakepower/plain.txt
+A 12-year-old whose power is "fake" (his fists only glow like lanterns) has punched boulders every night. A stone giant stomps onto the bridge where his 5-year-old little sister is. He runs past the guards, the thunder-fist guard captain shoves him and his boots slide back, the giant swings a boulder and the kid catches it with one fist, jumps onto the giant's arm, punches it, the arm cracks and the giant topples into the river. He lifts a fallen beam off his sister like a twig and hugs her. Later the captain throws his top-rank badge on the ground. Kid-safe: nobody is hurt, the giant just splashes into the river.
+
+## Look and units
+- Style: Toybox Fable (`craftee-style`). Spec: /home/claude/styles/craftee-style/STYLE.md; helper module /home/claude/styles/craftee-style/pack/style_craftee_style.py (sys.path.insert it). Chunky, toy-like, bright saturated colour, soft bevels, readable silhouettes, textured (not flat) materials.
+- Units: 1 m = 3.3 BU. Front of every asset = -Y, up = +Z, all scales 1, rotations 0, origin at the base centre unless stated.
+- Cast for scale (Cast v2, /tmp/claude-0/cast2/pkg/cast-v2.blend): Hero kid 4.16 BU tall, Little sister 3.37, Knight (the captain) 5.67.
+- Blender: python module bpy 5.3 (`python3 -I script.py`). Cycles only (EEVEE is unusable here). Jake's PC runs Blender 5.1, so ALSO export a .glb backup per collection, keep everything procedural or packed, no Python drivers, and avoid geometry-node tricks the builder must rely on (if you use one, also provide a plain baked fallback).
+- Reference for format and quality: last kit /tmp/claude-0/tv/tinyseed/models/ (MODELS.md, src/, glb/, poses.json). Same structure here, prefix `FP_`.
+
+## Models (Jake's list, in priority order)
+1. `FP_StoneGiant` (Huge). Towering blocky, craggy stone giant, about 70-80 BU tall (the bridge reaches about his knees), moss and lichen patches, glowing amber eyes, readable grumpy face (2-3 face states: STOMP-ANGRY, SURPRISED, DAZED-in-the-water). Rigged armature: root, hips, spine, head, both arms (shoulder, elbow, hand with a grip socket empty for the boulder), both legs. The RIGHT forearm must crack: a CRACK state (glowing-free dark fissure lines + a few chunks that can break off as separate objects, hidden by default) the builder can switch on at the punch frame. Poses as Actions on muted NLA tracks: REST, STOMP_L, STOMP_R, SWING_WINDUP, SWING_RELEASE, ARM_OUT (forearm level so a kid can stand on it), STAGGER, FALL_BACK, SITTING_IN_RIVER (dazed). Pose list into poses.json.
+2. `FP_Bridge` (Big). Sturdy arched stone bridge over a river, wide enough for a cart, low stone walls, a wooden beam/railing section that can come loose: `FP_Bridge_Beam` (separate object, origin at its centre, about 6 BU long) with a second copy posed as fallen. Include a river strip (water surface material that reads blue and moving, foam at the banks) the bridge spans, and a few bank rocks. Mark where the sister stands.
+3. `FP_Boulder_Giant` (Hero prop). The rough boulder the giant swings and the kid catches one-fisted: about 6-7 BU across (bigger than the kid), chunky facets, moss. Plus `FP_Boulders_Training`: 3-4 smaller boulders (2-4 BU) with fist-shaped dents and chips for the nightly-punching shots, one cracked in half.
+4. `FP_LanternFists` (Hero prop). Warm golden-orange glow for the kid's hands: glowing gauntlet shells that fit the Hero kid's hands (measure them in the cast file) plus a soft glow halo mesh and a small point light, with a `glow` custom property 0..1 (0 = off, 1 = full) the builder keys. It must read as a lantern's warm glow, not fire.
+5. `FP_ThunderFists` (Big). The captain's power: blue-white crackling lightning around his fists, sized to the Knight's hands, with 3-4 alternate lightning shapes (hide/unhide per frame for flicker) and a `glow` 0..1 property. Plus a smaller `FP_HotHands` (red-orange heat shimmer around a kid's hands) for the baker's kid.
+6. `FP_RankBadge` (Hero prop). The captain's top-rank badge: shiny gold and steel emblem, about 0.5 BU, a fist-and-lightning crest with three stars (top rank), readable in a close-up when it hits the ground.
+
+## Deliver
+- /tmp/claude-0/tv/fakepower/models/: `fake-power-models.blend` (compressed, packed), `glb/<collection>.glb`, `poses.json`, `src/` (all build scripts, rebuildable), and `MODELS.md` (append instructions, sizes, origins, bones, poses, properties, materials, exactly like the Tiny Seed MODELS.md).
+- Preview renders (Cycles, 1080x1920 or 1080x1080, enough samples to judge): `lineup.png` (every model next to the Hero kid, sister and Knight for scale), `giant-poses.png` (contact sheet of the poses), `giant-crack.png` (arm before/after), `fists.png` (lantern fists on the Hero kid + thunder fists on the Knight, glow 1), `bridge.png` (bridge, river, beam fallen, sister for scale), `badge.png` (close-up).
+- Check yourself before finishing: scale true against the cast, faces readable, nothing floating or intersecting, glb files open, MODELS.md matches the file.
+- Final message: a short list of what you built, the file paths, and anything you could not do.
