@@ -11,7 +11,7 @@ Builder: build every story folder here that has no `ready/<story-name>/` folder 
 
 ## NEW Fri 11-27, 12:30 AM: truth-sword (the Claude Code builder on Jake's PC, right after tiny-seed) + props from Claude's model builder
 
-`truth-sword/` = "MY SWORD GROWS EVERY TIME I TELL THE TRUTH." Claude's own idea, pre-approved by Jake; the voice is final (100.5 s). Our Black Knight hit remade line for line. **Claude builds it, not Astra.** Same settings as tiny-seed: clean (FB/TT/YT) + the Flashloop sponsor edition for Instagram; Toybox Fable base + Torchlit camera and captions + Bright Snap Cut effects; six face styles, one per person. Bright courtyard daylight all the way. **Read `truth-sword/BUILD-PACKAGE.md`.** Props (Truth Stone, growing and shrinking swords, the King's empty scabbard, the bell) land in `truth-sword/models/`: start with stand-ins.
+`truth-sword/` = "MY SWORD GROWS EVERY TIME I TELL THE TRUTH." Claude's own idea, pre-approved by Jake; the voice is final (100.5 s). Our Black Knight hit remade line for line. **Claude builds it, not Astra.** Same settings as tiny-seed: clean (FB/TT/YT) + the Flashloop sponsor edition for Instagram; Toybox Fable base + Torchlit camera and captions + Bright Snap Cut effects; six face styles, one per person. Bright courtyard daylight all the way. **Read `truth-sword/BUILD-PACKAGE.md`.** **Props are IN (Fri 1:05 AM, Claude reviewed them): `truth-sword/models/truth-sword-props.blend` + `MODELS.md`** (Truth Stone with glow + crack states, swords with one `sword_length` property each, the King's empty scabbard, the bell, clouds, the shovel). Append, don't link.
 
 ## NEW Thu 11-26, 11:55 PM: tiny-seed (the Claude Code builder on Jake's PC, next) + models from Claude's model builder
 
