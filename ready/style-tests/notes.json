@@ -1,0 +1,106 @@
+{
+  "story": "bunny-chains",
+  "source_branch": "scripts-inbox",
+  "source_commit": "f7581d2a4d1cbe5cd45bab4adc10774a49981c71",
+  "source_voice": "bunny-chains/bunny-chains-voice-final.mp3",
+  "source_voice_md5": "b4b4a7f0258ae9c6e198d7267447a1bb",
+  "source_timings": "bunny-chains/bunny-chains-word-timings.json",
+  "source_interval_seconds": [
+    0,
+    12
+  ],
+  "music_bed": false,
+  "metrics_method": "Rec. 601 mean brightness (0–255) and mean HSV saturation (0–1) across every decoded master frame at 108×192. Average shot length uses authored edit boundaries. Pack check outputs use each original script’s sampling method.",
+  "styles": {
+    "bright-cut": {
+      "master": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "30/1",
+        "frames": 360,
+        "duration_seconds": 12.0,
+        "size_bytes": 9186036,
+        "video_codec": "h264",
+        "audio_codec": "aac"
+      },
+      "preview": {
+        "width": 540,
+        "height": 960,
+        "fps": "30/1",
+        "frames": 360,
+        "duration_seconds": 12.01,
+        "size_bytes": 2346983,
+        "video_codec": "h264",
+        "audio_codec": "aac"
+      },
+      "mean_brightness": 140.85,
+      "mean_hsv_saturation": 0.3453,
+      "average_shot_length_seconds": 0.75,
+      "authored_shot_count": 16,
+      "shot_start_frames": [
+        0,
+        25,
+        46,
+        69,
+        87,
+        122,
+        147,
+        167,
+        184,
+        221,
+        234,
+        261,
+        280,
+        299,
+        328,
+        341
+      ],
+      "pack_check": {
+        "script": "check_bright_cut.py",
+        "output": "duration        12.0 s\nmean luma        140.5   OK  target 135-155\nHSV saturation   0.347   OK  target 0.30-0.42\nvivid pixels      9.0 %  OK  target <= 10 %\nshots           17  avg 0.71 s  median 0.70 s  max 1.3 s   OK  target avg 0.6-0.8, OK  max <= 2.6\nstatic shots      0.0 %  OK  target <= 16 %"
+      },
+      "integrated_lufs": -14.21,
+      "true_peak_dbtp": -3.74,
+      "voice_correlation_by_two_second_window": [
+        0.9986,
+        0.9994,
+        0.9995,
+        0.9993,
+        0.9998,
+        0.9985
+      ],
+      "preview_max_frame_mean_rgb_error_0_255": 1.184,
+      "identical_frame_pairs_at_108x192": [],
+      "master_sha256": "84aca4703eb316284e3f0521c25b24402770902bf8c6306e548e21f506474f0b",
+      "preview_sha256": "705e1e290b49a133a44564b3c5bc2e4ab91b8190b0769be5cb539dcf5aca6bc6",
+      "name": "Bright Snap Cut",
+      "set": "Bunny Chains castle market square",
+      "technique_frames": {
+        "opening_whip": [
+          0,
+          4
+        ],
+        "egg_axis_punch": 25,
+        "market_pullout": 46,
+        "lateral_reaction": 69,
+        "snap_start_insert": 87,
+        "king_low_angle": 122,
+        "crash_push": [
+          147,
+          166
+        ],
+        "comic_face_swap": 160,
+        "impact_shake": [
+          161,
+          166
+        ],
+        "egg_tint_and_snap_zoom": [
+          167,
+          183
+        ]
+      },
+      "audio": "Approved narration at source speed. Opening whoosh tail, swipe, reaction hit, hatch pop and chain jingle.",
+      "cast": "Appended the scripts-inbox Cast v2 collections with the Sunny Block Folk face PNGs. The king uses the approved Bunny Chains crowned Newbie costume."
+    }
+  }
+}
