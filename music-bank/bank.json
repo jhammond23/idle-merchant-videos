@@ -1,0 +1,32 @@
+{
+  "about": "Background music bank for In This Town. Reuse a track whenever its mood fits; only generate a new one in ElevenLabs when nothing fits. Tracks are ~47 s instrumentals made to loop; addbed.py loops and ducks them under the narrator.",
+  "rules": [
+    "Pick by mood first, then energy. Reusing the same track on several videos is fine and expected.",
+    "New track only when no mood fits: ElevenLabs Music v2.5, instrumental, 47 s, steady energy, no intro/ending (loopable), sparse, no lead melody in the vocal range. One take (generations_count 1). About 700 credits.",
+    "Add every new track here (mood tags, prompt, generation id, credits) before using it.",
+    "Mix: python3 -I addbed.py FILM VOICE TRACK_ID OUT (bed ~13 dB under speech, ducked, -14 LUFS).",
+    "Sponsor (Flashloop) Instagram editions: ElevenLabs music terms may not cover paid/sponsored content on our plan; keep sponsor editions music-free until checked."
+  ],
+  "tracks": [
+    {
+      "id": "storybook-whimsy",
+      "title": "Storybook Whimsy",
+      "file": "storybook-whimsy.mp3",
+      "seconds": 47.06,
+      "moods": ["whimsical", "playful", "wonder", "light mystery"],
+      "energy": "medium-low",
+      "bpm": 100,
+      "instruments": "pizzicato strings, celesta, glockenspiel, light woodwinds, warm low cellos, soft percussion pulse",
+      "goodFor": "pets and creatures, a kid discovering a power, funny or cosy stories, gentle tension",
+      "notFor": "battles, scary reveals, sad endings",
+      "lufs": -26.2,
+      "loop": true,
+      "source": "ElevenLabs Music v2.5 (flow tNxe2daUPO3dV4PRjGea, node NiJP0copGb3vycWjncIQ, generation vWbZndhEYmA7d93cPvjr)",
+      "credits": 705,
+      "prompt": "Whimsical storybook fantasy orchestral underscore with plucked pizzicato strings, soft celesta and glockenspiel, light woodwinds and warm low cellos, playful with a gentle hint of mystery. Moderate steady tempo around 100 BPM with a soft, light percussion pulse. Sparse, quiet background arrangement with no lead melody in the vocal range, steady consistent energy from the first second to the last, with no intro, no build-up and no ending, so it loops seamlessly.",
+      "createdFor": "My Bunny Ate the King's Chains",
+      "usedIn": ["My Bunny Ate the King's Chains (Sat 11-28 9:30 AM)"],
+      "added": "2026-11-26"
+    }
+  ]
+}
