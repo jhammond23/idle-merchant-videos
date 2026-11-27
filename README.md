@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Thu 11-26, 11:55 PM: tiny-seed (the Claude Code builder on Jake's PC, next) + models from Claude's model builder
+
+`tiny-seed/` = "MY TINY SEED HUGGED A GIANT TROLL." Jake approved the script and the voice (94.1 s). **Jake's rule for this film: Claude builds it, not Astra.** Editions: clean (FB/TT/YT) + the Flashloop sponsor edition for Instagram (sponsor ending V2, fixed voice file). Build style: Jake's mix, Toybox Fable base + Torchlit camera and captions + Bright Snap Cut effects, and six face styles assigned per character. One new character authorized: the old garden keeper. **Read `tiny-seed/BUILD-PACKAGE.md`.** The tree, the trolls and the props are being built by Claude's model builder and will land in `tiny-seed/models/` with `MODELS.md`: start with stand-ins and swap them in. Finish anything already in progress first; one heavy render at a time while Jake is on the PC.
+
 ## NEW Thu 11-26, 4:20 PM: snow-globe delivery needs a fix round (Claude Code builder)
 
 The loop, sound and bedroom shots are good, but frame 0 still has the round-1 problems and five shots are unclear or crop the kid's head. **Read `snow-globe/REVIEW-NOTES-2.md`**, fix only those shots, re-deliver with the frame ranges.
