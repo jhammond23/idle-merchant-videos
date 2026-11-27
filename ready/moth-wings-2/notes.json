@@ -1,0 +1,28 @@
+{
+  "title": "MY MOTH WINGS LED THE GRIFFINS HOME.",
+  "length_seconds": 73.985,
+  "summary": "When the duke’s flying school disappears into the Great Fog, a moth-winged boy breaks the flight ban to guide a frightened first-year and the other children home.",
+  "frame_0": "The burnt-orange-shirted boy dives out of the bright fog toward the lens, two golden eye spots blazing on his open moth wings above the town.",
+  "package_differences": [
+    "The first-year’s whispered line stays on her face for 53 frames.",
+    "The final moth approaches the lens at 73.667 s and the picture ends with the recorded m—."
+  ],
+  "edition": "clean",
+  "posting_thumbnail": "moth-wings-2-thumbnail.jpg",
+  "camera": "Locked within each shot",
+  "approved_test": "284a4b40d8c5dc24e9bd8c6d28fb8a9fd4f814dc",
+  "shots": 80,
+  "frames": 2220,
+  "voice": "Original final take, at recorded speed and level, with separate Foley.",
+  "quality_checks": {
+    "average_authored_shot_seconds": 0.925,
+    "stylecheck": "duration 74.0 s | shots 66 | average shot 1.12 s | brightness 147 | saturation 0.49",
+    "glitchscan": [
+      "STROBE/POP stretches (start s, end s, frames): []",
+      "black/white flash frames: []",
+      "frozen stretches >=5 frames: []"
+    ],
+    "loop": "The final ten frames wrap directly into the approved opening ten. Picture and audio end together on the cut syllable at 73.985 seconds.",
+    "maximum_voice_offset_samples": 0
+  }
+}
