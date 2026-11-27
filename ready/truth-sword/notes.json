@@ -1,0 +1,99 @@
+{
+  "title": "MY SWORD GROWS EVERY TIME I TELL THE TRUTH",
+  "slug": "truth-sword",
+  "editions": {
+    "truth-sword-clean.mp4": "CLEAN edition for Facebook, TikTok and YouTube. Ends on the end screen (DO I TAKE THE CROWN? / A: TAKE IT, B: STAY A STABLE BOY / FOLLOW FOR MORE \"IN THIS TOWN\"). No music bed: Claude adds music in the finishing pass.",
+    "truth-sword.mp4": "Flashloop SPONSOR edition for Instagram: the same film with the small Flashloop logo card top right throughout, then the approved Sponsor Ending V2 (fixed voice file, phone prompt \"A stable boy's sword grows with every truth.\") after the end screen."
+  },
+  "summary": "In this town your sword grows every time you tell the truth, and the stable boy's is a rusty spoon. On Sword Day the Prince mocks him with the Golden Sword, then lies on the Truth Stone and it shrinks to a toothpick. The boy says \"I'm scared\" and his spoon grows past his head; \"I have never told a lie in my life\" sends it over the rooftops, over the bridge and through a cloud: a king's sword. The King isn't surprised: ten years ago his own sword shrank to nothing on that stone, and he has worn an empty scabbard ever since. He orders the guards to take the sword; the boy just says \"His scabbard is empty\", the captain's sword grows a foot, then every guard's does. Except the King's.",
+  "frame_0": "Low angle in the castle courtyard: the stable boy standing on the glowing Truth Stone, holding his sword up with one hand, the clean blade running up past the keep and into a cloud; the Prince beside him gaping at the toothpick in his fist; the King small on his balcony under the stained-glass sword window; the Sword Master's bell on the left. Title MY SWORD GROWS / EVERY TIME I TELL / THE TRUTH in the top band (THE TRUTH in the accent green), handle top left. Frame 0 is a sharp still: it holds ~1.6 s under the title while line 1 starts, then the Toybox whip-blur (3 frames) cuts into the story.",
+  "camera": "Toybox Fable locked framing with Torchlit Blocktale camera moves: a slow push-in with a very small handheld wobble on most shots; the blade reveal (line 23) follows the sword up over the rooftops and the bridge into the cloud. Cuts on the captions, a new shot about every 1-1.5 s.",
+  "cast": "Cast v2: the stable boy = Hero kid in a brown tunic with straw on his boots and a wooden shovel, Storybook faces; the Prince = Rich kid with a small circlet, Bold Comic Ink; the King = Claude's snow-globe King rebuilt the Cast v2 way from its description (red velvet, gold crown, empty scabbard), Classic Block; the Sword Master = Wizard, Inkface; the girl in the line = Girl hero (her own small sword, none on her back), Anime Shine; the little sister, Anime Shine; the guard captain = Knight and 14 guards, Toybox; townsfolk and royal kids, Toybox. Cast check in proofs/truth-sword/cast-check.png.",
+  "posting_thumbnail": "truth-sword-thumbnail.jpg",
+  "comment_question": "Do I take the crown? A) TAKE IT or B) STAY A STABLE BOY?",
+  "chips": [
+    "A: TAKE IT",
+    "B: STAY A STABLE BOY"
+  ],
+  "sound": "Approved voice untouched at sample 0 (Adam, md5 21761345c9af2af3a63a7dee8ec730f6). No music bed. Effects only, synthesised in the build: courtyard ambience, the Sword Master's bell, a ting on every growth, a shrinking zip, cracks (and a plate breaking) on the lies, the stone's glow, a glint on the Golden Sword, the big whoosh as the blade shoots up, a rumble, knocks, a hundred guards drawing, the gates slamming, and light whooshes on about one cut in four. Effects duck under the narrator. Sponsor edition: sponsor-ending-voice.mp3 untouched after the end screen.",
+  "package_differences": [
+    "Props are Claude's model-builder pack from truth-sword/models/ on scripts-inbox (commit d3f3c4f, read from scripts-inbox FETCH_HEAD 50ae37a): the Truth Stone (blue glow on the true sentences, its red-orange crack mesh on the lies), the stable boy's sword, the Golden Sword, the guard swords (the captain's and every guard's, and the young King's in the flashback), the King's empty jeweled scabbard, the Sword Master's bell, the clouds and the shovel. Every sword's length is the pack's sword_length parameter, keyed per shot: the stable boy's goes 1 (a spoon) -> past his knees -> past his head (8.5) -> 520 BU, rust turning to clean steel by itself as it grows; the Golden Sword goes 5 -> 2.6 -> 0.9 -> a 0.6 BU toothpick in his fist; guard swords 4.5 -> 5.5 (a foot).",
+    "The pack is a Blender 5.3 file and the PC runs Blender 5.1. The models append fine, but 5.3 saves the swords' length driver on a property path 5.1 cannot read, so in 5.1 the swords would not grow. The scene rebuilds that driver on the same geometry-nodes input in the 5.1 form (no hand scaling needed); lengths were checked against the mesh at 1, 6, 40 and 700 BU.",
+    "RENDERED ON JAKE'S PC GRAPHICS CARD (RTX 4070 Ti, Blender 5.1.2, Cycles OptiX), natively at 1080x1920 with 6 samples + OpenImageDenoise; nothing is upscaled. Compositing, sound and encoding were done in Claude's cloud workspace.",
+    "Prop staging: the bell frame is scaled 2.6x (the pack's frame is 4.5 BU high, shorter than a 5 BU kid; scaled, it reads as the courtyard bell at about 12 BU). The King's belt and scabbard are fitted to his 2.3 x 1.15 torso, mirrored to the hip the shots are staged on and turned toward the front so the empty mouth shows past his arm; line 31's close-up is taken from the balcony beside him (the balcony rail hid it from the courtyard). The clouds' own soft glow is raised so their shady side doesn't pick up the green of the ground. The flash-forward blade on line 2 lies flat across the bridge at 120 BU with the pack's width parameter at 2.2 (MODELS.md suggests raising it for very wide shots).",
+    "Sound effects are synthesised, not from the recorded Foley library.",
+    "Frame 0 is a sharp still (it is the cover); the Toybox whip-blur plays on the cut out of it at 1.6 s rather than landing into frame 0. The bunting across the courtyard is left out of the cover shot only, and the King stands a step higher on his balcony there, so he reads over the rail.",
+    "The package's style mix (picked by Jake for this film) overrides note 09's 'locked camera, no shake or whips': most shots have the Torchlit slow push and a very small wobble, and the Toybox whip plays once, out of the cover.",
+    "The King is Claude's snow-globe King rebuilt from its description in this build's scene file (the snow-globe scene file was not reachable); he is not written back to cast-v2/ on scripts-inbox.",
+    "The stable boy's blade on line 23 is 520 BU rather than ~700 BU; on screen it still runs up past the keep and into the cloud, and the reveal shot follows it up rather than showing its whole length at once.",
+    "He carries the shovel at work (lines 2-17) and leaves it behind when he walks up to the stone (line 18 on), so he never seems to raise a shovel while he says he didn't swing; the cover shows him without it too.",
+    "Line 28's flashback wide: a townsperson who blocked the stone now stands aside, so the young King on the Truth Stone shows with the crowd watching.",
+    "Sound: the sponsor edition's audio is AAC 160 kb/s (the clean edition 128 kb/s) because the plate-crack transient at 38.5 s overshot to +1 dBTP at 128 kb/s; both masters are now under -1.5 dBTP."
+  ],
+  "length_seconds": 111.3,
+  "clean_length_seconds": 102.0,
+  "frames": 3339,
+  "clean_frames": 3060,
+  "fps": 30,
+  "qa": {
+    "clean": {
+      "frames": 3060,
+      "black": [],
+      "white": [],
+      "pops": [],
+      "unplanned_jumps": [
+        [
+          2088,
+          49.6
+        ],
+        [
+          2089,
+          48.7
+        ]
+      ],
+      "frozen_runs": [],
+      "mean_luma": 104.9,
+      "mean_saturation": 0.406,
+      "loudness_lufs": -14.1,
+      "true_peak_dbtp": -1.6,
+      "explained": {
+        "unplanned_jumps": "2088-2089 are the planned white flash into the line 28 flashback (it fades over 3 frames)."
+      }
+    },
+    "sponsor": {
+      "frames": 3339,
+      "black": [],
+      "white": [],
+      "pops": [],
+      "unplanned_jumps": [
+        [
+          2088,
+          47.3
+        ],
+        [
+          2089,
+          47.6
+        ],
+        [
+          3266,
+          36.3
+        ]
+      ],
+      "frozen_runs": [],
+      "mean_luma": 100.2,
+      "mean_saturation": 0.403,
+      "loudness_lufs": -14.0,
+      "true_peak_dbtp": -1.8,
+      "explained": {
+        "unplanned_jumps": "2088-2089 are the planned white flash into the line 28 flashback (it fades over 3 frames). 3266 is the Flashloop logo card landing in the approved sponsor ending."
+      }
+    }
+  },
+  "files": {
+    "truth-sword.mp4": "3b523e51182abb6c23507303a91dfa0a8a93a42b3cf515259ca3da771d0186d1",
+    "truth-sword-clean.mp4": "4e7df282e28d4544f1854585e5aa0cc0fa7229ff73cc7e40e01367445ad7839c",
+    "truth-sword-cover.png": "45d0d7b468d9d2ba98b4f51e67c7036833c1d99d5f4f5f709fde00aec7c42cd9",
+    "truth-sword-thumbnail.jpg": "d7524c7b8d306ac741de65e19b24fad0f478ff91982980098afb50ce350571cf"
+  },
+  "builder": "Claude builder (cloud session, rendering on Jake's PC graphics card), Fri 2026-11-27"
+}
