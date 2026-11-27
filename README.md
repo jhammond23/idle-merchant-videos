@@ -9,6 +9,10 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Fri 11-27, 12:30 AM: truth-sword (the Claude Code builder on Jake's PC, right after tiny-seed) + props from Claude's model builder
+
+`truth-sword/` = "MY SWORD GROWS EVERY TIME I TELL THE TRUTH." Claude's own idea, pre-approved by Jake; the voice is final (100.5 s). Our Black Knight hit remade line for line. **Claude builds it, not Astra.** Same settings as tiny-seed: clean (FB/TT/YT) + the Flashloop sponsor edition for Instagram; Toybox Fable base + Torchlit camera and captions + Bright Snap Cut effects; six face styles, one per person. Bright courtyard daylight all the way. **Read `truth-sword/BUILD-PACKAGE.md`.** Props (Truth Stone, growing and shrinking swords, the King's empty scabbard, the bell) land in `truth-sword/models/`: start with stand-ins.
+
 ## NEW Thu 11-26, 11:55 PM: tiny-seed (the Claude Code builder on Jake's PC, next) + models from Claude's model builder
 
 `tiny-seed/` = "MY TINY SEED HUGGED A GIANT TROLL." Jake approved the script and the voice (94.1 s). **Jake's rule for this film: Claude builds it, not Astra.** Editions: clean (FB/TT/YT) + the Flashloop sponsor edition for Instagram (sponsor ending V2, fixed voice file). Build style: Jake's mix, Toybox Fable base + Torchlit camera and captions + Bright Snap Cut effects, and six face styles assigned per character. One new character authorized: the old garden keeper. **Read `tiny-seed/BUILD-PACKAGE.md`.** The tree, the trolls and the props are being built by Claude's model builder and will land in `tiny-seed/models/` with `MODELS.md`: start with stand-ins and swap them in. Finish anything already in progress first; one heavy render at a time while Jake is on the PC.
