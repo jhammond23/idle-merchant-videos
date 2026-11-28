@@ -9,6 +9,12 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Sat 11-28, 1:45 AM: the BACKLOT (6 ready sets) in `backlot/`
+Claude's pre-lit sets, with CC0 photo-scan textures: Town Square, Bridge & River, Throne Hall, Castle Courtyard, Forest Edge, Harbor. Each `backlot/<set>/<set>.blend` opens as `<Set> DAY / GOLDEN / NIGHT` scenes with named cameras and marks (HERO, RIVAL, SIBLING, RULER, CROWD_1..8, GIANT, GUARD_..). **Read `backlot/BACKLOT.md` first.** When a build package names a place (the app's "Where it happens" picks), append `Backlot | <Set>` (or use `source/backlot_api.py`) and shoot in the picked light.
+- **Textures:** the .blends link the CC0 scans by relative path to a pack that is NOT in this repo (348 MB). Right after appending, call `backlot_api.use_texture_proxies()`: it points every scan at the 1K copies in `backlot/textures_1k/` (fine at 1080x1920). If you have the full pack locally, relink with `source/apply_cc0.py <pack>` instead. Pink surfaces = textures not found.
+- **Cast v2 Wizard / Villain staff orbs** clip to white by day: dim them (one line in BACKLOT.md).
+- Contact sheets per set: `backlot/previews/<set>_contact.jpg`.
+
 ## NEW Fri 11-27, 11 PM: Cast v3 (29 new characters) in `cast-v3/`
 Claude's new cast, phases 1 + 2: `cast-v3/cast-v3.blend` (Blender 5.3; File > Append > Collection `Cast v3 | <Name>`, then set the rig's X back to 0), glb backups for Blender 5.1 in `cast-v3/glb/`, a sheet per character in `cast-v3/sheets/`, `lineup.png`. **Read `cast-v3/CAST-V3.md` first** (sizes, faces via the rig's `face` / `mouth` / `blink` / `glow` properties, poses via `cast_v3_tools.set_pose`, the mixing rules). New: Oathbound, First Rank, True-Form Lead, Rigger, Ember (hatchling + grown), Jailer, Squire, the Crowd Six, Herald, the Horde (4), Old Legend, Golden Sister, Roll Merchant, Master Smith, Stone Keeper, Rival Heir, Turned Friend, Mirror Twin, Jester, Boss Giant (3 skins). Use them when a build package names them; Cast v2 stays valid.
 
