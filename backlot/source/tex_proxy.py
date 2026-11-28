@@ -20,9 +20,17 @@ def proxy_path(path, pack=PACK, proxy=PROXY):
     """Proxy file for a pack file, or None."""
     ap = os.path.abspath(path)
     pk = os.path.abspath(pack)
-    if not ap.startswith(pk + os.sep):
-        return None
-    p = os.path.join(os.path.abspath(proxy), os.path.relpath(ap, pk))
+    if ap.startswith(pk + os.sep):
+        rel = os.path.relpath(ap, pk).replace(os.sep, '/')
+    else:
+        # another machine (e.g. Windows): the linked pack path won't exist there, so match on the
+        # part after the pack folder name ('cc0-textures/<folder>/<map>.jpg')
+        norm = str(path).replace('\\', '/')
+        k = norm.find('cc0-textures/')
+        if k < 0:
+            return None
+        rel = norm[k + len('cc0-textures/'):]
+    p = os.path.join(os.path.abspath(proxy), *rel.split('/'))
     return p if os.path.exists(p) else None
 
 
