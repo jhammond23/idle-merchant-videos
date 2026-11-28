@@ -9,6 +9,9 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Fri 11-27, 11 PM: Cast v3 (29 new characters) in `cast-v3/`
+Claude's new cast, phases 1 + 2: `cast-v3/cast-v3.blend` (Blender 5.3; File > Append > Collection `Cast v3 | <Name>`, then set the rig's X back to 0), glb backups for Blender 5.1 in `cast-v3/glb/`, a sheet per character in `cast-v3/sheets/`, `lineup.png`. **Read `cast-v3/CAST-V3.md` first** (sizes, faces via the rig's `face` / `mouth` / `blink` / `glow` properties, poses via `cast_v3_tools.set_pose`, the mixing rules). New: Oathbound, First Rank, True-Form Lead, Rigger, Ember (hatchling + grown), Jailer, Squire, the Crowd Six, Herald, the Horde (4), Old Legend, Golden Sister, Roll Merchant, Master Smith, Stone Keeper, Rival Heir, Turned Friend, Mirror Twin, Jester, Boss Giant (3 skins). Use them when a build package names them; Cast v2 stays valid.
+
 ## NEW Fri 11-27, 7:30 PM: SPONSOR EDITION v3 for every film from now on (Jake, per Flashloop)
 - **No Flashloop logo card in the corner, on any edition.**
 - **The sponsor ending is 3 to 4 seconds:** line 2 of `sponsor-ending/sponsor-ending-voice.mp3` only ("If you want to make videos like this, go to Flashloop dot AI.", 5.25 to 8.32 s) over the phone "Video ready" preview, then the end card. Spec: `sponsor-ending/SPONSOR-ENDING-V3.md`. If your film already has the v2 9.3 s ending as its own segment, keep the part from 5.4 s on and remove the corner logo.
