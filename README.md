@@ -9,6 +9,12 @@ Each folder holds:
 
 Builder: build every story folder here that has no `ready/<story-name>/` folder on the main branch yet. When a video is done, upload `<story-name>.mp4`, `<story-name>-cover.png` and `notes.json` to `ready/<story-name>/` on main. Claude checks and posts from there.
 
+## NEW Fri 11-27, 7:30 PM: SPONSOR EDITION v3 for every film from now on (Jake, per Flashloop)
+- **No Flashloop logo card in the corner, on any edition.**
+- **The sponsor ending is 3 to 4 seconds:** line 2 of `sponsor-ending/sponsor-ending-voice.mp3` only ("If you want to make videos like this, go to Flashloop dot AI.", 5.25 to 8.32 s) over the phone "Video ready" preview, then the end card. Spec: `sponsor-ending/SPONSOR-ENDING-V3.md`. If your film already has the v2 9.3 s ending as its own segment, keep the part from 5.4 s on and remove the corner logo.
+- Export `<story>-clean.mp4` and `<story>.mp4` (clean + the 3.9 s ending) as before. Claude adds "Made with Flashloop.ai (code RNG)" to the Instagram caption.
+- Fake Power is clean only (no sponsor edition). Its v2 script and voice are in `fake-power/v2/` (the cloud builder is rebuilding it).
+
 ## NEW Fri 11-27, 12:40 PM: fake-power is for a NEW Claude video builder in the cloud, NOT the PC builder
 
 `fake-power/` = "MY FAKE POWER BEAT THE STONE GIANT." Jake approved it by voice (12:30 PM); the voice is final (86.6 s). **PC builder: leave this folder alone** and keep going with tiny-seed v2, then truth-sword. A separate Claude builder makes it as a **still-frame film** (Jake's pick: the older non-animated style of our hits, with all his app picks kept: Torchlit camera moves as post-moves, expression changes, mouths moving on dialogue). Clean edition only. Models from Claude's model builder land in `fake-power/models/`.
